@@ -1,0 +1,23 @@
+<div class="row-fluid">
+
+	<div class="container">
+		<br/>
+		<div class="span3 affix sidebar">
+			<% @grouped_courses.each do |cat,courses| %>
+			<h4 class="bitter-blue"><%= cat %></h4>
+			<ul class="list">
+				<% courses.each do |c| %>
+					<li><%= link_to  c.title , c %></li>
+				<% end %>
+			</ul>
+			<% end %>
+		</div>
+		
+		<div class="span8 offset4">
+			<h1 class="bitter-blue">Le wagon bar - Les cours à la carte</h1>
+			<p>Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation back-end, front-end, maîtrise des APIs.. Trouvez le cours qui vous correspond et inscrivez-vous !</p>
+			<p>Aucun cours ne vous correspond ? Faites les nous <%= link_to 'savoir' ,'mailto:contact@lewagon.org' %>. </p>
+		</div>
+		
+	</div>
+</div>

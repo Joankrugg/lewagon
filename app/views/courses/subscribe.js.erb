@@ -1,0 +1,11 @@
+<% if @response["error"] != nil %>
+	$('.error-message').show();
+	var codes = {"502":"email invalide!", "214": "vous vous êtes déjà inscrit à ce cours!" };
+	var code = <%= @response['code'] %>;
+	var message = codes[code];
+	$('.error-message').html(message).delay(800).fadeOut(600);;
+<% else %>
+	$('.error-message').hide();
+	$('form').hide();
+	$('#subscribe').html("<p>Merci!</p><p>Vous serez tenu au courant dès que ce wagon partira.</p>")
+<% end %>

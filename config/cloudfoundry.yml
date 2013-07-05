@@ -1,0 +1,3 @@
+# overwrite the database.yml file
+
+autoconfig: false

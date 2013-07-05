@@ -1,0 +1,38 @@
+<div class="row-fluid">
+
+	<div class="span3 affix sidebar">
+		<% @grouped_courses.each do |cat,courses| %>
+		<h4 class="bitter-blue"><%= cat %></h4>
+		<ul class="list">
+			<% courses.each do |c| %>
+			<% if c == @course %>
+			<li><span class="current"> <%= c.title %></span> </li>
+			<% else %>
+			<li><%= link_to  c.title , c %></li>
+			<% end %>
+			<% end %>
+		</ul>
+		<% end %>
+	</div>
+	<div class="span8 offset4">
+
+		<h1 class="bitter-blue"><%= @course.title.upcase %> </h1>
+
+		<div id="course_content">
+			<%= raw @course.content %>
+		</div>
+		<br/>
+		<div id='subscribe'>
+			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
+			<div class="input">
+				<%= text_field 'email' , 'email', :placeholder => 'Email' , :class => 'span6'%>
+				<p><%= submit_tag "Je suis intéressé" , :class => "btn subscribe-btn bitter-blue-btn"%></p>
+			</div>
+			<br/>
+			<p class="error-message"></p>
+
+			<% end %>
+		</div>
+
+	</div>
+</div>

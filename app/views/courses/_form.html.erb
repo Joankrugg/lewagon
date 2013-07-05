@@ -1,0 +1,15 @@
+<%= simple_form_for(@course) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+	<br/>
+	
+    <%= f.input :title %>
+    <%= f.input :mailchimp_list_id %>
+    <%= f.select :category, ['Développement Web', 'Analyse de données', 'Gestion de projet'] %>
+    <%= f.cktext_area :content, :class => "someclass", :ckeditor => {:language => "fr"} %>
+  </div>
+
+	<br/>
+    <%= f.button :submit %>
+<% end %>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Le Wagon</title>
+	  <meta name="title" content="Le Wagon" />
+	  <meta name="description" content="Apprenez à coder !" />
+	  <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+	  <%= stylesheet_link_tag    "application", :media => "all" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+	  <%= render 'layouts/analytics' %>
+	</head>
+	<body>
+	
+	
+	
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+		  	if (d.getElementById(id)) return;
+		  	js = d.createElement(s); js.id = id;
+		  	js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=170809313078160";
+		  	fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<%= render 'layouts/header' %>
+
+		<% home =  params[:page] || "" %>
+		
+		<% if home.to_s == "home" %> <!--Home page with 100% width carousel-->
+			<%= yield %>
+		<% else %>
+			<div class="container">
+				<%= yield %>
+			</div>
+		<% end %>
+	
+	
+		
+		<%= render 'layouts/footer' %>
+
+	</body>
+</html>

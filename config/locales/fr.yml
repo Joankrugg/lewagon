@@ -1,0 +1,24 @@
+
+
+fr:
+  activerecord:
+    errors:
+      messages:
+          blank: "doit être rempli(e)"
+      models:
+        user:
+          attributes:
+            email:
+              blank: "doit être rempli(e)"
+              taken: "adresse email déjà utilisée"
+              invalid: "adresse email invalide"
+            password:
+                too_short: "trop court"
+                blank: "obligatoire"
+                confirmation: "les mots de passe ne correspondent pas"
+            firstname:
+                blank: "doit être rempli(e)"
+            lastname:
+                blank: "doit être rempli(e)"
+            age:
+                blank: "doit être rempli(e)"
