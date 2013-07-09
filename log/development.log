@@ -25731,3 +25731,90 @@ Processing by HomeController#page as HTML
   Rendered layouts/_header.html.erb (1.2ms)
   Rendered layouts/_footer.html.erb (0.3ms)
 Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-05 15:05:07 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.8ms)
+  Rendered home/home.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-09 09:35:30 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.9ms)
+  Rendered home/home.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wagon_bar" for 127.0.0.1 at 2013-07-09 09:35:35 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"wagon_bar"}
+  Rendered home/_infos_mutinerie.html.erb (0.3ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_cours_mutinerie.html.erb (4.0ms)
+  Rendered home/wagon_bar.html.erb within layouts/application (300.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 340ms (Views: 283.4ms | ActiveRecord: 56.8ms)
+
+
+Started GET "/profs" for 127.0.0.1 at 2013-07-09 09:39:56 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"profs"}
+  Rendered home/profs.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/profs" for 127.0.0.1 at 2013-07-09 09:48:59 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"profs"}
+  Rendered home/profs.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-09 09:49:03 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.2ms)
+  Rendered home/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wagon_bar" for 127.0.0.1 at 2013-07-09 09:49:06 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"wagon_bar"}
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_cours_mutinerie.html.erb (3.3ms)
+  Rendered home/wagon_bar.html.erb within layouts/application (6.9ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 12.3ms | ActiveRecord: 0.0ms)
