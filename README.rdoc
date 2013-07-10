@@ -1,1 +1,38 @@
 == Le wagon
+
+== Faire tourner
+
+=== Mac OS X : installer PostgreSQL
+
+Le plus simple c'est avec homebrew[http://mxcl.github.io/homebrew/] :
+
+ $ brew install postgresql
+
+Attention, sur <b>OS X Lion (10.7) ou supérieur</b> : vérifiez que +/usr/local/bin/+ est bien
+placé avant +/usr/bin/+ dans votre +PATH+, sinon les exécutables PostgreSQL
+inclus avec OS X seront invoqués à la place de ceux installés par homebrew.
+
+Suivre les instructions affichées à la fin de l'installation pour créer un
+espace de travail PostgreSQL :
+
+ $ initdb /usr/local/var/postgres -E utf8
+
+Et pour démarrer le serveur, par exemple :
+
+ $ postgres -D /usr/local/var/postgres
+
+Ajouter l'utilisateur 'postgres' que les versions récentes de PostgreSQL ne créent plus par défaut :
+
+ $ createuser -s postgres
+
+=== Installer les gems
+
+ $ bundle install
+
+=== Créer une base de données
+
+ $ bundle exec rake db:setup
+
+=== Démarrer
+
+ $ bundle exec rails s
