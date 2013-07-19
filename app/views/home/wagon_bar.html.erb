@@ -1,10 +1,10 @@
 <div id="wagon-bar">
-	
+
 	<div class="row-fluid">
-		
+
 		<div class="span3">
 			<h3><%= flash[:notice] || "" %></h3>
-			<%= simple_form_for Suggestion.new do |f|%>
+				<%= simple_form_for Suggestion.new do |f|%>
 				<%=f.label "Votre mail", class: "suggestion-label"%>
 				<%= f.email_field   :email, placeholder: "bob@gmail.com", label: "Votre mail"%>
 				<%=f.label "Votre cours rêvé ?", class: "suggestion-label"%>
@@ -12,11 +12,11 @@
 				<%= f.button :submit, "ENVOYER"%>
 			<% end %>
 		</div>
-		
+
 		<div class="span9">
 			<%= render partial: "cours_mutinerie"%>
 		</div>
-		
+
 	</div>
-	
+
 </div>
