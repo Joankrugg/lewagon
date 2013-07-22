@@ -1,6 +1,8 @@
 require 'test_helper'
 
-class CoursesControllerTest < ActionController::TestCase
+class CoursesControllerAnonymousTest < ActionController::TestCase
+  tests CoursesController
+
   setup do
     @course = courses(:one)
   end
@@ -11,13 +13,13 @@ class CoursesControllerTest < ActionController::TestCase
     assert_not_nil assigns(:courses)
   end
 
-  test "should get new" do
+  test "new requires authorization" do
     get :new
-    assert_response :success
+    assert_response 401
   end
 
   test "should create course" do
-    assert_difference('Course.count') do
+    assert_difference('Course.count', +1) do
       post :create, course: { category: @course.category, content: @course.content, image: @course.image, title: @course.title }
     end
 
@@ -29,9 +31,9 @@ class CoursesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get edit" do
+  test "edit requires authorization" do
     get :edit, id: @course
-    assert_response :success
+    assert_response 401
   end
 
   test "should update course" do
@@ -45,5 +47,28 @@ class CoursesControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to courses_path
+  end
+end
+
+class CoursesControllerAuthenticatedTest  < ActionController::TestCase
+  tests CoursesController
+
+  setup do
+    @course = courses(:one)
+    authenticate_as "lewagon", "lewagon"
+  end
+
+  def authenticate_as login, password
+    @request.env['HTTP_AUTHORIZATION'] = ActionController::HttpAuthentication::Basic.encode_credentials(login, password)
+  end
+
+  test "should get new" do
+    get :new
+    assert_response :success
+  end
+
+  test "should get edit" do
+    get :edit, id: @course
+    assert_response :success
   end
 end

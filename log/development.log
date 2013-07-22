@@ -25843,3 +25843,92 @@ Processing by HomeController#page as HTML
   Rendered layouts/_header.html.erb (0.7ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 545ms (Views: 545.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-22 14:10:25 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (2.5ms)
+  Rendered home/home.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_analytics.html.erb (0.6ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 135ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/premiere" for 127.0.0.1 at 2013-07-22 14:10:33 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"premiere_classe"}
+  Rendered home/premiere_classe.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-22 14:10:48 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.2ms)
+  Rendered home/home.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/wagon_bar" for 127.0.0.1 at 2013-07-22 14:10:51 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"wagon_bar"}
+  Rendered home/_infos_mutinerie.html.erb (0.5ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_infos_mutinerie.html.erb (0.1ms)
+  Rendered home/_cours_mutinerie.html.erb (16.4ms)
+  Rendered home/wagon_bar.html.erb within layouts/application (394.4ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 428ms (Views: 373.9ms | ActiveRecord: 53.9ms)
+
+
+Started GET "/partenaires" for 127.0.0.1 at 2013-07-22 14:11:13 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"partenaires"}
+  Rendered home/partenaires.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 29ms (Views: 29.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/postuler" for 127.0.0.1 at 2013-07-22 14:11:15 +0200
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 61.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-22 14:11:20 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.2ms)
+  Rendered home/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/premiere" for 127.0.0.1 at 2013-07-22 14:11:31 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"premiere_classe"}
+  Rendered home/premiere_classe.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)

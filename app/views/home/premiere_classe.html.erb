@@ -3,59 +3,297 @@
 
 		<div class="span10 offset1">
 
-			<h3 class="blue">Etes-vous fait pour la 1ère classe ?</h3>
-			<ul>
-				<li class="justify">Vous êtes ingénieur ? Vous avez fait des études de philosophie, d'histoire de l'art, de design ? Peu importe finalement ! Vous avez une furieuse envie de plonger dans le développement web, pour 2 mois d'apnée !</li>
-				<li>Vous aimeriez vous reconvertir et trouver un poste de développeur.</li>
-				<li>Vous recherchez simplement un bagage technique solide afin d'avancer sur vos projets (personnels, entreprenariaux).</li>
-			</ul>
+      <h3>
+        Piloté en partenariat avec
+        <%=
+          link_to image_tag("logo_ut7_web_tiny.png", :width => "55",
+                            :style => "vertical-align: -3px;"), 
+                  "http://ut7.fr"
+        %>
+      </h3>
 
-			<h3 class="blue">Pourquoi s'inscrire au wagon ?</h3>
-			<p class="justify">Avec de la motivation, n'importe qui peut apprendre à coder tout seul. C'est d'ailleurs une très bonne démarche ! Plusieurs points à garder en tête <%=image_tag "apprentissage.png", class: "pull-right", width: "400px"%></p>
-			<ul> 
-				<li><span class="bold">c'est long</span> : la courbe d'apprentissage est très plate au début.</li>
-				<li><span class="bold">c'est frustrant</span> : on progresse peu alors qu'on a mille projets et mille applications en tête.</li>
-				<li><span class="bold">ce n'est pas très épanouissant</span> : on a envie de travailler en groupe, d'échanger, d'apprendre des autres. En pratique, on passe son temps seul devant un livre de code ou un tutorial en ligne.</li>
-			</ul>
-			<h4 class="bold">CODER < > BIEN CODER</h4>
-			<p class="justify">
-				Il y a une vraie différence entre "savoir coder" et "savoir bien coder". Le wagon vous donnera les bonnes pratiques du développement dès le début. Collaboration sur github, test-driven development, code refactoring.. en 1ère classe, vous apprendrez à travailler en équipe sur un projet web, à écrire du code propre et lisible et à le tester.
-			</p>
+      <hr>
+      <h3 class="blue">Pourquoi monter en première classe ?</h3>
+        <p>
+          Avec de la motivation et de la patience, n'importe qui peut
+          apprendre à coder tout seul. C'est d'ailleurs une très bonne démarche !
+          Si elle fait ses preuves, cette démarche ne convient cependant pas à
+          tout le monde.
+        </p>
+        <ul>
+          <li>
+            <span class="red bold">c'est long :</span> la courbe d'apprentissage
+            est très plate au début.
+          </li>
+          <li>
+            <span class="red bold">c'est frustrant :</span> on progresse lentement
+            alors qu'on a en tête mille projets et mille applications qu'on
+            aimerait pouvoir montrer aux autres.
+          </li>
+          <li>
+            <span class="red bold">ce n'est pas très épanouissant :</span> on passe
+            beaucoup de temps seul devant les livres de code et les tutoriaux
+            en ligne, alors qu'on a envie de travailler en groupe, d'échanger
+            et d'apprendre au contact des autres.
+          </li>
+        </ul>
+        <%=image_tag "apprentissage.png", width: "400px"%>
 
-			<h3 class="blue">Le wagon = un cadre + une pédagogie</h3>
-			<p class="justify"><span class="bold red">L'ESPACE</span> - Situé dans Paris intra muros, c'est encore en discussion mais ça promet.. Surprise !</p> 
-			<p class="justify"><span class="bold red">LA PEDAGOGIE</span> - Des exercices bien ciblés, des séances de code-live et de coaching, des interventions de professionnels.</p> 
+      <hr>
+			<h3 class="blue">Etes-vous fait pour la première classe ?</h3>
+        <p>
+          Que faut-il pour embarquer dans la première classe ? Un diplôme
+          d'ingénieur ? Un bac professionnel ? Une licence en histoire de l'art
+          ? Peu importe les qualifications,
+          <span class="red">
+            ce qui compte c'est avant tout à nos yeux, c'est votre envie de
+            plonger dans le code pendant deux mois :
+          </span>
+          manger du code, respirer du code, discuter de code, en écrire et en
+          lire encore plus.
+        </p>
 
+        <p>
+          La première classe est conçue pour les voyageurs ayant un niveau
+          débutant (ou "faux débutant") en programmation, et qui souhaitent
+          acquérir un niveau qui leur permette de
+          <span class="red">
+            mener une activité de programmeur dans leur travail quotidien :
+          </span>
+          reconversion professionnelle, premières implémentations de projets
+          entrepreneuriaux, constructions de dispositifs expérimentaux, etc.
+        </p>
+
+        <p>
+          Quand vous descendrez du wagon, après un voyage de deux mois,
+          <span class="red">
+            vous saurez comment transformer vos idées en produits concrets, que
+            vous pourrez montrer aux autres.
+          </span>
+          Vous aurez déjà produit de nombreux programmes et travaillé sur des
+          projets qui comptent personnellement pour vous. Vous aurez un
+          portfolio de votre travail, que vous pourrez montrer à des
+          recruteurs, des investisseurs, ou tout simplement d'autres
+          programmeurs professionnels. Vous aurez enfin créé
+          <span class="red">
+            des relations de confiance avec d'autres voyageurs du wagon
+          </span>
+          , qui constitueront autant de nouvelles mailles dans votre réseau de
+          connaissances.
+        </p>
+
+
+      <hr>
+			<h3 class="blue">La première classe, c'est quoi ?</h3>
+        <p class="red bold">
+          Il s'agit d'un programme de deux mois d'apprentissage accéléré aux
+          techniques de programmation, qui amène les participants à un niveau
+          développeur professionnel junior, niveau avec lequel ils savent
+          livrer à temps des programmes qui fonctionnent et qui correspondent
+          aux attentes d'un commanditaire.
+        </p>
+
+        <p>
+          Le wagon première classe est un espace dans lequel
+          <span class="red">chacun apprend à son rythme :</span>
+          en fonction de ses objectifs personnels, de ses manières
+          d'apprendre, et de son niveau d'énergie. La profession de programmeur
+          est aujourd'hui souvent associée aux projets en retard, un haut
+          niveau de stress, des heures supplémentaires et une vie
+          déséquilibrée, "parce que c'est comme ça que ça se passe."
+          Contrairement à d'autres programmes de formation intensive en
+          développement logiciel, nous pensons qu'il est important de respecter
+          les rythmes de chaque participant, qui est le mieux placé pour savoir
+          ce qui lui convient où non. Les animateurs sont là pour évaluer les
+          connaissances et les acquis de chaque participant et pour concevoir
+          les exercices suffisamment difficiles, mais pas trop difficiles, pour
+          apprendre quelque chose de nouveau.
+        </p>
+
+        <p>
+          La première classe est un espace où l'on sait que chacun a
+          quelque chose à transmettre (y compris les plus débutants) et quelque
+          chose à apprendre (y compris les animateurs). Au cours de ces deux
+          mois, le groupe constitué apprendra au contact des autres
+          <span class="red">
+            diverses manières de faire, diverses manières d'envisager un
+            projet, diverses lectures de ce qu'est un obstacle.
+          </span>
+          Les exercices se font en binômes,
+          avec changement fréquent de binôme. Pour ceux qui le souhaitent, les
+          projets plus conséquents peuvent se faire en équipe.
+        </p>
+
+        <p>
+          La différence entre "savoir coder" et "savoir bien coder" n'est pas
+          que réthorique. Demandez à n'importe quel programmeur
+          professionnel : même s'il ne sait pas toujours dire ce qui constitue
+          du beau code, il sait le reconnaître au premier coup d'œil. Dans la
+          première classe, vous apprendrez dès le premier jour les bonnes
+          pratiques de développement, qui ont lieu d'être au niveau où vous
+          vous situez. Au fur et à mesure du voyage, vous apprendrez diverses
+          techniques qui vous aideront
+          <span class="red">
+            à écrire du code lisible, à vérifier systématiquement que les
+            programmes que vous écrivez sont corrects, à rester maître de votre
+            travail :
+          </span>
+          stratégies de versionnement, explorations parallèles, développement
+          piloté par les tests, remaniement du code existant, déploiement
+          continu, et bien d'autres encore.
+        </p>
+
+      <hr>
+			<h3 class="blue">Objectifs d'apprentissage</h3>
+      <h4 class="bold">Savoir livrer à temps quelque chose d'utilisable</h4>
+      <p>
+        On peut maîtriser à la perfection les concepts et les techniques
+        de programmation, cela n'a aucune importance tant qu'on ne sait pas
+        livrer un logiciel utilisable par d'autres. Il s'agit là d'un état
+        d'esprit, qu'il convient de comprendre et d'adopter malgré son aspect
+        contre-intuitif : il est souvent plus important de savoir livrer
+        quelque chose que de savoir le programmer correctement. Dans la
+        première classe, les voyageurs apprennent dès le premier jour à
+        livrer quelque chose à temps, et à raisonner sur les tactiques qui
+        permettent de maintenir le niveau de complexité du travail à mener
+        dans des limites raisonnables.
+      </p>
+
+      <h4 class="bold">Savoir livrer quelque chose qui marche</h4>
+      <p>
+        Pour qu'un logiciel soit utilisable, il faut que celui-ci fonctionne
+        tel qu'on peut raisonnablement l'attendre. Il nous paraît primordial
+        qu'un développeur professionnel, même junior, ait confiance dans le
+        fait que ce qu'il livre fonctionne correctement. Dans la première
+        classe, les voyageurs apprennent dès le premier jour à vérifier le
+        fonctionnement de ce qu'ils programment, et à mettre en œuvre des
+        techniques qui assurent que cela est fait systématiquement.
+      </p>
+
+      <h4 class="bold">Savoir écrire, lire, et raisonner sur le code</h4>
+      <p>
+        Un programmeur qui est capable de comprendre la structure d'un code
+        peut ensuite se documenter facilement sur le comportement de telle ou
+        telle fonction qu'il peut ne pas connaître. Plutôt que de maîtriser
+        toutes les fonctions qu'offre un langage ou une bibliothèque, nous
+        amenons les voyageurs de la première classe à travailler les
+        structures, ce qui leur permet non seulement de résoudre des
+        exercices typiques, mais également de lire et de comprendre le code
+        écrit par d'autres programmeurs.
+      </p>
+
+      <p>
+        Au fur et à mesure du voyage, les structures abordées sont de plus en
+        plus complexes et abstraites, et toujours en lien avec des problèmes
+        concrets à résoudre. Petit à petit, les voyageurs emmagasineront un
+        vocabulaire qui leur permettra de raisonner sur la structure du code
+        qu'ils lisent ou écrivent. Ils pourront discuter avec les autres
+        voyageurs des vertus et limites de telle structure en comparaison
+        avec telle autre. Ils apprendront à établir un dialogue avec d'autres
+        programmeurs professionnels sur le code écrit par des professionnels,
+        et à développer un regard critique.
+      </p>
+
+      <h4 class="bold">
+        S'ouvrir sur les communautés de développeurs professionnels
+      </h4>
+      <p>
+        S'ils le désirent, les voyageurs de la première classe seront invités
+        à rencontrer d'autres développeurs professionnels, en assistant à des
+        événements en soirée ou le week-end. Ils pourront également discuter
+        avec des visiteurs invités. Enfin, ils pourront organiser eux-mêmes
+        leurs propres événements et inviter d'autres communautés à y
+        participer.
+      </p>
+
+      <hr>
+			<h3 class="blue">Une journée typique en première classe</h3>
+      <p>
+        La matinée commence par un échange des dernières nouvelles : les
+        découvertes, les obstacles, ce qu'on a enfin compris et ce qu'on ne
+        comprend toujours pas, ce qui nous intrigue et ce pour quoi on a besoin
+        d'aide. S'en suit une heure pendant laquelle chaque voyageur peut
+        proposer une activité en rapport avec les nouvelles échangées. La fin
+        de la matinée est consacrée à l'apport de nouvelles notions et à la
+        résolution d'exercices en binômes. En début d'après-midi et pendant
+        deux heures environ, les voyageurs codent en public, devant les autres
+        voyageurs, pour montrer comment ils utilisent telle ou telle technique,
+        et s'exposer à leur regard critique. Le reste de l'après-midi est
+        consacré aux projets plus ambitieux, possiblement en équipe. Les
+        animateurs sont là pour aider les participants à mettre en œuvre les
+        techniques qui les aideront à avancer au mieux dans leurs projets. Les
+        participants se réunissent en fin de journée pour faire un court bilan
+        de ce qu'ils ont appris ce jour.
+      </p>
+
+      <hr>
 			<h3 class="blue">Le recrutement</h3>
-			<ul>
-				<li class="justify">Suite à votre inscription au programme, nous vous contacterons assez vite pour un entretien (Skype ou tout simplement autour d'un verre). L'idée n'est pas de vous tester, mais de voir si vous avez le bon profil et si vous pourrez vraiment tirer profit du programme.</li><br>
+      <p>
+        Suite à votre inscription au programme, nous vous contacterons
+        rapidement pour un entretien (par Skype ou "de visu"). Cet entretien
+        sera l'occasion de discuter ensemble de vos objectifs en montant dans
+        le wagon première classe, et de s'assurer que c'est un programme qui
+        vous conviendra. Nous discuterons un peu de votre niveau et de votre
+        expérience, mais surtout de votre motivation.
+      </p>
 
-				<li class="justify">Si vous excellez au wagon, et vous prenez de passion pour le développement, vous pourrez  à votre tour devenir mentor/coach des prochaines formations, pour continuer à apprendre et à partager. Si le coeur vous en dit of course !</li>
-			</ul>
+      <hr>
+			<h3 class="blue">Cursus pédagogique</h3>
+      <p>Lors de ces deux mois, vous apprendrez :</p>
+      <ul>
+        <li>
+          à programmer proprement en <span class="red bold">Ruby</span> : du
+          code testé, lisible, maintenable
+        </li>
+        <li>
+          à développer un site ou une simple API _back-end_ avec le framework
+          <span class="red bold">Rails</span>
+        </li>
+        <li>
+          à programmer les comportements dans le browser en
+          <span class="red bold">JavaScript</span>
+        </li>
+        <li>
+          à utiliser <span class="red bold">HTML</span> et
+          <span class="red bold">CSS</span> pour donner une identité visuelle à
+          vos projets
+        </li>
+        <li>
+          à utiliser <span class="red bold">Git</span> et
+          <span class="red bold">Github</span> pour versionner votre travail et
+          collaborer
+        </li>
+        <li>
+          à construire vos propres outils à l'aide de
+          <span class="red bold">commandes shell</span>
+        </li>
+        <li>
+          à déployer et administrer son application sur
+          <span class="red bold">Heroku</span>
+        </li>
+      </ul>
 
-			<h3 class="blue" style="display:inline-block" >Le programme</h3>
-			<h4 class="pull-right">2 mois, 24/7</h4>
-			<p>Lors de ces deux mois, vous apprendrez :</p>
-			<ul>
-				<li>A écrire du code DRY en <span class="bold red">ruby</span> ! lisible, refactoré, et testé !</li>
-				<li>A développer un site ou une simple API back-end avec le framework <span class="bold red">Rails</span></li>
-				<li>A déployer et administrer son application sur <span class="bold red">Heroku</span> (gestion de la base de données en production, ajout de workers..)</li>
-				<li>A collaborer sur <span class="bold red">Github</span></li>
-				<li>Les bases suffisantes en <span class="bold red">HTML/CSS/Bootstrap</span> pour donner une vraie identité visuelle à vos projets</li>
-				<li>Un première intro aux librairies et frameworks Javascript (<span class="bold red">jQuery, Angular, Ember, Backbone..</span>) pour animer vos applis, ou créer des sites "one-page", qui sont dans la tendance avec les navigateurs modernes.</li>
-			</ul>
+      <p>La formation s'articulera en trois temps.</p>
+      <ul>
+        <li>Semaines 1-3 : Du ruby, toujours du ruby !</li>
+        <li>Semaines 4-6 : Rails</li>
+        <li>Semaines 7-9 : HTML, CSS, JavaScript</li>
+      </ul>
 
-			<p>Dans les grandes lignes, le programme sera découpé ainsi</p>
-			<ul>
-				<li class="justify">Semaines 1-3 : Du ruby, toujours du ruby !</li>
-				<li class="justify">Semaines 4-6 : Rails</li>
-				<li class="justify">Semaines 7-9 : Frameworks & Librairies Javascript</li>
-			</ul>
-			
-			<br/>
+			<p>
+        Si la première classe est faite pour vous, 
+        <%=link_to "POSTULEZ", {controller: "registrations", action: "new"}%>
+      </p>
 
-			Si la 1ère classe est faite pour vous, <%=link_to "POSTULER", {controller: "registrations", action: "new"}%>
-
+      <hr>
+      <h3>
+        Piloté en partenariat avec
+        <%=
+          link_to image_tag("logo_ut7_web_tiny.png", :width => "55",
+                            :style => "vertical-align: -3px;"), 
+                  "http://ut7.fr"
+        %>
+      </h3>
 		</div>
 	</div>
 </div>
