@@ -25932,3 +25932,58 @@ Processing by HomeController#page as HTML
   Rendered layouts/_header.html.erb (1.1ms)
   Rendered layouts/_footer.html.erb (0.0ms)
 Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+
+
+Started GET "/premiere" for 127.0.0.1 at 2013-07-22 14:14:40 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"premiere_classe"}
+  Rendered home/premiere_classe.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_analytics.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/papillard/Sites/lewagon/config/routes.rb:10)
+
+
+Started GET "/postuler" for 127.0.0.1 at 2013-07-22 14:16:33 +0200
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (91.2ms)
+  Rendered layouts/_analytics.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 166ms (Views: 143.9ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/profs" for 127.0.0.1 at 2013-07-22 14:17:23 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"profs"}
+  Rendered home/profs.html.erb within layouts/application (44.7ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 393ms (Views: 392.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-07-22 14:17:38 +0200
+Processing by HomeController#page as HTML
+  Parameters: {"page"=>"home"}
+  Rendered home/_carousel.html.erb (0.6ms)
+  Rendered home/home.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/postuler" for 127.0.0.1 at 2013-07-22 14:17:53 +0200
+Processing by RegistrationsController#new as HTML
+  Rendered registrations/new.html.erb within layouts/application (12.5ms)
+  Rendered layouts/_analytics.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 21ms (Views: 20.8ms | ActiveRecord: 0.0ms)
