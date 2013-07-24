@@ -22,11 +22,11 @@ html{
 body{
 	background-color:transparent;
 	color:#666;
-  font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	padding-top:60px;
-	line-height:20px;
-	font-size: 14px;
+	line-height:1.4;
 }
+
 
 a {
 	outline: none;
@@ -50,14 +50,18 @@ h1,h2,h3{
 .grey{color: rgb(78, 78, 78);}
 .red{color:#ea4a3c;}
 .black{color:darkgrey;}
-
-.bold{font-family: 'ProximaNova-Bold';}
+.bold{font-weight: bold;}
 
 .bitter-blue{
 	font-family: 'Bitter';
 	color: #113d59;
 	font-size: 19.04px;
 	font-weight: bold;
+}
+
+.open-sans{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.4;
 }
 
 //------------------ Pictures custom------------------
