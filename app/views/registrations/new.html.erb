@@ -5,32 +5,29 @@
 
 <br><br>
 <div class="row-fluid">
-	<div class= "container">
 		<div class="span4 pgrme">
 			<%= f.label "Le Wagon Bar", class: 'bitter-blue'%>
 			<p class="schedule">Pas besoin de postuler !</p>
-			<p class="justify">Pour suivre les cours à-la-carte du Wagon Bar, pas besoin de postuler ! Aller voir la carte des prochains cours, et inscrivez-vous s'il reste de la place ! Sinon, attendez la prochaine session du cours qui vous intéresse.</p>
+			<p>Pour suivre les cours à-la-carte du Wagon Bar, pas besoin de postuler ! Aller voir la carte des prochains cours, et inscrivez-vous s'il reste de la place ! Sinon, attendez la prochaine session du cours qui vous intéresse.</p>
 			<%=link_to "LA CARTE DES COURS", {controller: "home", action: "page", page: "wagon_bar"}, class: "big red"%>
 		</div>
 		<div class="span4 pgrme">
 			<%= f.input :p1, label: "L'express", label_html: { class: 'bitter-blue'}%>
 			<p class="schedule">Départ - selon inscriptions !</p>
-			<p class="justify">Deux semaines de formation et développement assisté pour créer le prototype de votre site. Apprenez le développement "agile" avec des hackers aguerris pour coder un MVP (Minimal Valuable Product).</p>
+			<p>Deux semaines de formation et développement assisté pour créer le prototype de votre site. Apprenez le développement "agile" avec des hackers aguerris pour coder un MVP (Minimal Valuable Product).</p>
 			<%=link_to "LE PROGRAMME EN DETAILS", {controller: "home", action: "page", page: "express"}, class: "big red"%>
 		</div>
 		<div class="span4 pgrme">
 			<%= f.input :p2, label: "La 1ère classe", label_html: { class: 'bitter-blue'}%>
 			<p class="schedule">Départ - Janvier 2014</p>
-			<p class="justify">Un programme intense de 2 mois pour devenir développeur et trouver un poste à la clef. Il faut des années pour devenir développeur professionnel. Avec les bonnes méthodes, 2 mois suffisent pour être autonome.</p>
+			<p>Un programme intense de 2 mois pour devenir développeur et trouver un poste à la clef. Il faut des années pour devenir développeur professionnel. Avec les bonnes méthodes, 2 mois suffisent pour être autonome.</p>
 			<%=link_to "LE PROGRAMME EN DETAILS", {controller: "home", action: "page", page: "premiere_classe"}, class: "big red"%>
 </div>
-	</div>	
 </div>
 
 <hr>
 
 <div class="row-fluid">
-	<div class= "container">
 		<div class="span5" style="padding-left:20px">
 			<h4>Vos infos</h4>
 			<%= f.input :firstname, label: false, input_html: { class: 'input',autocomplete:'on', type: 'text'}, placeholder: 'prénom'%>
@@ -50,7 +47,6 @@
 			<%= f.input :q3, input_html: {:style=> 'width:90%;height:100px'},  placeholder: "Dans quels domaines du développement web pensez-vous être compétent ? Où rencontrez-vous des difficultés ?", :label => false %>
 			<%= f.input :q4, input_html: {:style=> 'width:90%;height:100px'},   placeholder: "Qu'aimeriez-vous avoir appris d'ici la fin du programme ?", :label => false %>
 		</div>
-	</div>
 </div>
 
 <% end %>
