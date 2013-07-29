@@ -8,18 +8,19 @@
 //CONTROLLER CSS
 @import "home";
 @import "courses";
-
-
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
 @import url(http://fonts.googleapis.com/css?family=Gudea);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Bitter:700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 
 //------------------- standard tag -------------------------
 html{
 	height: 100%;
 }
 
-body{
+body{	
 	background-color:transparent;
 	color:#666;
 	font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
