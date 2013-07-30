@@ -1,28 +1,61 @@
 <div id="premiere" class="open-sans justify">
   <div class="row-fluid">
 	<div class="span10 offset1">
-
-	  <h2 class="bitter-blue pull-right">
-		Piloté en partenariat avec
-		<%=
-		link_to image_tag("logo_ut7_web_tiny.png", :width => "90",
-		:style => "vertical-align: -8px;"), 
-		"http://ut7.fr",
-		:target => '_blank'
-		%>
-	  </h2>
-
-	  <hr>
+		
+	  <%= image_tag( "premiere.png", 
+	  :width => "120",
+	  :style => "margin-right:40px")%>
+	  <div style="display:inline-block;vertical-align:-35px">
+	  	<h1 style="color:#062634">PREMIERE CLASSE</h1>
+	    <h2 class="bitter-blue">
+		  Piloté en partenariat avec
+		  <%=
+		  link_to image_tag("logo_ut7_web_tiny.png", :width => "90",
+		  :style => "vertical-align: -8px;"), 
+		  "http://ut7.fr",
+		  :target => '_blank'
+		  %>
+	    </h2>
+	  </div>
+		
+	  <br/><br/><br/>
+	  <p class="bold">
+		Une formation accélérée de deux mois pour atteindre un niveau développeur 
+		professionnel junior, permettant de livrer à temps des programmes qui fonctionnent 
+		et correspondent aux attentes d'un commanditaire ou à votre projet personnel.
+	  </p>
+	  <br/><br/>
+	
+	  <h2 class="blue">POUR QUI ?</h2>
+	  
+	  <br/>
 			
+	  <p>
+		<span class="bold">2 mois d'apnée :</span>
+		Que faut-il pour embarquer en première classe ? Un diplôme d'ingénieur ? 
+		Un bac professionnel ? Une licence en histoire de l'art ? Peu importe 
+		les qualifications, ce qui compte pour nous : votre envie de plonger 
+		dans le code pour deux mois. Lire, écrire, corriger, discuter de code à toute heure !
+	  </p>
+	 
+	  <br/>
+
+	  <p>
+		<span class="bold">1 projet autour du code :</span>
+	    La première classe est conçue pour les débutants (ou "faux débutants") en 
+	    programmation qui souhaitent mener une activité de développeur dans leur travail 
+	    quotidien : reconversion professionnelle, premières implémentations de projets
+		entrepreneuriaux, constructions de dispositifs expérimentaux..
+	  </p>
+	
+	  <br/><br/>
 	  <h2 class="blue">POURQUOI ?</h2>
 	
 	  <br/>
 	
 	  <p>
 		Avec de la motivation et de la patience, n'importe qui peut 
-		apprendre à coder tout seul. C'est d'ailleurs une très bonne démarche !
-		Si elle fait ses preuves, cette démarche ne convient pas à
-		tout le monde.
+		apprendre à coder tout seul, <strong>MAIS</strong>:
 	  </p>
 	
 	  <br/>
@@ -50,47 +83,15 @@
 		</li>
 	  </ul>
 
-	  <br/><br/>
-	
-	  <h2 class="blue">POUR QUI ?</h2>
-	  
-	  <br/>
-			
-	  <p>
-		<span class="bold">2 mois d'apnée :</span> 
-		que faut-il pour embarquer en première classe ? Un diplôme d'ingénieur ? 
-		Un bac professionnel ? Une licence en histoire de l'art ? Peu importe 
-		les qualifications, ce qui compte pour nous : votre envie de plonger 
-		dans le code pour deux mois. Lire, écrire, corriger, discuter de code à toute heure !
-	  </p>
-	 
-	  <br/>
 
-	  <p>
-	    <span class="bold">1 projet autour du code :</span> 
-	    la première classe est conçue pour les débutants (ou "faux débutants") en 
-	    programmation qui souhaitent mener une activité de développeur dans leur travail 
-	    quotidien : reconversion professionnelle, premières implémentations de projets
-		entrepreneuriaux, constructions de dispositifs expérimentaux..
-	  </p>
 
 	  <br/><br/>
 
-	  <h2 class="blue">1ERE CLASSE ?</h2>
-	  
-	  <br/>
-			
-	  <p class="bold">
-		Une formation accélérée de deux mois pour atteindre un niveau développeur 
-		professionnel junior, permettant de livrer à temps des programmes qui fonctionnent 
-		et correspondent aux attentes d'un commanditaire ou à votre projet personnel.
-	  </p>
-			
-	  <br/>
+	  <h2 class="blue">EN PRATIQUE</h2> 
 
 	  <div class="row-fluid">
 		<div class="span6" style="padding-right:20px">		
-		
+
 		  <h3>L'espace</h3> 
 		  <p>
 		    Le wagon aura son espace dédié au GLII ! 
@@ -106,11 +107,11 @@
 		    spécialisés (UX, design, co-création, ateliers lean startup, découverte du marché de l'emploi 
 		    des développeurs..)
 	   	  </p>
-		
+
 		</div>
-		
+
 		<div class="span6" style="padding-left:20px">		
-			
+
 		  <h3>L'équipe</h3> 
 		  <p>
 			La première classe sera animée par 
@@ -124,16 +125,16 @@
 			Un développeur professionnel qui vous suivra tout au long du programme, et avec lequel vous 
 			bâtirez une relation privilégiée.
 		  </p>
-		
+
 		</div>
-			
+
 	  </div>
-	  
+
 	  <br/>	
-			
+
 	  <div class="row-fluid">
 		<div class="span6" style="padding-right:20px">		
-		  <h3>Les débouchés</h3>
+		  <h3>Les débouchés</h3> 
 		  <p>
 		    En fin de programme, nous organiserons un recruit-day, durant lequel vous 
 			pourrez présenter vos projets, montrer votre portfolio à des recruteurs ou à des investisseurs, 
@@ -144,9 +145,9 @@
 			nous organiserons aussi des évènements avec nos incubateurs partenaires.
 		  </p>
 	    </div>
-			
+
 		<div class="span6" style="padding-left:20px">		
-		  <h3>L'esprit</h3>
+		  <h3>L'esprit</h3> 
 		  <p>
 		    En descendant du wagon, vous saurez transformer vos idées en produits concrets 
 			et vous aurez déjà un portfolio de votre travail. Vous aurez aussi créé de vrais liens avec 
@@ -160,9 +161,9 @@
 		  </p>
 		</div>
 	  </div>
-			
+
 	  <br/><br/>
-			
+	
 			
 	  <h2 class="blue">WHAT WE STAND FOR</h2>
 	  
@@ -372,7 +373,7 @@
 		</div>
       </div>
 
-	  <hr/>
+	  <br/>
 	  <h2 class="bitter-blue pull-right">
 	    Piloté en partenariat avec
 		<%=
