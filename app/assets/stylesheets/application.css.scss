@@ -26,7 +26,7 @@ body{
 	font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	padding-top:60px;
 	line-height:1.4;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 
@@ -131,11 +131,11 @@ h1,h2,h3{
 }
 
 .nav > li > a{
-	@include transition (all 0.4s $ease-in-quad);
+	@include transition (all 0.1s $ease-in-quad);
 }
 
 .navbar .nav > li > a:hover {
-  color: rgb(241, 15, 15);
+  color:#fc6c5e;
 }
 
 .navbar .nav li.facebook-like{
