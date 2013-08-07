@@ -163,18 +163,40 @@ h1,h2,h3{
 
 
 //-------------------- Footer --------------------------------
-#footer{
-	width:100%;
-	margin-top:50px;
+
+footer{
+	color:#ccc;
 	background-color:#20272d;
-	height: 8em;
-	font-size:13px;
-	color:#fff;
+    margin-top:40px;
+	margin-bottom:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+    position: relative;
+    text-align: left;
+	font-size:12px;
 }
 
-.footer-div{
-	padding:20px;
+footer a{
+	color:#ccc;
+	text-decoration:none;
+	-webkit-transition: all .2s ease-in-out;
 }
+
+footer a:hover{
+	text-decoration:none;
+}
+
+footer ul{
+	list-style-type: none;
+	padding-right: 15px;
+	margin:0;
+  
+}
+
+footer li{
+	text-align:left;
+}
+
 
 
 //---------------- Custom Form Fields --------------------

@@ -1,19 +1,47 @@
-<div class="row-fluid" id="footer">
-	<div class= "container">
-		<div class="span4 footer-div">
-			<p>&copy; 2013 Le Wagon</br>
-			Tous droits réservés.</p>
+<footer>
+	<div class="container">
+	<div class="row-fluid">
+		<div class="span3 left" style="margin-left:0px;">
+			<ul>
+			<h5>Le Wagon</h5>
+				<li><%= link_to "Profs", {controller: "home", action: 'page', page: 'profs'}%></li>
+				<li><%= link_to "Partenaires", {controller: "home", action: 'page', page: 'partenaires'}%></li>
+				<li><%= link_to "Presse", {controller: "home", action: 'page', page: 'profs'}%></li>
+			</ul>
 		</div>
+		
+		<div class="span3 left">
+			<ul>
+			<h5>Programmes</h5>
+				<li><%= link_to "Wagon bar", {controller: "home", action: 'page', page: 'wagon_bar'}%></li>
+				<li><%= link_to "Express", {controller: "home", action: 'page', page: 'express'}%></li>
+				<li><%= link_to "Première classe", {controller: "home", action: 'page', page: 'premiere_classe'}%></li>
+			</ul>
+			
+		</div>
+		
+		<div class="span3 left">
+			<ul>
+			
+			<h5>Suivez nous</h5>
+				<li><%= link_to 'Facebook' , 'https://www.facebook.com/' %></li>
+				<li><%= link_to 'Twitter' , 'https://twitter.com/lewagonparis' %></li>
+			</ul>
+			
+		</div>
+		
+		<div class="span3 left">
+			<ul>
+			
+			<h5>Contact</h5>
+				<li><%= link_to "contact@lewagon.org", "mailto:contact@lewagon.org" %></li>
+				<li></li>
+			</ul>
+			
+		</div>
+		
 
-		<div class="span4 footer-div">
-			<p>Le Wagon</br>
-			73 Rue du Faubourg Saint-Denis</br>
-			75010 Paris</p>
+	
 		</div>
-
-		<div class="span4 footer-div">
-			<p>Contact</br>
-			<a href='mailto:contact@lewagon.org'>contact@lewagon.org</a></p>
-		</div>
-	</div>
-</div>
+		</div>	
+</footer>
