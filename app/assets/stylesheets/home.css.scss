@@ -39,8 +39,8 @@
 }
 
 .punch-line{
-	font-size: 18px;
-	line-height: 22px;
+	font-size: 20px;
+	line-height: 25px;
 }
 
 //------------------ home ---------------------
@@ -83,12 +83,15 @@ hr {
 }
 
 .pgrme{
-	color:#333;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-top: 10px;
 	border-radius: 10px;
+	a, a:hover{
+		color:#666;
+	}
+		
 }
 
 .pgrme:hover{
@@ -147,9 +150,15 @@ hr {
 }
 
 //------------------- wagon-bar ------------------
-#wagon-bar{
+#wagon_bar{
 	padding-top: 50px;
 	padding-bottom: 50px;
+	min-height: 350px;
+}
+
+.sidebar{
+	border-right: 1px dotted lightgray;
+	padding-right: 10px;
 }
 
 
