@@ -25,7 +25,6 @@
 			<%= raw @course.content %>
 		</div>
 		<br/>
-		<!--
 		<div id='subscribe'>
 			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
 			<div class="input">
@@ -35,7 +34,7 @@
 			<br/>
 			<p class="error-message"></p>
 			<% end %>
-		</div>-->
+		</div>
 		<div class="fb-like" data-href="<%= request.original_url %>" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 		
 	</div>
