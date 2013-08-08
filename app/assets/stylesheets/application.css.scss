@@ -128,7 +128,6 @@ h1,h2,h3{
 }
 
 .navbar .nav li{
-	height:60px;
 	line-height:40px;
 }
 
@@ -163,6 +162,27 @@ h1,h2,h3{
 	color: white;
 }
 
+.navbar .pull-right > li > .dropdown-menu{
+	padding-top:20px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+color: #ffffff;
+text-decoration: none;
+background-color: #dd4b39;
+background-image: -moz-linear-gradient(top, #dd4b39, #dd4b39);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#dd4b39));
+background-image: -webkit-linear-gradient(top, #dd4b39, #dd4b39);
+background-image: -o-linear-gradient(top, #dd4b39, #dd4b39);
+background-image: linear, to bottom, #dd4b39, #dd4b39;
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#dd4b39', GradientType=0);
+}
+
+
+.navbar .nav .dropdown-toggle .caret {
+	margin-top: 17px;
+}
 
 //-------------------- Footer --------------------------------
 
