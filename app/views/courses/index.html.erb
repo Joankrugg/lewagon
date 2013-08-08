@@ -1,10 +1,15 @@
 <div class="row-fluid">
+	<br/>
+	<h1 style="color:#113d59" class="center">LE WAGON BAR</h1>
+	<hr/>
+</div>
 
-	<div class="container">
-		<br/>
-		<div class="span3 affix sidebar">
+
+<div class="row-fluid" style="min-height:300px;">
+		<div class="span4 sidebar">
+			<h4 class='bitter-blue'>Le catalogue de cours</h4>
 			<% @grouped_courses.each do |cat,courses| %>
-			<h4 class="bitter-blue"><%= cat %></h4>
+			<h5 style="color:#113d59"><%= cat %></h5>
 			<ul class="list">
 				<% courses.each do |c| %>
 					<li><%= link_to  c.title , c %></li>
@@ -13,11 +18,10 @@
 			<% end %>
 		</div>
 		
-		<div class="span8 offset4">
-			<h1 class="bitter-blue">Le wagon bar - Les cours à la carte</h1>
+		<div class="span8">
+			<h1 class="bitter-blue">Des cours à la carte</h1>
 			<p>Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation back-end, front-end, maîtrise des APIs.. Trouvez le cours qui vous correspond et inscrivez-vous !</p>
 			<p>Aucun cours ne vous correspond ? Faites les nous <%= link_to 'savoir' ,'mailto:contact@lewagon.org' %>. </p>
 		</div>
 		
-	</div>
 </div>

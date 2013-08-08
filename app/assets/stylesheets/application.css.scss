@@ -46,6 +46,8 @@ h1,h2,h3{
 	line-height: 1.2;
 }
 
+.container{width:80%;}
+
 
 //--------------- Font custom class -------------------
 .blue{color: rgb(4,100,144);}
@@ -57,7 +59,7 @@ h1,h2,h3{
 .bitter-blue{
 	font-family: 'Bitter';
 	color: #113d59;
-	font-size: 19.04px;
+	font-size: 18px;
 	font-weight: bold;
 }
 
@@ -135,7 +137,7 @@ h1,h2,h3{
 }
 
 .navbar .nav > li > a:hover {
-  color:#fc6c5e;
+  color:#dd4b39;
 }
 
 .navbar .nav li.facebook-like{

@@ -1,8 +1,14 @@
 <div class="row-fluid">
+	<br/>
+	<h1 style="color:#113d59" class="center">LE WAGON BAR</h1>
+	<hr/>
+</div>
 
-	<div class="span3 affix sidebar">
+<div class="row-fluid">
+	<div class="span4 sidebar">
+		<h4 class='bitter-blue'>Le catalogue de cours</h4>
 		<% @grouped_courses.each do |cat,courses| %>
-		<h4 class="bitter-blue"><%= cat %></h4>
+		<h5 style="color:#113d59"><%= cat %></h5>
 		<ul class="list">
 			<% courses.each do |c| %>
 			<% if c == @course %>
@@ -14,7 +20,7 @@
 		</ul>
 		<% end %>
 	</div>
-	<div class="span8 offset4">
+	<div class="span8">
 
 		<h1 class="bitter-blue"><%= @course.title.upcase %> </h1>
 

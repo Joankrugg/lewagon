@@ -84,13 +84,15 @@ hr {
 
 .pgrme{
 	color:#333;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
 	padding-top: 10px;
 	border-radius: 10px;
-	@include transition (all 0.1s $ease-in-quad);
-	&:hover{ background-color: rgb(240,240,240);}
+}
+
+.pgrme:hover{
+	background:#f2f2f2;
 }
 
 
