@@ -20,6 +20,7 @@ Lewagon::Application.routes.draw do
   get "/premiere" => "home#page", page: "premiere_classe"
   get "/wagon_bar" => "home#page", page: "wagon_bar"
   get "merci" => "home#merci" , :as => 'merci'
+  get "presse" => "home#page", page: "presse"
   
   root to: "home#page", page: "home"
 

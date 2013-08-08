@@ -1,6 +1,5 @@
 <%= render 'carousel' %>
 
-
 <div class= "container">
 
 	<div class="row-fluid" id='pgrmes-title'>
@@ -16,21 +15,33 @@
 	</div>
 
 	<div class="row-fluid">
-		<div class="span4 pgrme">
+		
+		<%= link_to(courses_path) do %>
+		<div class="span4 center pgrme">
 			<h3 class="bitter-blue">Le wagon bar</h3>
-			<p>Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation back-end, front-end, maîtrise des APIs.. Trouvez le cours qui vous correspond et inscrivez-vous !</p>
-			<%=link_to "LA CARTE DES COURS", {controller: "home", action: "page", page: "wagon_bar"}%>
+			<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation back-end, front-end, maîtrise des APIs.. Trouvez le cours qui vous correspond et inscrivez-vous !</p>
 		</div>
-		<div class="span4 pgrme">
+	  	<% end %>
+	
+		<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+			<div class="span4 center pgrme">
+	    		<h3 class="bitter-blue">
+				La 1ère classe 
+				(avec <%= image_tag("logo_ut7_web_tiny.png", :width => "50", :style => "vertical-align: -3px;") %>)
+				</h3>
+				<p class="left-align justify">Un programme très (trop ?) intense de 2 mois pour devenir développeur et trouver un travail à la clef. Il faut des années pour devenir développeur professionnel. Deux mois suffisent pour être autonome et trouver un poste motivant.</p>
+			</div>
+		<% end %>
+	
+		<%= link_to({controller: "home", action: "page", page: "express"}) do %>
+		<div class="span4 center pgrme">
 			<h3 class="bitter-blue">L'express</h3>
-			<p>Deux semaines de formation et de développement assisté pour créer le prototype de votre site. Apprenez le développement "agile" avec des hackers aguerris et codez vous-même votre MVP (Minimal Valuable Product).</p>
-			<%=link_to "LE PROGRAMME EN DETAILS", {controller: "home", action: "page", page: "express"}%>
+			<p class="left-align justify">Deux semaines de formation et de développement assisté pour créer le prototype de votre site. Apprenez le développement "agile" avec des hackers aguerris et codez vous-même votre MVP (Minimal Valuable Product).</p>
 		</div>
-		<div class="span4 pgrme">
-    <h3 class="bitter-blue">La 1ère classe (avec <%= link_to image_tag("logo_ut7_web_tiny.png", :width => "50", :style => "vertical-align: -3px;"), "http://ut7.fr"%>)</span></h3>
-			<p>Un programme très (trop ?) intense de 2 mois pour devenir développeur et trouver un travail à la clef. Il faut des années pour devenir développeur professionnel. Deux mois suffisent pour être autonome et trouver un poste motivant.</p>
-			<%=link_to "LE PROGRAMME EN DETAILS", {controller: "home", action: "page", page: "premiere_classe"}%>
-		</div>
+		<% end %>
+		
+
+		
 	</div>
 
 	<hr>
@@ -112,13 +123,13 @@
 
 	<div class="row-fluid" id='profile'>
 		<div class="span8">
-			<h3 class="blue">PASSIONNE</h3>
+			<h4 class="blue">PASSIONNE</h3>
 			<p class="open-sans">Vous êtes quelqu'un de passionné & curieux. Vous apprenez de façon intelligente, sans vouloir ré-inventer la roue mais en souhaitant rapidement créer des choses. Vous voulez tirer un maximum du programme, et comptez mettre en oeuvre tous les moyens pour ça.</p>
 			<br/>
-			<h3 class="blue">SOCIABLE</h3>
+			<h4 class="blue">SOCIABLE</h3>
 			<p class="open-sans">Coder, c'est travailler à 50% avec son ordinateur, à 50% avec des gens. Vous êtes sociable, à l'écoute, et aimez apprendre des autres. Vous aimez re-formuler, ré-expliquer pour mieux assimiler ce que vous apprenez.</p>
 			<br/>
-			<h3 class="blue">TENACE</h3>
+			<h4 class="blue">TENACE</h3>
 			<p class="open-sans">Nous acceptons les débutants talentueux dans le programme. Si vous n'avez jamais codé mais êtes motivé et persévérant, vous vous mettrez vite à niveau.</p>
 		</div>
 		<div class="span4">

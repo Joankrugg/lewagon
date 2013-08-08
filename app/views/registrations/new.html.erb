@@ -9,7 +9,7 @@
 			<%= f.label "Le Wagon Bar", class: 'bitter-blue'%>
 			<p class="schedule">Pas besoin de postuler !</p>
 			<p>Pour suivre les cours à-la-carte du Wagon Bar, pas besoin de postuler ! Aller voir la carte des prochains cours, et inscrivez-vous s'il reste de la place ! Sinon, attendez la prochaine session du cours qui vous intéresse.</p>
-			<%=link_to "LA CARTE DES COURS", {controller: "home", action: "page", page: "wagon_bar"}, class: "big red"%>
+			<%=link_to "LA CARTE DES COURS", courses_path , class: "big red"%>
 		</div>
 		<div class="span4 pgrme">
 			<%= f.input :p1, label: "L'express", label_html: { class: 'bitter-blue'}%>

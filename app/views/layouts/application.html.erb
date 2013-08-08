@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Le Wagon</title>
+	  <title><%= content_for?(:title) ? yield(:title) : "Le Wagon" %></title>
 	  <meta name="title" content="Le Wagon" />
 	  <meta name="description" content="Apprenez à coder !" />
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
