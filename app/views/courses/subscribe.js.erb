@@ -1,4 +1,5 @@
-<% if @response["error"] != nil %>
+
+<% if @response != true %>
 	$('.error-message').show();
 	var codes = {"502":"email invalide!", "214": "vous vous êtes déjà inscrit à ce cours!" };
 	var code = <%= @response['code'] %>;
