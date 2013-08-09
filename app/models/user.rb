@@ -22,5 +22,7 @@ class User < ActiveRecord::Base
   validates :lastname, :presence => true
   validates :age, :presence => true
   validates :profile, :presence => true
-
+  validates :p1, inclusion: { in: [true], message: "vous devez choisir un programme" }, unless: :p2
+  validates :p2, inclusion: { in: [true], message: "vous devez choisir un programme" }, unless: :p1
+  
 end
