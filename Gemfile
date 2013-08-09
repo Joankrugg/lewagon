@@ -27,4 +27,5 @@ gem "meta_search",    '>= 1.1.0.pre'
 gem 'gibbon'
 gem "ckeditor"
 gem "friendly_id" , "~> 4.0.9"
+gem "sanitize"
 
