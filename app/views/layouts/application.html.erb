@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	  <title><%= content_for?(:title) ? yield(:title) : "Le Wagon" %></title>
-	  <meta name="title" content="Le Wagon" />
-	  <meta name="description" content="Apprenez à coder !" />
+	  <meta name="title" content= "<%= content_for?(:title) ? yield(:title) : "Le Wagon" %>" />
+	  <meta property="og:description" content= "<%= strip_tags(truncate(@course.content,:length => 50))  rescue 'Apprenez à coder!' %>" />
+	  <meta property="og:image" content="https://dl.dropboxusercontent.com/u/11391045/lewagon.png">
+	  <meta property="og:site_name" content="Le Wagon"/>
+	
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
