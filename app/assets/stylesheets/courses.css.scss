@@ -29,11 +29,19 @@
 //------------------- custom btn -------------------------
 .subscribe-btn{
 	line-height:10px;
+	margin-top: -11px;
 }
 
-.bitter-blue-btn{
-	background:#113d59;
+
+#main-nl .btn{
+	background: rgb(0,100,145);
 }
-.bitter-blue-btn:hover{
-	background:#224e6a;
+#main-nl .btn:hover{
+	opacity: 0.8;
+}
+#subscribe .btn{
+	background: rgb(0,100,145);
+}
+#subscribe .btn:hover{
+	opacity: 0.8;
 }

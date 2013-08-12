@@ -18,7 +18,6 @@ class CoursesController < InheritedResources::Base
     email = params[:email][:email]
     gb = Gibbon::API.new
     @response = gb.lists.subscribe({:id =>  course.mailchimp_list_id , :email => {:email => email}, :double_optin => false}) 
-    puts @response
   end
     
 end
