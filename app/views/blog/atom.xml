@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-08-27T12:48:09+02:00</updated>
+ <updated>2013-08-27T13:56:49+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -29,7 +29,7 @@ Last May, Le wagon introduced CEOs from le camping, Season4 to the basics of des
 &lt;li&gt;What tools and resources do I know to achieve this?&lt;/li&gt;
 &lt;li&gt;Do I know enough HTML/CSS/Javascript to assist my CTO? Make mockups and maintain a blog?&lt;/li&gt;
 &lt;li&gt;Do I know enough Javascript/jQuery to handle simple animation by myself?&lt;/li&gt;
-&lt;li&gt;Would I understand my CTO&#39;s day-to-day enough to relate?&lt;/li&gt;
+&lt;li&gt;Would I understand my CTO's day-to-day enough to relate?&lt;/li&gt;
 &lt;li&gt;How would I organise and control the development cycles in my startup?&lt;/li&gt;
 &lt;li&gt;How would I track the necessary analytics for my app? Which information do I need and which tools will most effectively achieve my goals?&lt;/li&gt;
 &lt;li&gt;Can I quickly access social data using social APIs?&lt;/li&gt;
