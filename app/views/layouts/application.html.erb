@@ -30,9 +30,12 @@
 		<%= render 'layouts/header' %>
 
 		<% home =  params[:page] || "" %>
+		<% controller =  params[:controller] || "" %>
 		
 		<% if home.to_s == "home" %> <!--Home page with 100% width carousel-->
 			<%= yield %>
+		<% elsif controller == "blog" %> <!--Blog with different layout-->
+  		  <%= render 'layouts/blog' %>
 		<% else %>
 			<div class="container">
 				<%= yield %>
