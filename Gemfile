@@ -18,7 +18,6 @@ group :assets do
 end
 
 gem "jquery-rails", "2.3.0"
-
 gem 'thin'
 gem 'devise'
 gem 'simple_form'
@@ -28,4 +27,5 @@ gem 'gibbon'
 gem "ckeditor"
 gem "friendly_id" , "~> 4.0.9"
 gem "sanitize"
+gem 'bloggy'
 

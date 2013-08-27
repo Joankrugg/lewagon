@@ -1,0 +1,30 @@
+<div id="blog">
+	<div class="row-fluid">
+	  <div class="span8" id="post-container">
+	    <%= yield %>
+	  </div>
+	  <div class="span4" id="blog-sidebar">
+	    <div id='main-nl'>
+				<%= form_tag  url_for(controller: 'home',:action => 'subscribe'), :method => "post", :remote => true  do %>
+					<div class="input">
+						<h3>Suivez le wagon</h3>
+						<p class='muted'>Soyez les premiers informés des dernières news du wagon.</p>
+						<%= text_field 'email' , 'email', :placeholder => 'Votre e-mail'%>
+						<br>
+						<%= submit_tag "SOUSCRIRE" , :class => "btn btn-success"%>
+						<a href="http://www.facebook.com/lewagonformation" class="social-link" target="_blank">
+			        <i class="icon-facebook-sign icon-3x social-icon"></i>
+			      </a>
+			      <a href="http://twitter.com/Lewagonparis" class="social-link" target="_blank">
+			        <i class="icon-twitter-sign icon-3x social-icon"></i>
+			      </a>
+					</div>
+					<br/>
+					<p class="error-message"></p>
+				<% end %>
+			</div>
+			<a class="twitter-timeline" href="https://twitter.com/Lewagonparis" data-widget-id="372292161472974848">Tweets de @Lewagonparis</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+</div>e

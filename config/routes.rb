@@ -1,5 +1,8 @@
 Lewagon::Application.routes.draw do
 
+  match 'blog' => 'blog#index'
+  match 'blog/:title' => 'blog#post'
+
   resources :courses, :path => "learn"
   resources :suggestions
   
