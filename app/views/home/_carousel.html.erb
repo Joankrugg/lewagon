@@ -1,5 +1,3 @@
-<div class="row-fluid  carrousel">
-	<div class='span12'>
 		<div id="carrousel" class="carousel slide">
 			<ol class="carousel-indicators">
 				<li data-target="#carrousel" data-slide-to="0" class="active"></li>
@@ -9,7 +7,7 @@
 			<div class="carousel-inner">
 
 				<div class="active item">
-					<%= image_tag 'carousel1_flou_light.jpg' , :width => '100%'%>
+					<%= image_tag 'carousel1_resized.jpg', class: "carousel-img"%>
 					<div class="caption-right left-align">
 						<h1>ATTRAPEZ LE WAGON !</h1>
 						<span class="punch-line">Codez votre site, élargissez vos compétences web ou devenez développeur en 2 mois. Quelles que soient vos attentes, plusieurs wagons sont là pour y répondre.</span>
@@ -18,7 +16,7 @@
 
 
 				<div class="item">
-					<%= image_tag 'carousel2_flou_light.jpg' , :width => '100%'%>
+					<%= image_tag 'carousel2_flou_light.jpg' , class: "carousel-img"%>
 					<div class="caption-left left-align">
 						<h1>CODEZ INTELLIGEMMENT</h1>
 						<span class="punch-line">Intégrez les bonnes pratiques du développement agile. Binômage, développement piloté par les tests, intégration continue… Ne restez plus bloqué des heures derrière votre écran. Codez, échangez, testez, et réagissez ! </span>
@@ -26,7 +24,7 @@
 				</div>
 
 				<div class="item">
-					<%= image_tag 'carousel3_flou_light.jpg', :width => '100%' %>
+					<%= image_tag 'carousel3_flou_light.jpg', class: "carousel-img"%>
 					<div class="caption-right left-align">
 						<h1>CODEZ EN PARTAGEANT</h1>
 						<span class="punch-line">Un cours en ligne ne vous donnera jamais une bonne compréhension du web. En sortant du wagon, vous saurez quelle question vous poser quand vous bloquez quelque part, et comment trouver la réponse rapidement !</span>								
@@ -39,5 +37,3 @@
 			<a class="carousel-control right" href="#carrousel" data-slide="next">&rsaquo;</a>
 
 		</div>
-	</div>
-</div>
