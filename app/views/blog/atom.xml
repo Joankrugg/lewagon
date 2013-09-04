@@ -4,12 +4,61 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-08-27T13:56:49+02:00</updated>
+ <updated>2013-09-04T17:23:27+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
  </author>
 
+ 
+ <entry>
+   <title>Wisembly soutient le wagon</title>
+   <link href="YOUR_URL/wisembly-soutient-le-wagon.html"/>
+   <updated>2013-09-03T00:00:00+02:00</updated>
+   <id>BLOG_URL/wisembly-soutient-le-wagon</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/romain_wisembly.jpg&quot; alt=&quot;romain de wisembly&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bitter&quot;&gt;Qui es-tu ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Je suis co-fondateur de &lt;a href=&quot;http://wisembly.com/fr/&quot;&gt;Wisembly&lt;/a&gt;. Wisembly est une solution collaborative pour les réunions d'entreprise. Notre logicel en SaaS permet de préparer, d'animer et d'assurer le suivi de réunions (séminaires, conférences, conf-call, formation...).
+Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et 17 employés.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;span class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/assets/wisembly.png&quot; alt=&quot;wisembly&quot; /&gt;&lt;/span&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Quels profils recherchez-vous chez Wisembly ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Nous recherchons à la fois des profils commerciaux et des profils plus techniques. 
+Dans notre équipe technique, nous voulons des gens motivés, très compétents dans leur domaine, capables de travailler en équipe et maîtrisant toutes les bonnes pratiques de développement.
+Côté produit, nous cherchons des profils capables de comprendre les tenants et les aboutissants techniques du produit, mais aussi de discuter avec les développeurs, toujours avec une bonne vision utilisateurs bien sûr. Etant donné la taille de l'équipe aujourd'hui, nous privilégions un product designer ayant des compétences en programmation, et capable d'intégrer ses idées, plutôt que d'avoir à engager à la fois un graphiste et un intégrateur.  
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Oui, ça nous est déjà arrivé pour des postes produit. Il s'agissait de bons profils pourtant, sortant parfois de grandes écoles. Nous rencontrons souvent des candidats avec un bon background produit mais qui ne sont pas capable de comprendre le code ou d'intégrer des features et prototyper rapidement. Il est fondamental dans notre démarche de développement produit au côté de nos clients de pouvoir leur apporter des idées nouvelles et concrètes régulièrement. Pour pouvoir implémenter des features rapidement, il faut clairement un bagage en programmation.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Pourquoi soutiens-tu le wagon ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Le programme &quot;1ère classe&quot; permet d'ouvrir kes portes des startup à des profils très intéressant, auxquels il manque simplement un bagage technique. Je pense notamment à un graphiste ou un product manager qui voudrait rejoindre une startup. POur ce type de profil, les bases techniques et les bonnes pratiques enseignées par le Wagon me semblent essentielles.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>10 questions for modern CEOs</title>
@@ -19,7 +68,7 @@
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/test.jpg&quot; alt=&quot;code au camping&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;
-Last May, Le wagon introduced CEOs from le camping, Season4 to the basics of design, front-end &amp;amp; back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses.&lt;/p&gt;
+Last May, Le wagon introduced CEOs from &lt;a href=&quot;http://www.lecamping.org/&quot;&gt;le camping&lt;/a&gt;, Season4 to the basics of design, front-end &amp;amp; back-end development. The idea behing these courses was to give them a basic overview on the essentials: how a website works, responds to requests, treats and stores data, builds and stylizes responses.&lt;/p&gt;
 
 &lt;p&gt;The conclusion was what we had predicted. With enough will and analytical background, any beginner can learn to code. Additionally, any entrepreneur worth his salt should at least grasp some web concepts before taking the plunge. Here are a few questions an entrepreneur should ask himself, before starting the journey.&lt;/p&gt;
 
