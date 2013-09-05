@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-04T17:23:27+02:00</updated>
+ <updated>2013-09-05T10:40:04+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -44,7 +44,7 @@ Côté produit, nous cherchons des profils capables de comprendre les tenants et
 &lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Oui, ça nous est déjà arrivé pour des postes produit. Il s'agissait de bons profils pourtant, sortant parfois de grandes écoles. Nous rencontrons souvent des candidats avec un bon background produit mais qui ne sont pas capable de comprendre le code ou d'intégrer des features et prototyper rapidement. Il est fondamental dans notre démarche de développement produit au côté de nos clients de pouvoir leur apporter des idées nouvelles et concrètes régulièrement. Pour pouvoir implémenter des features rapidement, il faut clairement un bagage en programmation.&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Oui, ça nous est déjà arrivé pour des postes produit. Il s'agissait de bons profils pourtant, sortant parfois de grandes écoles. Nous rencontrons souvent des candidats avec un bon background produit mais qui ne sont pas capables de comprendre le code ou d'intégrer des features et prototyper rapidement. Il est fondamental dans notre démarche de développement produit au côté de nos clients de pouvoir leur apporter des idées nouvelles et concrètes régulièrement. Pour pouvoir implémenter de nouvelles fonctionnalités rapidement, il faut clairement un bagage en programmation.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -52,7 +52,7 @@ Côté produit, nous cherchons des profils capables de comprendre les tenants et
 &lt;h4 class=&quot;bold&quot;&gt;Pourquoi soutiens-tu le wagon ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Le programme &quot;1ère classe&quot; permet d'ouvrir kes portes des startup à des profils très intéressant, auxquels il manque simplement un bagage technique. Je pense notamment à un graphiste ou un product manager qui voudrait rejoindre une startup. POur ce type de profil, les bases techniques et les bonnes pratiques enseignées par le Wagon me semblent essentielles.
+&lt;p class=&quot;justify&quot;&gt;Le programme &quot;1ère classe&quot; permet d'ouvrir les portes des startup à des profils très intéressants, auxquels il manque simplement un bagage technique. Je pense notamment à un graphiste ou un product manager qui voudrait rejoindre une startup. Pour ce type de profil, les bases techniques et les bonnes pratiques enseignées par le Wagon me semblent essentielles.
 &lt;/p&gt;
 
 
