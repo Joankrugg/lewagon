@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-12T10:33:53+02:00</updated>
+ <updated>2013-09-12T11:10:21+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -13,9 +13,9 @@
  
  <entry>
    <title>Pierre Kosciusko-Morizet répond au wagon</title>
-   <link href="YOUR_URL/pkm-et-les-developpeurs.html"/>
+   <link href="YOUR_URL/pkm-repond-au-wagon.html"/>
    <updated>2013-09-11T00:00:00+02:00</updated>
-   <id>BLOG_URL/pkm-et-les-developpeurs</id>
+   <id>BLOG_URL/pkm-repond-au-wagon</id>
    <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;div class=&quot;row-fluid&quot;&gt;
