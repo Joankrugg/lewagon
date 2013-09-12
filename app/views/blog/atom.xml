@@ -4,12 +4,73 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-05T10:40:04+02:00</updated>
+ <updated>2013-09-12T10:33:53+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
  </author>
 
+ 
+ <entry>
+   <title>Pierre Kosciusko-Morizet répond au wagon</title>
+   <link href="YOUR_URL/pkm-et-les-developpeurs.html"/>
+   <updated>2013-09-11T00:00:00+02:00</updated>
+   <id>BLOG_URL/pkm-et-les-developpeurs</id>
+   <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row-fluid&quot;&gt;
+    &lt;div class=&quot;span4 center&quot;&gt;
+        &lt;img src=&quot;/assets/pkm.jpg&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span6 offset1&quot;&gt;
+        &lt;p class=&quot;justify&quot;&gt;Pierre Kosciusko-Morizet est cofondateur du fonds d'investissement des entrepreneurs de l'Internet &lt;a href=&quot;http://www.isai.fr/&quot;&gt;ISAI&lt;/a&gt; qui rassemble plus de 70 entrepreneurs et qui a pour vocation de financer et accompagner des sociétés Internet à fort potentiel. Il est aussi président-directeur-général de &lt;a href=&quot;http://www.priceminister.com/&quot;&gt;PriceMinister&lt;/a&gt;.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Qu'attendez vous d'une nouvelle recrue ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Le plus important dans le web c’est l’envie d’apprendre : tout bouge trop vite, donc les connaissances ne sont valables que peu de temps, il faut aimer le changement...&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Plus spécifiquement sur des postes techniques ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;En plus de l’envie de se former en permanence, je dirais la capacité à travailler en équipe, et aussi la motivation, l’envie de réaliser les choses bien.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Comment ça marche, en ce moment, le recrutement de développeurs?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Chez PriceMinister, on a la chance d’avoir beaucoup de candidatures spontanées, donc on arrive à avoir une très très bonne équipe. Mais je vois beaucoup de startups qui démarrent ayant du mal à recruter : on manque cruellement de développeurs en France...&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Quelle est la place des développeurs dans vos équipes? leur quotidien?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Il s’agit de l’équipe la plus importante en taille. De plus, toute la société tourne autour de la technique : la plupart des équipes ont besoin d’évolutions techniques pour mettre en musique leurs idées. Donc la technique est forcément très centrale. C’est indispensable dans une boite web !!&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Back in the day, auriez-vous suivi un programme comme 1ère classe ? pour quelles raisons ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Même si je comprends les bases de l’IT en général, j’aurais bien aimé mieux comprendre ce qu’est «développer», donc pourquoi pas !  En tout cas, longue vie à l’initiative 1ère classe et bonne chance aux développeurs qui en profiteront !&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Wisembly soutient le wagon</title>
