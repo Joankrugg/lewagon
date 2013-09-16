@@ -1,8 +1,45 @@
 <%= render 'carousel' %>
 
 <div class= "container">
+	<div class="narrow">
+		<div class="row-fluid" id='pgrmes-title'>
+			<div class="span12">
+				<h1 class="with-line">
+					<span>
+						<%=image_tag "star.svg", class: "inline-img"%>
+						LE WAGON
+						<%=image_tag "star.svg", class: "inline-img"%>
+					</span>
+				</h1>
+			</div>
+		</div>
+	</div>
 
-	<div class="row-fluid" id='pgrmes-title'>
+	<div class="narrow">
+		<div class="row-fluid">
+			<div class="span12">
+				<p class="grey justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux usages et de nouveaux produits. <span class="blue">La formation a parfois un wagon de retard</span>... Les jeunes diplômés, même après une première expérience professionnelle, n'ont pas toujours le bagage technique pour intéresser des recruteurs ou se lancer sur des projets personnels.</p> 
+				<p class="grey justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes <span class="blue">talents</span> de devenir des <span class="blue">acteurs</span> de l'innovation.</p>	
+				<br/>		
+			</div>
+			<div class="row-fluid">
+				<div class="span12 center">
+					<div id='main-nl'>
+						<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
+						<div class="input">
+							<%= text_field 'email' , 'email', :placeholder => 'email'%>
+							<%= submit_tag "NOUS SUIVRE" , :class => "btn subscribe-btn"%>
+						</div>
+						<br/>
+						<p class="error-message"></p>
+						<% end %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="narrow">	<div class="row-fluid" id='pgrmes-title'>
 		<div class="span12">
 			<h1 class="with-line">
 				<span>
@@ -13,141 +50,143 @@
 			</h1>
 		</div>
 	</div>
+</div>
 
-	<div class="row-fluid">
-		
-		<div class="span4 pgrme">
+<div class="row-fluid">
+
+	<div class="span4 pgrme">
 		<%= link_to(courses_path) do %>
-			<h3 class="bitter-blue">Le wagon bar</h3>
-			<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous !</p>
-	  	<% end %>
-	    </div>
-	
-		<div class="span4 pgrme">
+		<h3 class="bitter-blue">Le wagon bar</h3>
+		<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous !</p>
+		<% end %>
+	</div>
+
+	<div class="span4 pgrme">
 		<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
-	    	 <h3 class="bitter-blue">
-			   La 1ère classe 
-			   (avec <%= image_tag("logo_ut7_web_tiny.png", :width => "50", :style => "vertical-align: -3px;") %>)
-			  </h3>
-			  <p class="left-align justify">Un programme très (trop ?) intense de 2 mois pour devenir développeur et trouver un travail à la clef. Il faut des années pour devenir développeur professionnel. Deux mois suffisent pour être autonome et trouver un poste motivant.</p>
+		<h3 class="bitter-blue">
+			La 1ère classe 
+			(avec <%= image_tag("logo_ut7_web_tiny.png", :width => "50", :style => "vertical-align: -3px;") %>)
+		</h3>
+		<p class="left-align justify">Un programme très (trop ?) intense de 2 mois pour devenir développeur et trouver un travail à la clef. Il faut des années pour devenir développeur professionnel. Deux mois suffisent pour être autonome et trouver un poste motivant.</p>
 		<% end %>
-		</div>
-		
-		<div class="span4 pgrme">
+	</div>
+
+	<div class="span4 pgrme">
 		<%= link_to({controller: "home", action: "page", page: "express"}) do %>
-			<h3 class="bitter-blue">L'express</h3>
-			<p class="left-align justify">Deux semaines de formation et de développement assisté pour créer le prototype de votre site. Apprenez le développement agile avec des hackers aguerris et codez vous-même votre MVP (Minimal Valuable Product).</p>
+		<h3 class="bitter-blue">L'express</h3>
+		<p class="left-align justify">Deux semaines de formation et de développement assisté pour créer le prototype de votre site. Apprenez le développement agile avec des hackers aguerris et codez vous-même votre MVP (Minimal Valuable Product).</p>
 		<% end %>
+	</div>
+</div>
+
+
+<div class="narrow"><hr></div>
+
+<div class="row-fluid">
+	<div class="span6 feedbacks">
+		
+		<div class="row-fluid">
+			<div class="span2">
+				<%= image_tag 'charles.png' , :class => 'img-circle' %>
+			</div>
+			<div class="span10">
+				<p>
+					<i>"Je n'avais encore jamais trouvé quelqu'un capable de m'expliquer à la fois la logique générale et les éléments techniques du développement, tout en parlant la même langue que moi. C'est chose faite ! "</i>
+				</p>
+				<p class="pull-right">
+					<span class="red">–</span> Charles Guilhamon, <span class="black">CEO @darjeelin</span>
+				</p>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			<div class="span2">
+				<%= image_tag 'gauthier.png' , :class => 'img-circle' %>
+			</div>
+			<div class="span10">
+				<p>
+					<i>"J'avais une vraie envie d'apprendre le code. Après plusieurs échecs en utilisant différents sites, les heures passées au wagon m'ont permis de défricher, de me poser les bonnes questions et comprendre mes collègues développeurs."</i>
+				</p>
+				<p class="pull-right">
+					<span class="red">–</span> Gauthier Nadaud, <span class="black">CEO @smiirl</span>
+				</p>
+			</div>
+		</div>
+
+		<div class="row-fluid">
+			
+			<div class="span2">
+				<%= image_tag 'octave.png' , :class => 'img-circle' %>
+			</div>
+			<div class="span10">
+				<p>
+					<i>"L'équipe du Wagon c'est la meilleure école pour découvrir le développeur qui est enfoui en chacun de nous."</i>
+				</p>
+				<p class="pull-right">
+					<span class="red">–</span> Octave Bory-Bert, <span class="black">CEO @melusyn</span>
+				</p>
+			</div>
+		</div>
+
+	</div><!--span6 feedbacks-->
+
+	<div class="span5 offset1 languages-block">
+		<div class="row-fluid">
+			<div class="span6 center">
+				<%=image_tag "html.png", class: "code-pic"%>
+				<p class="languages center">HTML - CSS</p>
+			</div>
+			<div class="span6 center">
+				<%=image_tag "js.png", class: "code-pic"%>
+				<p class="languages center">Javascript</p>
+			</div>
+		</div>
+		<br/>
+		<div class="row-fluid">
+			<div class="span6 center">
+				<%=image_tag "ror.png", class: "code-pic"%>
+				<p class="languages center">Ruby - Rails</p>
+			</div>
+			<div class="span6 center">
+				<%=image_tag "git.png", class: "code-pic"%>
+				<p class="languages center">Git - Heroku</p>
+			</div>
+		</div>
+	</div><!--span5 offset1 languages-block-->
+</div>
+
+<br/>
+
+<div class="narrow">
+	<div class="row-fluid" id='pgrmes-title'>
+		<div class="span12">
+			<h1 class="with-line">
+				<span>
+					<%=image_tag "star.svg", class: "inline-img"%>
+					EN PRATIQUE
+					<%=image_tag "star.svg", class: "inline-img"%>
+				</span>
+			</h1>
 		</div>
 	</div>
-	
-    <div class="row-fluid">
-		<div class="span12 center">
-			<div id='main-nl'>
-				<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
-				<div class="input">
-					<%= text_field 'email' , 'email', :placeholder => 'Votre e-mail'%>
-					<%= submit_tag "Je suis intéressé" , :class => "btn subscribe-btn"%>
-				</div>
-				<br/>
-				<p class="error-message"></p>
-				<% end %>
-			</div>
-		</div>
+</div>
+
+<br/>
+
+<div class="row-fluid">
+	<div class="span6 ">
+		<a href="http://lewagon.github.io/showroom/felix.html" target="_blank">
+			<%= image_tag "felix.png", class: 'projet'%>
+		</a>
 	</div>
 
-	<hr>
-
-	<div class="row-fluid">
-		<div class="span6 feedbacks">
-
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'charles.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"Je n'avais encore jamais trouvé quelqu'un capable de m'expliquer à la fois la logique générale et les éléments techniques du développement, tout en parlant la même langue que moi. C'est chose faite ! "</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Charles Guilhamon, <span class="black">CEO @darjeelin</span>
-					</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'gauthier.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"J'avais une vraie envie d'apprendre le code. Après plusieurs échecs en utilisant différents sites, les heures passées au wagon m'ont permis de défricher, de me poser les bonnes questions et comprendre mes collègues développeurs."</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Gauthier Nadaud, <span class="black">CEO @smiirl</span>
-					</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'octave.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"L'équipe du Wagon c'est la meilleure école pour découvrir le développeur qui est enfoui en chacun de nous."</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Octave Bory-Bert, <span class="black">CEO @melusyn</span>
-					</p>
-				</div>
-			</div>
-
-		</div><!--span6 feedbacks-->
-
-		<div class="span5 offset1 languages-block">
-			<div class="row-fluid">
-				<div class="span6 center">
-					<%=image_tag "html.png", class: "code-pic"%>
-					<p class="languages center">HTML - CSS</p>
-				</div>
-				<div class="span6 center">
-					<%=image_tag "js.png", class: "code-pic"%>
-					<p class="languages center">Javascript</p>
-				</div>
-			</div>
-			<br/>
-			<div class="row-fluid">
-				<div class="span6 center">
-					<%=image_tag "ror.png", class: "code-pic"%>
-					<p class="languages center">Ruby - Rails</p>
-				</div>
-				<div class="span6 center">
-					<%=image_tag "git.png", class: "code-pic"%>
-					<p class="languages center">Git - Heroku</p>
-				</div>
-			</div>
-		</div><!--span5 offset1 languages-block-->
+	<div class="span6">
+		<%= image_tag "cours.png"%>
 	</div>
+</div>
+<br/>
 
-	<br/>
-	<hr>
 
-	<div class="row-fluid" id='profile'>
-		<div class="span8">
-			<h3 class="blue">PASSIONNE</h3>
-			<p class="open-sans">Vous êtes quelqu'un de passionné & curieux. Vous apprenez de façon intelligente, sans vouloir ré-inventer la roue mais en souhaitant rapidement créer des choses. Vous voulez tirer un maximum du programme, et comptez mettre en oeuvre tous les moyens pour ça.</p>
-			<br/>
-			<h3 class="blue">SOCIABLE</h3>
-			<p class="open-sans">Coder, c'est travailler à 50% avec son ordinateur, à 50% avec des gens. Vous êtes sociable, à l'écoute, et aimez apprendre des autres. Vous aimez re-formuler, ré-expliquer pour mieux assimiler ce que vous apprenez.</p>
-			<br/>
-			<h3 class="blue">TENACE</h3>
-			<p class="open-sans">Nous acceptons les débutants talentueux dans le programme. Si vous n'avez jamais codé mais êtes motivé et persévérant, vous vous mettrez vite à niveau.</p>
-		</div>
-		<div class="span4">
-			<%=image_tag "diagram.png"%>
-		</div>
-	</div>
 
 </div><!--container-->
 

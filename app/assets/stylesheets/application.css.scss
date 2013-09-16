@@ -43,13 +43,18 @@ a:hover{
 	text-decoration:none
 }
 
-h1,h2,h3{
+h1,h2{
 	font-family: 'ProximaNova-Bold','Arial';
 	font-weight: 500;
 	line-height: 1.2;
 }
 
 .container{width:75%;}
+
+.narrow{
+	padding-left: 100px;
+	padding-right: 100px;  
+}
 
 
 //--------------- Font custom class -------------------
