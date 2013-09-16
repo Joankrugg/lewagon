@@ -28,7 +28,7 @@
 		<div id='subscribe'>
 			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
 			<div class="input">
-				<%= text_field 'email' , 'email', :placeholder => 'Votre e-mail' , :class => 'span6'%>
+				<%= text_field 'email' , 'email', :placeholder => 'email'%>
 				<%= submit_tag "Je suis intéressé" , :class => "btn subscribe-btn"%>
 			</div>
 			<br/>
