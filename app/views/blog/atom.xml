@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-18T11:54:22+02:00</updated>
+ <updated>2013-09-18T12:03:02+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -23,7 +23,7 @@
         &lt;img src=&quot;/assets/mack.png&quot;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
-        &lt;p class=&quot;justify&quot;&gt;Ancien élève du &lt;a href=&quot;http://www.devbootcamp.com/&quot;&gt;Devbootcamp&lt;/a&gt;, Mack vit en France depuis 1 an. Après avoir travaillé chez &lt;a href=&quot;http://www.tigerlilyapps.com/fr/&quot;&gt;Tigerlily&lt;/a&gt;, il a décidé de se concentrer sur son service d'abonnement/partage autour du whiskey &lt;a href=&quot;http://www.tastersclub.com/&quot;&gt;Taster's Club&lt;/a&gt; et de rejoindre l'équipe du wagon pour enseigner **le code qui sert**. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !&lt;/p&gt;
+        &lt;p class=&quot;justify&quot;&gt;Ancien élève du &lt;a href=&quot;http://www.devbootcamp.com/&quot; target=&quot;_blank&quot;&gt;Devbootcamp&lt;/a&gt;, Mack vit en France depuis 1 an. Après avoir travaillé chez &lt;a href=&quot;http://www.tigerlilyapps.com/fr/&quot; target=&quot;_blank&quot;&gt;Tigerlily&lt;/a&gt;, il a décidé de se concentrer sur son service d'abonnement/partage autour du whiskey &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster's Club&lt;/a&gt; et de rejoindre l'équipe du wagon pour enseigner **le code qui sert**. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !&lt;/p&gt;
         &lt;p class=&quot;justify&quot;&gt;&lt;span class=&quot;red&quot;&gt;Likes&lt;/span&gt;: The Beatles, Yerba Maté, Star Wars, #A3DAFF &amp; #FCE092, Yeezus&lt;p/&gt;
         &lt;p class=&quot;justify&quot;&gt;&lt;span class=&quot;red&quot;&gt;Dislikes&lt;/span&gt;: soda, hunting, Dawson's Creek, liars&lt;/p&gt;
     &lt;/div&gt;
@@ -44,7 +44,7 @@
 &lt;h4 class=&quot;bold&quot;&gt;What did you do after the DBC?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on &lt;a href=&quot;http://www.tastersclub.com/&quot;&gt;Taster's Club&lt;/a&gt;, a whiskey &quot;learning/drinking club&quot; that I've been running out of the US for the last year. Coming soon to France...&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster's Club&lt;/a&gt;, a whiskey &quot;learning/drinking club&quot; that I've been running out of the US for the last year. Coming soon to France...&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -57,7 +57,7 @@
 
 
 
-&lt;p&gt;When I started &lt;a href=&quot;http://www.tastersclub.com/&quot;&gt;TC&lt;/a&gt; I had a spreadsheet that I would use to manage customers. Everything administrative would happen in excel - recording how many bottles everyone received, cancellations, renewals, upgrade, shipping history, etc… It got pretty unwieldy as my membership grew - I knew it wasn't the best solution.&lt;/p&gt;
+&lt;p&gt;When I started &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;TC&lt;/a&gt; I had a spreadsheet that I would use to manage customers. Everything administrative would happen in excel - recording how many bottles everyone received, cancellations, renewals, upgrade, shipping history, etc… It got pretty unwieldy as my membership grew - I knew it wasn't the best solution.&lt;/p&gt;
 
 
 
