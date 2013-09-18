@@ -13,6 +13,8 @@ cal.svg: cal-a266c3abb57c577aa4f229a67d9ef26e.svg
 cal/index.svg: cal-a266c3abb57c577aa4f229a67d9ef26e.svg
 camping.png: camping-618ec658d1dd421c2f149222dac90e70.png
 camping/index.png: camping-618ec658d1dd421c2f149222dac90e70.png
+carousel1.jpg: carousel1-7dfd1747e85c5f3322020dfe9df89710.jpg
+carousel1/index.jpg: carousel1-7dfd1747e85c5f3322020dfe9df89710.jpg
 carousel1.png: carousel1-afdeaf50741d02ed4d355b51dd89ffa4.png
 carousel1/index.png: carousel1-afdeaf50741d02ed4d355b51dd89ffa4.png
 carousel1_bis.png: carousel1_bis-ba96bc8ec14eb127b9d1d4eaddaad334.png
@@ -112,6 +114,8 @@ petite_etoile.png: petite_etoile-852483d752449992edf94fefb6617cc9.png
 petite_etoile/index.png: petite_etoile-852483d752449992edf94fefb6617cc9.png
 pirate.png: pirate-2cabedd88d6c68aae54641166aab6853.png
 pirate/index.png: pirate-2cabedd88d6c68aae54641166aab6853.png
+pkm.jpg: pkm-f722fc297d74f7e0f10b9c837b899217.jpg
+pkm/index.jpg: pkm-f722fc297d74f7e0f10b9c837b899217.jpg
 premiere.png: premiere-51b9dc07a2f6a0d9209ef8348bf3ca54.png
 premiere/index.png: premiere-51b9dc07a2f6a0d9209ef8348bf3ca54.png
 python.png: python-23c7d773becab88f22e48923440c78b8.png
@@ -120,6 +124,8 @@ rails.png: rails-853996b701295d65543f6e961ad06d14.png
 rails/index.png: rails-853996b701295d65543f6e961ad06d14.png
 romain.png: romain-9132b4ac4c90bf97eaf1d04f01f88055.png
 romain/index.png: romain-9132b4ac4c90bf97eaf1d04f01f88055.png
+romain_wisembly.jpg: romain_wisembly-6c77c4445c557c80fa0ec24d0aed1367.jpg
+romain_wisembly/index.jpg: romain_wisembly-6c77c4445c557c80fa0ec24d0aed1367.jpg
 ror.png: ror-bc289e6d0734b139bed47bde665b3cb9.png
 ror/index.png: ror-bc289e6d0734b139bed47bde665b3cb9.png
 ruby.png: ruby-46960510a5ff2eddb182ccde7fefc8e4.png
@@ -128,6 +134,8 @@ star.svg: star-74be949da3d8d5e0fecf0ff70f27d7c3.svg
 star/index.svg: star-74be949da3d8d5e0fecf0ff70f27d7c3.svg
 suitcase.svg: suitcase-311f914b012aed7b3c03cb00a7e1ed1d.svg
 suitcase/index.svg: suitcase-311f914b012aed7b3c03cb00a7e1ed1d.svg
+test.jpg: test-54bde7a9c9c3b2b8074f430ef00bd393.jpg
+test/index.jpg: test-54bde7a9c9c3b2b8074f430ef00bd393.jpg
 tickets.png: tickets-d843851d915d1f548758af5af50d659c.png
 tickets/index.png: tickets-d843851d915d1f548758af5af50d659c.png
 tickets_1.png: tickets_1-9671cf17197c710be715291481fe9b61.png
@@ -148,8 +156,8 @@ application.js: application-4031712d3945801e5723c32eceda3d28.js
 application/index.js: application-4031712d3945801e5723c32eceda3d28.js
 active_admin.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
 active_admin/index.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
-application.css: application-8a44d47cca7545aba3b9806a5de7a427.css
-application/index.css: application-8a44d47cca7545aba3b9806a5de7a427.css
+application.css: application-38bdd45574c4c35d934f240a4666197c.css
+application/index.css: application-38bdd45574c4c35d934f240a4666197c.css
 museo-slab/257AC4_0_0.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0/index.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0.ttf: museo-slab/257AC4_0_0-128495066dd7f17acd2adf23acf485d1.ttf
