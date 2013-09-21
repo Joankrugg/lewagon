@@ -57,24 +57,26 @@
 	<div class="span4 pgrme">
 		<%= link_to(courses_path) do %>
 		<h3 class="bitter-blue">Le wagon bar</h3>
-		<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre start-up, votre projet personnel, ou dans votre travail. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous !</p>
+		<p class="schedule" style="margin-top:-10px;">Allez voir la carte !</p>
+		<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre travail ou votre projet personnel. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous !</p>
 		<% end %>
 	</div>
 
 	<div class="span4 pgrme">
 		<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
 		<h3 class="bitter-blue">
-			La 1ère classe 
-			(avec <%= image_tag("logo_ut7_web_tiny.png", :width => "50", :style => "vertical-align: -3px;") %>)
+			Première classe
 		</h3>
-		<p class="left-align justify">Un programme très (trop ?) intense de 2 mois pour devenir développeur et trouver un travail à la clef. Il faut des années pour devenir développeur professionnel. Deux mois suffisent pour être autonome et trouver un poste motivant.</p>
+		<p class="schedule red" style="margin-top:-10px;">Départ - 6 Janvier 2014</p>
+		<p class="left-align justify">Une formation-tremplin de 2 mois au développement web, pour rejoindre une startup, se lancer sur un projet personnel, ou trouver un poste de développeur junior avec le bagage technique suffisant.</p>
 		<% end %>
 	</div>
 
 	<div class="span4 pgrme">
 		<%= link_to({controller: "home", action: "page", page: "express"}) do %>
 		<h3 class="bitter-blue">L'express</h3>
-		<p class="left-align justify">Deux semaines de formation et de développement assisté pour créer le prototype de votre site. Apprenez le développement agile avec des hackers aguerris et codez vous-même votre MVP (Minimal Valuable Product).</p>
+		<p class="schedule" style="margin-top:-10px;">Départ - selon inscriptions</p>
+		<p class="left-align justify">Deux semaines de formation et développement assisté pour créer le prototype de votre site. Définissez votre produit et développez-le avec l'aide de professionnels.</p>
 		<% end %>
 	</div>
 </div>

@@ -3,7 +3,18 @@
 <%= f.input :password_confirmation , :as => :hidden %>
 
 
-<br><br>
+<br/>
+
+<div class="row-fluid">
+	<div class="span12">
+			<% if @user.errors.any? %>
+				<h3 class='red'>Il nous manque des informations..</h3> 
+				<h4 class='red'>Pensez à cocher le bon programme !</h4> 
+				<br/>
+			<% end %>
+	</div>
+</div>
+
 <div class="row-fluid">
 	<div class="span4" style="padding:15px;">
 		<%= f.label "Le Wagon Bar", class: 'bitter-blue'%>
@@ -12,7 +23,7 @@
 		<%=link_to "LA CARTE DES COURS", courses_path , class: "big red"%>
 	</div>
 	<div class="span4" style="padding:15px;">
-		<%= f.input :p2, label: "La 1ère classe", label_html: { class: 'bitter-blue'}%>
+		<%= f.input :p2, label: "Première classe", label_html: { class: 'bitter-blue'}%>
 		<p class="schedule red">Départ - 6 Janvier 2014</p>
 		<p class="justify">Un programme intense de 2 mois pour devenir développeur et trouver un poste à la clef. Il faut des années pour devenir développeur professionnel. Avec les bonnes méthodes, 2 mois suffisent pour être autonome.</p>
 		<%=link_to "LE PROGRAMME EN DETAILS", {controller: "home", action: "page", page: "premiere_classe"}, class: "big red"%>
