@@ -4,12 +4,79 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-18T12:03:02+02:00</updated>
+ <updated>2013-09-26T18:42:45+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
  </author>
 
+ 
+ <entry>
+   <title>Et si vous deveniez développeur chez Uber ?</title>
+   <link href="YOUR_URL/uber-et-le-wagon.html"/>
+   <updated>2013-09-18T00:00:00+02:00</updated>
+   <id>BLOG_URL/uber-et-le-wagon</id>
+   <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
+    &lt;div class=&quot;span4 center&quot;&gt;
+        &lt;img src=&quot;/assets/pierre-d.jpg&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
+        &lt;h4 class=&quot;bold&quot;&gt;Qui es-tu ?&lt;/h4&gt;
+        &lt;p class=&quot;justify&quot;&gt;Je suis Pierre-Dimitri, en charge des activités française et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d'accélérer son déploiement et de renforcer les positions existantes.
+        &lt;/p&gt;
+        &lt;br/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Quels profils recherchez-vous chez Uber ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards et sachant exploiter des données de manière intelligente via un bon bagage en développement web et une curiosité pour les technologies les plus novatrices.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Oui, nous avons souvent des candidats qui ont la formation souhaitée mais ne disposent pas du bagage technique nécessaire. Si un bon diplôme est un atout évident, nous valorisons beaucoup les profils qui ont eu l'occasion de se plonger dans le monde concret de l'innovation.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Pourquoi soutiens-tu le wagon ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Beaucoup de talents sortant d'université ou de grande école n'ont pas les compétences techniques nécessaires pour en faire des acteurs de l'innovation. L'approche du wagon est de ce point de vue intéressante, puisque les participants au programme &quot;Première classe&quot; seront immergés dans le monde du développement web et de l'innovation.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Sur quels langages avez-vous des besoins ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Le langage de programmation n'est pas un critère de recrutement chez Uber. Ce que nous valorisons avant tout chez un candidat est sa faculté d'adaptation, sa motivation, et son gout pour les problèmes complexes. Le candidat idéal ? Une base en backend avec Ruby et Rails, des notions de front, et surtout l'énergie et l'envie de révolutionner le transport :) C'est dans cette logique que nous avons décidé de suivre la &quot;Première classe&quot;, et que nous espérons y trouver des talents.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Quel sera votre rôle à la fin du programme &quot;Première Classe&quot;&quot; ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Nos équipes de développement sont basées à San Francisco, et comptent déjà quelques frenchies. Je ferai en sorte que les meilleurs candidats du programme aient l'occasion de défendre leur candidature auprès de nos équipes californiennes.
+&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Mack, teacher at the ouagon</title>
