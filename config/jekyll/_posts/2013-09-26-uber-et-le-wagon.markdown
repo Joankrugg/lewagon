@@ -12,7 +12,7 @@ categories: soutien
 	</div>
 	<div class="span8"style="padding-left:10px;">
 		<h4 class="bold">Qui es-tu ?</h4>
-		<p class="justify">Je suis Pierre-Dimitri, en charge des activités française et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d'accélérer son déploiement et de renforcer les positions existantes.
+		<p class="justify">Je suis Pierre-Dimitri, en charge des activités françaises et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d'accélérer son déploiement et de renforcer les positions existantes.
 		</p>
 		<br/>
 	</div>
@@ -21,7 +21,7 @@ categories: soutien
 
 <br/>
 <h4 class="bold">Quels profils recherchez-vous chez Uber ?</h4>
-<p class="justify">Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards et sachant exploiter des données de manière intelligente via un bon bagage en développement web et une curiosité pour les technologies les plus novatrices.
+<p class="justify">Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards, sachant exploiter des données de manière intelligente grâce à un bon bagage en développement web et à une curiosité pour les technologies les plus novatrices.
 </p>
 <br/>
 <h4 class="bold">Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?</h4>
@@ -33,10 +33,10 @@ categories: soutien
 </p>
 <br/>
 <h4 class="bold">Sur quels langages avez-vous des besoins ?</h4>
-<p class="justify">Le langage de programmation n'est pas un critère de recrutement chez Uber. Ce que nous valorisons avant tout chez un candidat est sa faculté d'adaptation, sa motivation, et son gout pour les problèmes complexes. Le candidat idéal ? Une base en backend avec Ruby et Rails, des notions de front, et surtout l'énergie et l'envie de révolutionner le transport :) C'est dans cette logique que nous avons décidé de suivre la "Première classe", et que nous espérons y trouver des talents.
+<p class="justify">Le langage de programmation n'est pas un critère de recrutement chez Uber. Ce que nous valorisons avant tout chez un candidat est sa faculté d'adaptation, sa motivation, et son goût pour les problèmes complexes. Le candidat idéal ? Une base en backend avec Ruby et Rails, des notions de front, et surtout l'énergie et l'envie de révolutionner le transport :) C'est dans cette logique que nous avons décidé de suivre la "Première classe", et que nous espérons y trouver des talents.
 </p>
 <br/>
-<h4 class="bold">Quel sera votre rôle à la fin du programme "Première Classe"" ?</h4>
+<h4 class="bold">Quel sera votre rôle à la fin du programme "Première Classe" ?</h4>
 <p class="justify">Nos équipes de développement sont basées à San Francisco, et comptent déjà quelques frenchies. Je ferai en sorte que les meilleurs candidats du programme aient l'occasion de défendre leur candidature auprès de nos équipes californiennes.
 </p>
 <br/>
