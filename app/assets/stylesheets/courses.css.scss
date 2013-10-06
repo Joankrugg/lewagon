@@ -25,26 +25,73 @@
 .error-message{font-weight:normal; color:#dd4b39;}
 
 
+//------------------- container --------------------------
+#courses-container{
+	padding-left: 30px;
+}
+
+.course{
+	margin-bottom: 50px;
+}
+
+.infos{
+	background: rgb(239,239,239);
+	padding: 15px;
+	font-size: 13px;
+}
+
+.pgrme-wagonbar{
+	max-width: 230px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background: rgb(239,239,239);
+}
+
+.course h4{
+	text-decoration: underline;
+}
+.course h4:hover{
+	opacity: 0.8;
+}
 
 //------------------- custom btn -------------------------
 .subscribe-btn{
 	line-height:20px;
 	margin-top: -11px;
+	border-radius: 0;
 }
 
 .subscribe-mail{
 	height:20px;
 }
 
+.btn-ticket{
+	border-radius: 0;
+	background: rgb(0,85,241);
+}
+.btn-ticket:hover{
+	color:white;
+	background: rgb(0,85,241);
+	opacity: 0.8;
+}
+
 #main-nl .btn{
 	background: rgb(0,100,145);
 }
 #main-nl .btn:hover{
+	color: white;
 	opacity: 0.8;
+	background: rgb(0,100,145);
 }
 #subscribe .btn{
 	background: rgb(0,100,145);
 }
 #subscribe .btn:hover{
+	color:white;
+	background: rgb(0,100,145);
 	opacity: 0.8;
 }

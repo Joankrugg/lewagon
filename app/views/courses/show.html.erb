@@ -1,44 +1,50 @@
 <% content_for :title, "Le Wagon - " + @course.title  %>
 
+<br>
+<h2 class="proxima-bold black" style="display:inline-block;"><%= l @course.date, format: :long, locale: :fr%></h2>
+<h4 class="pull-right" style="display:inline-block;margin-top:15px;text-decoration: underline;"><%= link_to "Revenir à la carte", courses_path%></h4>
+<hr>
 
-<div class="row-fluid" id="wagon_bar">
-	<div class="span4 sidebar">
-		<h3 class='blue'>LA CARTE</h3>
-		<% @grouped_courses.each do |cat,courses| %>
-		<h4><%= cat %></h4>
-		<ul class="list">
-			<% courses.each do |c| %>
-			<% if c == @course %>
-			<li><span class="current"> <%= c.title %></span> </li>
-			<% else %>
-			<li><%= link_to  c.title , c %></li>
-			<% end %>
-			<% end %>
-		</ul>
-		<% end %>
-	</div>
-	<div class="span8">
-
-		<h3 class="blue"><%= @course.title.upcase %> </h1>
-
-		<div id="course_content">
-			<%= raw @course.content %>
+<div class="row-fluid">
+	<div class="span3">
+		<div class="row-fluid">
+			<div class="span12">
+				<%= image_tag @course.image, width:"215px" %>
+			</div>
 		</div>
 		<br/>
+		<div class="row-fluid">
+			<div class="span12">
+				<%= render partial: "infos", locals: {course: @course}%>
+			</div>
+		</div>
+	</div>
+		
+	<div class="span9" style="padding-left:30px;">
+		<h1 class="darkgrey proxima-bold center"><%= @course.title.upcase %> </h1>		
+		<hr>
+		<div class="justify">
+		<%= raw @course.content %>
+		</div>
+		<hr>
+		
 		<div id='subscribe'>
+			<h4 class="proxima-bold">PARTAGEZ CE COURS - INSCRIVEZ-VOUS A SA NEWSLETTER</h4>
+			<br/>
+			<div class="fb-like" data-href="http://www.lewagon.org<%= request.path %>" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis" data-lang="fr" data-hashtags="learntocode">Tweeter</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				
 			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
 			<div class="input">
 				<%= text_field 'email' , 'email', :placeholder => 'email'%>
-				<%= submit_tag "Je suis intéressé" , :class => "btn subscribe-btn"%>
+				<%= submit_tag "S'INSCRIRE" , :class => "btn subscribe-btn"%>
 			</div>
 			<br/>
 			<p class="error-message"></p>
 			<% end %>
 		</div>
-		
-		<div class="fb-like" data-href="http://www.lewagon.org<%= request.path %>" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
-		<a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis" data-lang="fr" data-hashtags="learntocode">Tweeter</a>
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 		
 	</div>
 </div>

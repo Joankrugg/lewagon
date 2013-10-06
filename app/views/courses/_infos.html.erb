@@ -1,0 +1,31 @@
+<div class="infos">
+	<div class="row-fluid" style="margin-bottom:10px">
+		<div class="span2 center">
+			<%= image_tag "cal.png"%>
+		</div>
+		<div class="span10 black">
+			<p style="margin-top:1px;"><%= l course.date, format: :long, locale: :fr%></p>
+		</div>
+	</div>	
+	<div class="row-fluid">
+		<div class="span2 center">
+			<%= image_tag "map-pointer.svg", width:"18px"%>
+		</div>
+		<div class="span10 black">
+			<p style="margin-top:-6px;"><%= course.address %></p>
+		</div>
+	</div>
+	<div class="row-fluid" style="margin-bottom:10px">
+		<div class="span2 center">
+			<%= image_tag "clock.svg", width:"18px"%>
+		</div>
+		<div class="span10 black">
+			<p style="margin-top:2px;"><%= course.length %></p>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span12 center">
+			<%= link_to "PRENEZ VOTRE BILLET", course.eventbrite_url.to_s, class: "btn btn-ticket"%>
+		</div>
+	</div>
+</div>

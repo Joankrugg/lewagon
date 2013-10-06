@@ -49,11 +49,18 @@ h1,h2{
 	line-height: 1.2;
 }
 
-.container{width:75%;}
+.container{
+	width:75%;
+}
 
 .narrow{
 	padding-left: 100px;
 	padding-right: 100px;  
+}
+
+.large{
+	margin-left: -100px;
+	margin-right: -100px;  
 }
 
 
@@ -61,7 +68,8 @@ h1,h2{
 .blue{color: rgb(4,100,144);}
 .grey{color: rgb(78, 78, 78);}
 .red{color:#ea4a3c;}
-.black{color:darkgrey;}
+.darkgrey{color:darkgrey;}
+.black{ color: black;}
 .bold{font-weight: bold;}
 
 .bitter-blue{
@@ -69,6 +77,10 @@ h1,h2{
 	color: #113d59;
 	font-size: 19px;
 	font-weight: bold;
+}
+
+.proxima-bold{
+	font-family: 'ProximaNova-Bold','Arial';
 }
 
 .open-sans{
@@ -115,14 +127,16 @@ h1,h2{
 	vertical-align: middle;
 	cursor: pointer;
 	text-shadow: 0 0px 0px rgba(255, 255, 255, 1);	
-	background: rgba(221, 75, 57, 1);
 	text-decoration: none;
 	color:white;
 	padding:10px;
 	border:0;
 }
 
-.btn:hover{
+.btn-red{
+	background: rgba(221, 75, 57, 1);
+}
+.btn-red:hover{
 	background: #fc6c5e;
 	color:white;
 }
