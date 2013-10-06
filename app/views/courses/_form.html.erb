@@ -5,8 +5,16 @@
 	<br/>
 	
     <%= f.input :title %>
+		<%= f.input :short %>
     <%= f.input :mailchimp_list_id %>
-    <%= f.select :category, ['Développement Web', 'Analyse de données', 'Gestion de projet'] %>
+    <%= f.select :category, ['web', 'data', 'product', 'design', 'mobile'] %>
+		<%= f.input :date %>
+		<%= f.input :length %>
+		<%= f.input :price %>
+		<%= f.input :address %>
+		<%= f.input :eventbrite_url %>
+		<%= f.input :image %>
+		
     <%= f.cktext_area :content, :class => "someclass", :ckeditor => {:language => "fr"} %>
   </div>
 
