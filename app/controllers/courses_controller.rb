@@ -4,9 +4,7 @@ class CoursesController < InheritedResources::Base
   
   def index
     courses = Course.where("date >= :today", today: Date.today).order("date ASC").all
-    #@courses_by_date = courses.group_by{|c| c.date.strftime("%^A, %-d %^B")}
     @courses_by_date = courses.group_by{|c| c.date.strftime("%d/%m/%Y")}
-    #@grouped_courses = @courses.group_by(&:category)
   end
 
   def show

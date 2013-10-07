@@ -2,6 +2,56 @@
 
 <div class= "container">
 	
+	
+	
+	<div class="narrow">
+		<div class="row-fluid" id='pgrmes-title'>
+			<div class="span12">
+				<h1 class="with-line">
+					<span>
+						<%=image_tag "star.svg", class: "inline-img"%>
+						EN CE MOMENT
+						<%=image_tag "star.svg", class: "inline-img"%>
+					</span>
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="row-fluid">
+		<div class="span4 center">
+			<% if @next_course[0] %>
+				<h4 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h4>
+				<%= link_to @next_course[0] do%>
+					<h5><span class="label label-warning"><%= @next_course[0].title %></span></h5>
+					<%= image_tag "#{@next_course[0].category}-orange.png", width: "50%"%>
+				<% end %>
+			<% end %>
+			<br/><br/>
+			<%= link_to "+ de cours", courses_path, class: "schedule", style: "text-decoration:underline;"%>
+		</div>
+		<div class="span4 center">
+			<% if @next_course[1] %>
+				<h4 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h4>
+				<%= link_to @next_course[1] do%>
+					<h5><span class="label label-warning"><%= @next_course[1].title %></span></h5>
+					<%= image_tag "#{@next_course[1].category}-orange.png", width: "50%"%>
+				<% end %>
+			<% end %>
+			<br/><br/>
+			<%= link_to "+ de cours", courses_path, class: "schedule", style: "text-decoration:underline;"%>
+		</div>
+		<div class="span4 center">
+			<h4 class="proxima-bold black">"PREMIERE CLASSE"</h4>
+				<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+					<h5><span class="label label-success">+ d'infos</span></h5>
+					<%= image_tag "premiere.png", width: "50%"%>
+				<% end %>
+				<br/><br/>
+				<%= link_to "Postulez", {controller: "registrations", action: "new"}, class: "schedule", style: "text-decoration:underline;"%><br/><span class="red">(plus que 5 places)</span>
+		</div>
+	</div>
+	
 	<div class="narrow">
 		<div class="row-fluid" id='pgrmes-title'>
 			<div class="span12">

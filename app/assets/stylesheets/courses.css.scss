@@ -44,19 +44,22 @@
 	max-width: 230px;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 5px;
 	background: rgb(239,239,239);
 }
 
-.course h4{
-	text-decoration: underline;
+
+.category{
+	width: 50px; 
+	margin-top:13px;
 }
-.course h4:hover{
-	opacity: 0.8;
+.category-large{
+	margin-top:30px;
 }
+
 
 //------------------- custom btn -------------------------
 .subscribe-btn{
@@ -71,11 +74,11 @@
 
 .btn-ticket{
 	border-radius: 0;
-	background: rgb(0,85,241);
+	background: #355DB6;
 }
 .btn-ticket:hover{
 	color:white;
-	background: rgb(0,85,241);
+	background: rgb(0,77,246);
 	opacity: 0.8;
 }
 

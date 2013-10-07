@@ -10,6 +10,7 @@ class HomeController < ApplicationController
   end
   
   def page
+    @next_course = Course.where("date >= :today", today: Date.today).order("date ASC").limit(2) if params[:page] == "home"
     render params[:page]
   end
   
