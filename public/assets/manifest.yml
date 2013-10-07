@@ -160,10 +160,10 @@ product-blue.png: product-blue-b724eb1a2320b70ceb245354e57b1eed.png
 product-blue/index.png: product-blue-b724eb1a2320b70ceb245354e57b1eed.png
 product-orange.png: product-orange-4dfa8962402d94f753ba28b9294d6151.png
 product-orange/index.png: product-orange-4dfa8962402d94f753ba28b9294d6151.png
-product.png: product-3480637d3fe52d490859e04946f432ea.png
-product/index.png: product-3480637d3fe52d490859e04946f432ea.png
-product@2x.png: product@2x-7aaf357e2fcfc981111040d2753e9e27.png
-product@2x/index.png: product@2x-7aaf357e2fcfc981111040d2753e9e27.png
+product.png: product-65689de7421618bcdd17883630335313.png
+product/index.png: product-65689de7421618bcdd17883630335313.png
+product@2x.png: product@2x-603e1e9efb50d86208e56a435491196d.png
+product@2x/index.png: product@2x-603e1e9efb50d86208e56a435491196d.png
 python.png: python-23c7d773becab88f22e48923440c78b8.png
 python/index.png: python-23c7d773becab88f22e48923440c78b8.png
 rails.png: rails-853996b701295d65543f6e961ad06d14.png
