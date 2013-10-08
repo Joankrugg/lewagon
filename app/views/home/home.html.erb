@@ -17,40 +17,66 @@
 			</div>
 		</div>
 	</div>
+	<br/>
 
 	<div class="row-fluid">
-		<div class="span4 center">
+		
+		<div class="span5 offset1">
+			<div class="row-fluid">
+				<div class="span12 center">
+					<%= image_tag "logo-wagonbar@2x.png", width: "60%"%>
+				</div>
+			</div>
+			<hr>
 			<% if @next_course[0] %>
-				<h4 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h4>
-				<%= link_to @next_course[0] do%>
-					<h5><span class="label label-warning"><%= @next_course[0].title %></span></h5>
-					<%= image_tag "#{@next_course[0].category}-orange.png", width: "50%"%>
+				<%= link_to @next_course[0] do%>		
+			<div class="row-fluid" style="margin-bottom:10px;">
+				<div class="span2 offset2 center">
+					<%= image_tag "#{@next_course[0].category}-orange.png", width: "100%"%>
+				</div>
+				<div class="span8">
+					<h5 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h5>
+					<p class="black" style="margin-top:-12px;"><%= @next_course[0].title.to_s.capitalize %></p>
+				</div>
+			</div>
 				<% end %>
 			<% end %>
-			<br/><br/>
-			<%= link_to "+ de cours", courses_path, class: "schedule", style: "text-decoration:underline;"%>
-		</div>
-		<div class="span4 center">
 			<% if @next_course[1] %>
-				<h4 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h4>
-				<%= link_to @next_course[1] do%>
-					<h5><span class="label label-warning"><%= @next_course[1].title %></span></h5>
-					<%= image_tag "#{@next_course[1].category}-orange.png", width: "50%"%>
+				<%= link_to @next_course[1] do%>		
+			<div class="row-fluid" style="margin-bottom:15px;">
+				<div class="span2 offset2 center">
+					<%= image_tag "#{@next_course[1].category}-orange.png", width: "100%"%>
+				</div>
+				<div class="span8">
+					<h5 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h5>
+					<p class="black" style="margin-top:-12px;"><%= @next_course[1].title.to_s.capitalize %></p>
+				</div>
+			</div>
 				<% end %>
-			<% end %>
-			<br/><br/>
-			<%= link_to "+ de cours", courses_path, class: "schedule", style: "text-decoration:underline;"%>
+			<% end %>			
+			<hr>
+			<div class="row-fluid">
+				<div class="span12 center">
+					<%= link_to "+ DE COURS", courses_path, class: "btn btn-ticket"%>
+				</div>
+			</div>
 		</div>
-		<div class="span4 center">
-			<h4 class="proxima-bold black">"PREMIERE CLASSE"</h4>
-				<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
-					<h5><span class="label label-success">+ d'infos</span></h5>
-					<%= image_tag "premiere.png", width: "50%"%>
-				<% end %>
-				<br/><br/>
-				<%= link_to "Postulez", {controller: "registrations", action: "new"}, class: "schedule", style: "text-decoration:underline;"%><br/><span class="red">(plus que 5 places)</span>
+	
+		<div class="span5">
+			<div class="row-fluid">
+				<div class="span12 center">
+					<h4 class="proxima-bold black">PREMIERE CLASSE
+					<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+						<span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
+					</h4>
+					<p><span class="red">plus que 5 places</span></p>
+					<%= image_tag "premiere@2x.png", width: "50%"%>
+					<% end %>
+				</div>
+			</div>
 		</div>
 	</div>
+	
 	
 	<div class="narrow">
 		<div class="row-fluid" id='pgrmes-title'>
