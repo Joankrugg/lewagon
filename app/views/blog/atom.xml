@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-09-27T10:19:54+02:00</updated>
+ <updated>2013-10-11T09:03:15-07:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -12,9 +12,99 @@
 
  
  <entry>
+   <title>Geek talk avec Jean-David Chamboredon</title>
+   <link href="YOUR_URL/geek-talk-avec-jean-david-chamboredon.html"/>
+   <updated>2013-10-11T00:00:00-07:00</updated>
+   <id>BLOG_URL/geek-talk-avec-jean-david-chamboredon</id>
+   <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
+    &lt;div class=&quot;span4 center&quot;&gt;
+        &lt;img src=&quot;/assets/jdchamboredon.jpg&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
+        &lt;br/&gt;
+        &lt;p class=&quot;justify&quot;&gt;Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions.&lt;/p&gt;
+        
+        &lt;br/&gt;
+        &lt;h4 class=&quot;bold&quot;&gt;Pensez-vous qu'un jeune CEO doit de nos jours avoir des connaissances en développement web pour se lancer ? si oui pour quelles raisons ?&lt;/h4&gt;
+        &lt;p class=&quot;justify&quot;&gt;Si l'on fait l'hypothèse que la méthode de conception-développement pour une start-up est nécessairement issue des méthodes agiles, le dialogue entre marketing-produit et développeurs doit être efficace et pour cela, reposer sur du &quot;common knowledge&quot;. Etre ou avoir été développeur permet d'avoir ce référentiel commun qui peut éviter de fabriquer un produit type &quot;Frankenstein/Spaghettiware&quot;. Je ne dirais donc pas que savoir développer est une obligation pour un CEO de start-up mais c'est certainement un plus...
+        &lt;/p&gt;
+        &lt;br/&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Y a t'il une pénurie de CTO qualifiés sur la scène start-up française ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Il y a clairement pénurie de CTO ou de Senior Dev maîtrisant à la fois les technologies web, les méthodes de conception-développement agiles et la gestion d'une interaction efficace avec les utilisateurs ou les décideurs business. Le fait que l'équipe de management d'une start-up comprenne ce type de profil fait partie des critères &quot;must have&quot; dans notre stratégie d'investissement.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;L'image que la société a du développeur a-t'elle évoluée selon vous ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;L'image de l'informaticien qui &quot;pisse du code&quot; a évolué et c'est heureux. Dans le passé, un bon développeur cherchait avant tout à arrêter de coder pour se consacrer à des tâches de management. Aujourd'hui, quelqu'un qui aime coder, a de l'expérience et n'aspire pas à devenir &quot;chef&quot; peut s'épanouir dans des structures qui reconnaissent sa valeur ajoutée et qui savent qu'une plateforme technologique de qualité est une condition nécessaire à la réussite d'un projet d'entreprise. Le développeur web n'est plus un sous-traitant c'est à minima un co-traitant !&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Pensez-vous que la formation au développement web a un train de retard sur l'innovation (cursus longs, trop théoriques, souvent en retard sur les évolutions techno, formation continue à la traine...) ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Rien ne vaut l'expérience terrain, les vrais projets avec des vrais enjeux... Le mode idéal de formation devrait ressembler à de l'apprentissage avec des compagnons expérimentés et &quot;orfèvres en software&quot; transmettant leur savoir-faire à de jeunes aspirants... On peut être un excellent développeur sans être ingénieur (au sens que donnent les écoles d'ingénieurs à ce terme)... J'ai l'impression que les mentalités évoluent dans ce sens et c'est une excellente chose.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Pour vous, &quot;coder&quot; c'est quoi ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;La dernière fois que j'ai codé (hors formules Excel ;-)), c'était en C++ et c'était en 1992. Je faisais cela le soir et le week end quand mon équipe était en retard pour les soulager... Je ne suis pas sûr que mon code était ultra-maintenable mais il faisait le job. D'un côté, mes équipes savaient qu'elles ne pouvaient pas me &quot;pipoter&quot; mais de l'autre, elles avaient beau jeu de me dire que je ne respectais pas scrupuleusement les normes de codage... &lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Que diriez-vous à un jeune entrepreneur qui se met au code ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Carry on !&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;A titre personnel avez vous un coté &quot;geek / programmeur&quot; ? si non, est ce que vous vous avez parfois envie de mettre les mains dans le code pour en comprendre les ressorts ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Pas sûr d'être ou avoir été un &quot;geek&quot; au sens de celui qui prend un vrai plaisir à interagir avec la &quot;machine&quot;. J'ai toujours trouvé plus intéressant d'interagir avec l'humain... Le &quot;geek&quot; idéal doit savoir et prendre du plaisir à faire les deux, non ?&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Qu'est ce qui vous séduit dans l'initiative &quot;Première classe&quot; (rappel: réunir 15 jeunes actifs débutants de tous horizons -ecole de commerce, d'ingénieur, université - pour les rendre autonome en développement web en 2 mois de formation intensifs à temps plein) ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;L'interaction entre besoin business, expérience utilisateur et développement technologique est une clé de la réussite des entreprises ou projets web. Faire que ces 3 populations parlent le même langage et ait ce fameux &quot;common knowledge&quot; est excellent. Maintenant il faut faire attention à ne pas confondre &quot;savoir de quoi il s'agit et se débrouiller&quot; avec &quot;être un développeur de haute volée&quot;. Un peu comme dans le sport, il faut, dans un pays, avoir une politique pour que le sport amateur se développe et une autre pour la haute compétition sachant que les deux se nourrissent et favorisent l'une l'autre...&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Cela vous dirait de passer en janvier rencontrer nos 15 apprentis-codeurs pour partager votre expérience avec eux ? &lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;Si rencontrer un &quot;webosaure&quot; les intéressent, c'est quand ils veulent ;-)&lt;/p&gt;
+
+
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Et si vous deveniez développeur chez Uber ?</title>
    <link href="YOUR_URL/uber-et-le-wagon.html"/>
-   <updated>2013-09-18T00:00:00+02:00</updated>
+   <updated>2013-09-18T00:00:00-07:00</updated>
    <id>BLOG_URL/uber-et-le-wagon</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span4 center&quot;&gt;
@@ -81,7 +171,7 @@
  <entry>
    <title>Mack, teacher at the ouagon</title>
    <link href="YOUR_URL/mack-prof-au-wagon.html"/>
-   <updated>2013-09-18T00:00:00+02:00</updated>
+   <updated>2013-09-18T00:00:00-07:00</updated>
    <id>BLOG_URL/mack-prof-au-wagon</id>
    <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
@@ -150,7 +240,7 @@ When I learned to code, the moments where I was learning just for the sake of le
  <entry>
    <title>Pierre Kosciusko-Morizet répond au wagon</title>
    <link href="YOUR_URL/pkm-repond-au-wagon.html"/>
-   <updated>2013-09-11T00:00:00+02:00</updated>
+   <updated>2013-09-11T00:00:00-07:00</updated>
    <id>BLOG_URL/pkm-repond-au-wagon</id>
    <content type="html">&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
@@ -201,7 +291,7 @@ When I learned to code, the moments where I was learning just for the sake of le
  <entry>
    <title>Wisembly soutient le wagon</title>
    <link href="YOUR_URL/wisembly-soutient-le-wagon.html"/>
-   <updated>2013-09-03T00:00:00+02:00</updated>
+   <updated>2013-09-03T00:00:00-07:00</updated>
    <id>BLOG_URL/wisembly-soutient-le-wagon</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/romain_wisembly.jpg&quot; alt=&quot;romain de wisembly&quot; /&gt;&lt;/p&gt;
 
@@ -250,7 +340,7 @@ Côté produit, nous cherchons des profils capables de comprendre les tenants et
  <entry>
    <title>10 questions for modern CEOs</title>
    <link href="YOUR_URL/10-questions-for-CEOs.html"/>
-   <updated>2013-05-30T00:00:00+02:00</updated>
+   <updated>2013-05-30T00:00:00-07:00</updated>
    <id>BLOG_URL/10-questions-for-CEOs</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/test.jpg&quot; alt=&quot;code au camping&quot; /&gt;&lt;/p&gt;
 
