@@ -51,12 +51,14 @@
 			<div class="span9">
 				<h4 class="proxima-bold"><%= @course.teacher_name %></h4>
 				<p><%= @course.teacher_desc %></p>
-				<% unless @course.teacher_linkedin.empty? %>
+				<% lkdn = @course.teacher_linkedin ? @course.teacher_linkedin.to_s : ""  %>
+				<% unless lkdn.empty? %>
 					<%= link_to @course.teacher_linkedin.to_s do %>
 						<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
 					<% end %>
 				<% end %>
-				<% unless @course.teacher_twitter.empty? %>
+				<% twttr = @course.teacher_twitter ? @course.teacher_twitter.to_s : ""  %>
+				<% unless twttr.empty? %>
 					<%= link_to @course.teacher_twitter.to_s do %>
 						<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
 					<% end %>
