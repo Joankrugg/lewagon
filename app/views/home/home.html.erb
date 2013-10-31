@@ -24,7 +24,9 @@
 		<div class="span5 offset1">
 			<div class="row-fluid">
 				<div class="span12 center">
-					<%= image_tag "logo-wagonbar@2x.png", width: "60%"%>
+					<%= link_to courses_path do %>
+						<%= image_tag "logo-wagonbar@2x.png", width: "60%", class: "img-scale"%>
+					<% end %>
 				</div>
 			</div>
 			<hr>
@@ -32,7 +34,7 @@
 				<%= link_to @next_course[0] do%>		
 			<div class="row-fluid" style="margin-bottom:10px;">
 				<div class="span2 offset2 center">
-					<%= image_tag @next_course[0].image.to_s, width: "100%"%>
+					<%= image_tag @next_course[0].image.to_s, width: "100%", class: "img-scale"%>
 				</div>
 				<div class="span8">
 					<h5 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h5>
@@ -45,7 +47,7 @@
 				<%= link_to @next_course[1] do%>		
 			<div class="row-fluid" style="margin-bottom:15px;">
 				<div class="span2 offset2 center">
-					<%= image_tag @next_course[1].image.to_s, width: "100%"%>
+					<%= image_tag @next_course[1].image.to_s, width: "100%", class: "img-scale"%>
 				</div>
 				<div class="span8">
 					<h5 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h5>
@@ -92,7 +94,7 @@
 		</div>
 	</div>
 
-	<div class="narrow">
+	<div class="narrow"><em></em>
 		<div class="row-fluid">
 			<div class="span12">
 				<p class="grey justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. <span class="blue">La formation a parfois un wagon de retard</span>... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p> 

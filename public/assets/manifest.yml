@@ -51,8 +51,8 @@ charles.png: charles-2f035e19a9d0fa6136cbb72569c46437.png
 charles/index.png: charles-2f035e19a9d0fa6136cbb72569c46437.png
 clock.svg: clock-ac10fce5d1d35bfc90c9bf5f7a4c876f.svg
 clock/index.svg: clock-ac10fce5d1d35bfc90c9bf5f7a4c876f.svg
-cours.jpg: cours-189d85c60409c462fb0071e0ee1ac329.jpg
-cours/index.jpg: cours-189d85c60409c462fb0071e0ee1ac329.jpg
+cours.jpg: cours-c37635d7f28a34cb76e9ab57327a88b3.jpg
+cours/index.jpg: cours-c37635d7f28a34cb76e9ab57327a88b3.jpg
 cours.png: cours-7be1cf41b92d01d2bd2590c7a5fe85cc.png
 cours/index.png: cours-7be1cf41b92d01d2bd2590c7a5fe85cc.png
 cours1.png: cours1-ac8985b7658328d1a1ae09c8059e70d4.png
@@ -236,8 +236,8 @@ application.js: application-4031712d3945801e5723c32eceda3d28.js
 application/index.js: application-4031712d3945801e5723c32eceda3d28.js
 active_admin.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
 active_admin/index.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
-application.css: application-3cebed08d1ccd034fcc6c4b0be0368a5.css
-application/index.css: application-3cebed08d1ccd034fcc6c4b0be0368a5.css
+application.css: application-02987338a1d312165071e2817016ba7b.css
+application/index.css: application-02987338a1d312165071e2817016ba7b.css
 museo-slab/257AC4_0_0.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0/index.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0.ttf: museo-slab/257AC4_0_0-128495066dd7f17acd2adf23acf485d1.ttf

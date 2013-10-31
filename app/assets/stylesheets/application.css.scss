@@ -110,6 +110,14 @@ h1,h2{
   padding-top: -10px;
 }
 
+.img-scale{
+	@include transition (all 0.1s linear);
+}
+
+.img-scale:hover{
+	@include transform(translateX(8px));
+}
+
 //------------------- Text custom class ---------------
 .center{text-align:center;}
 .left-align{text-align:left;}

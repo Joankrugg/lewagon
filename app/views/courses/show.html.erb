@@ -60,7 +60,7 @@
 				<% twttr = @course.teacher_twitter ? @course.teacher_twitter.to_s : ""  %>
 				<% unless twttr.empty? %>
 					<%= link_to @course.teacher_twitter.to_s do %>
-						<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
+						<%= image_tag 'twitter.png' , :class => 'img-twitter'%>
 					<% end %>
 				<% end %>
 			</div>
