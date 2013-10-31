@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131006095113) do
+ActiveRecord::Schema.define(:version => 20131031102404) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -61,6 +61,11 @@ ActiveRecord::Schema.define(:version => 20131006095113) do
     t.string   "address"
     t.string   "eventbrite_url"
     t.string   "length"
+    t.string   "teacher_name"
+    t.string   "teacher_image"
+    t.text     "teacher_desc"
+    t.string   "teacher_linkedin"
+    t.string   "teacher_twitter"
   end
 
   add_index "courses", ["slug"], :name => "index_courses_on_slug", :unique => true

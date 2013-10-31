@@ -18,13 +18,17 @@
 				<hr>
 				<% courses.each do |c| %>
 				<div class="row-fluid course">
-					<div class="span2">
-						<%= image_tag "#{c.category.to_s}-blue.png", class: "category-large"%>
+					<div class="span2 center">
+						<%= image_tag c.image.to_s%>
+						<br><br>
+						<%= image_tag "#{c.category.to_s}-blue.png", width: "50px"%>
 					</div>
 					<div class="span7 justify" style="padding-left:10px;padding-right:10px;">
 						<h4><%= link_to  c.title , c , class: "black"%></h4>
 						<p><%= c.short %></p>
-						<p><%= link_to  "+ d'infos" , c , style: "text-decoration:underline;"%></p>
+						<p>
+							<%= link_to  "+ d'infos" , c , style: "text-decoration:underline;"%>
+						</p>
 					</div>
 					<div class="span3">
 						<%= render partial: "infos", locals: {course: c}%>

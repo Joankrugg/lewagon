@@ -8,8 +8,8 @@
 <div class="row-fluid">
 	<div class="span3">
 		<div class="row-fluid">
-			<div class="span12">
-				<%= image_tag @course.image, width:"100%" %>
+			<div class="span12 center">
+				<%= image_tag @course.image, width:"70%" %>
 			</div>
 		</div>
 		<br/>
@@ -30,19 +30,57 @@
 		
 	<div class="span9" style="padding-left:30px;">
 		<h1 class="darkgrey proxima-bold center"><%= @course.title.upcase %> </h1>		
-		<hr>
 		<div class="justify">
 		<%= raw @course.content %>
 		</div>
-		<hr>
 		
+		<h1 class="with-line" style="opacity:0.6;font-size:20px;height:10px;">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				LE PROF
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		
+		<br><br>
+		
+		<div class="row-fluid">
+			<div class="span3">
+				<%= image_tag @course.teacher_image, width: "100%"%>
+			</div>
+			<div class="span9">
+				<h4 class="proxima-bold"><%= @course.teacher_name %></h4>
+				<p><%= @course.teacher_desc %></p>
+				<% unless @course.teacher_linkedin.empty? %>
+					<%= link_to @course.teacher_linkedin.to_s do %>
+						<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
+					<% end %>
+				<% end %>
+				<% unless @course.teacher_twitter.empty? %>
+					<%= link_to @course.teacher_twitter.to_s do %>
+						<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
+					<% end %>
+				<% end %>
+			</div>
+		</div>
+		
+		<h1 class="with-line" style="opacity:0.6;font-size:20px;height:10px;">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				PARTAGEZ
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		
+		<br><br>
 		<div id='subscribe'>
-			<h4 class="proxima-bold">PARTAGEZ CE COURS - INSCRIVEZ-VOUS A SA NEWSLETTER</h4>
-			<br/>
+			<p>Partagez le cours avec vos amis</p>
 			<div class="fb-like" data-href="http://www.lewagon.org<%= request.path %>" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-via="Lewagonparis" data-lang="fr" data-hashtags="learntocode">Tweeter</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				
+			<br><br>
+			<p>Inscrivez-vous à la Newsletter du cours !</p>
 			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
 			<div class="input">
 				<%= text_field 'email' , 'email', :placeholder => 'email'%>
