@@ -34,7 +34,7 @@
 				<%= link_to @next_course[0] do%>		
 			<div class="row-fluid" style="margin-bottom:10px;">
 				<div class="span2 offset2 center">
-					<%= image_tag @next_course[0].image.to_s, width: "100%", class: "img-scale"%>
+					<%= image_tag @next_course[0].image.to_s, width: "100%"%>
 				</div>
 				<div class="span8">
 					<h5 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h5>
@@ -47,7 +47,7 @@
 				<%= link_to @next_course[1] do%>		
 			<div class="row-fluid" style="margin-bottom:15px;">
 				<div class="span2 offset2 center">
-					<%= image_tag @next_course[1].image.to_s, width: "100%", class: "img-scale"%>
+					<%= image_tag @next_course[1].image.to_s, width: "100%"%>
 				</div>
 				<div class="span8">
 					<h5 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h5>
