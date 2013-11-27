@@ -7,6 +7,10 @@ android.png: android-579b2fe3408b0b8793526a3755347e57.png
 android/index.png: android-579b2fe3408b0b8793526a3755347e57.png
 android@2x.png: android@2x-b30e699ea12f63ae9b9595cc6357b2fd.png
 android@2x/index.png: android@2x-b30e699ea12f63ae9b9595cc6357b2fd.png
+api.png: api-97fd14bd8bab1569f7eedd53ee54d5bf.png
+api/index.png: api-97fd14bd8bab1569f7eedd53ee54d5bf.png
+api@2x.png: api@2x-3b5d995ebcf12370a381f0588ddf78fc.png
+api@2x/index.png: api@2x-3b5d995ebcf12370a381f0588ddf78fc.png
 api_twitter.png: api_twitter-e8de1a76f124bb9b9076468df487e230.png
 api_twitter/index.png: api_twitter-e8de1a76f124bb9b9076468df487e230.png
 apprentissage.png: apprentissage-25b5b87dc8f497b7323145743f220864.png
