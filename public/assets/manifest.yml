@@ -154,6 +154,8 @@ mutinerie.png: mutinerie-ffd2094089d7f3a367ba692a79f147e4.png
 mutinerie/index.png: mutinerie-ffd2094089d7f3a367ba692a79f147e4.png
 mvp.png: mvp-1315312c8a1cc20cbf84df9790b80a3f.png
 mvp/index.png: mvp-1315312c8a1cc20cbf84df9790b80a3f.png
+new-logo-black@2x.png: new-logo-black@2x-8d688f7e265d5c4f5af51cd22019f73a.png
+new-logo-black@2x/index.png: new-logo-black@2x-8d688f7e265d5c4f5af51cd22019f73a.png
 new-logo.png: new-logo-9177c46a09220a238eb0321263ac7d4c.png
 new-logo/index.png: new-logo-9177c46a09220a238eb0321263ac7d4c.png
 noun_project_13024.png: noun_project_13024-afd404c80942dc7435dc9c0dd1c23fbd.png
@@ -244,8 +246,8 @@ application.js: application-4031712d3945801e5723c32eceda3d28.js
 application/index.js: application-4031712d3945801e5723c32eceda3d28.js
 active_admin.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
 active_admin/index.css: active_admin-f6eab3903eabe26e294bb5e070593cb6.css
-application.css: application-02987338a1d312165071e2817016ba7b.css
-application/index.css: application-02987338a1d312165071e2817016ba7b.css
+application.css: application-704c03851e1326cedb69e7d30186d2a1.css
+application/index.css: application-704c03851e1326cedb69e7d30186d2a1.css
 museo-slab/257AC4_0_0.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0/index.eot: museo-slab/257AC4_0_0-adedbada36e500fd3ca4fdf1559c6b04.eot
 museo-slab/257AC4_0_0.ttf: museo-slab/257AC4_0_0-128495066dd7f17acd2adf23acf485d1.ttf
