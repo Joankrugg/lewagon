@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-01-20T17:52:52+01:00</updated>
+ <updated>2014-01-20T17:54:39+01:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -28,15 +28,19 @@
 &lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot;&gt;
         &lt;h4&gt;Commencons avec un petit story telling a l'ancienne: ton parcours?&lt;/h4&gt;
-        &lt;p&gt;J'ai un parcours plutôt atypique. J'ai arrêté l'école à 14 ans : je ne m'y épanouissais pas. Je me suis alors orienté vers le cinéma, où j'ai fait plein de petits jobs qui m'ont permis de découvrir ce secteur. J'ai été assistant metteur en scène, assistant photo, assistant caméra ... j'ai beaucoup assisté et beaucoup appris.&lt;/p&gt;
+        &lt;p&gt;J'ai un parcours plutôt atypique. J'ai arrêté l'école à 14 ans car je ne m'y épanouissais pas. Je me suis orienté vers le cinéma où j'ai fait plein de petits jobs qui m'ont permis de découvrir ce secteur. J'ai été assistant metteur en scène, assistant photo, assistant caméra ... j'ai beaucoup assisté et beaucoup appris. J'ai ensuite monté ma première entreprise (une société de productions de courts-métrages) à 16 ans suite à mon émancipation.&lt;/p&gt;
 
-        &lt;p&gt;À 18 ans, grâces aux différentes rencontres, je me suis retrouvé assistant de Thierry Ardisson. J’ai travaillé pour lui pendant un moment avant de monter une première boîte: Epidemic.&lt;/p&gt;
-
-        &lt;p&gt;A l'époque, avec mon associé, on s'intéressait aux problématiques de propagation de l'image (avant les youtube et consorts !). On appelait ça le &quot;marketing undercover&quot;. On a beaucoup de patrons de grandes agences qui nous ont contacté pour nous en parler, mais c'était juste pour en parler, rarement pour nous acheter notre expertise.&lt;/p&gt;
+        &lt;p&gt;Au fil des rencontres à 18 ans je me suis retrouvé assistant de Thierry Ardisson pendant un moment avant de monter ma première boîte: EpidemiK.&lt;/p&gt; 
         
-        &lt;p&gt;Du coup j’ai monté une deuxième boîte, en freelance cette fois. Je me suis retrouvé dans les mêmes locaux que ma cousine Ombeline. Elle travaillait dans le bureau d’à côté, dans le secteur de la musique. En discutant ensemble, on a commencé à se poser des questions sur la problématique de l'industrie musicale. Son (nouveau) paradoxe fondamental : elle était en crise alors que les gens n'avaient jamais écouté autant de musique. Notre réflexion était: est-il possible d'adapter les reflexes de collaboration que l'on constatait sur les réseaux sociaux, aux flux monétaires ?&lt;/p&gt;
+        &lt;p&gt;Avec mon associé de l'époque on s'intéressait aux phénomènes de propagation (avant les youtube et consorts). On s'est retrouvés a parler de ce &quot;marketing undercover&quot; comme on l'appelait à des grands patrons d'agence. On en a même parlé à tous les patrons d'agence ... mais on n'a rien vendu...
+        &lt;/p&gt;
 
-        &lt;p&gt;On ne croyait pas au modèle &quot;label&quot; de MyMajorCompany. Nous avions envie de tester un nouveau modèle. Un an plus tard nous lancions &lt;a href=&quot;http://www.kisskissbankbank.com/&quot; target=&quot;_blank&quot;&gt;KKBB&lt;/a&gt;, Ombeline, son mari et moi.&lt;/p&gt;
+        &lt;p&gt;J'ai ensuite travaillé dans la publicité et les bureaux de mon agence étaient à côté des bureaux d'Ombline (ma cousine et depuis mon associée). Elle travaillait dans la musique et on a commencé à se poser des questions sur le futur de l'industrie musicale, sur le fait qu'elle était en crise alors que les gens n'avaient jamais écouté autant de musique.&lt;/p&gt;
+        
+        &lt;p&gt;On en est arrivé a réfléchir a la possibilité d'adapter des reflexes de collaboration que l'on constatait sur les réseaux sociaux à des flux d'argent.
+        En même temps on ne croyait pas au modèle &quot;label&quot; de MyMajorCompany. On a travaillé sur l'idée de notre plateforme pendant une année avec ma cousine et son mari Vincent avant de lancer KissKissBankBank. Nous nous sommes depuis associé en famille pour monter KissKissBankBank puis HelloMerci.
+        &lt;/p&gt;
+
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -45,53 +49,45 @@
 
 &lt;h4&gt;Comment ca se passe avec les développeurs de l'équipe ?&lt;/h4&gt;
 
-&lt;p&gt;On a mis du temps avant de trouver les bons développeurs. Presque 2 ans pour arriver à l'équipe que nous avons aujourd'hui, dont nous sommes très contents.&lt;/p&gt;
+&lt;p&gt;On a mis du temps avant de trouver la bonne équipe de développeurs. Presque 2 ans pour arriver à l'équipe que nous avons aujourd'hui dont nous sommes très contents. Nous avons 4 developpeurs sur une équipe de 13 personnes.&lt;/p&gt;
 
-&lt;p&gt;Ils sont 4 - sur 13, et travaillent en binôme. 2 sur KissKiss et 2 sur HelloMerci.&lt;/p&gt;
+&lt;p&gt;Une équipe de 2 développeurs bosse sur KissKiss et une sur HelloMerci.&lt;/p&gt;
 
-&lt;p&gt;Le point central, c’est d'avoir des développeurs qui ont une bonne capacité de communication, pour pouvoir interagir avec l'équipe. Ce sont eux qui mettent les mains dans le produit, si ils allient à ça une vision produit/marketing, ils deviennent très rapidement force de proposition.&lt;/p&gt;
+&lt;p&gt;Ce qui est central c'est d'avoir des développeurs qui ont une bonne communication avec l'équipe. C'est central parce que c'est eux qui mettent les mains dans le produit et qu'avec une vision produit/marketing en plus ils deviennent très rapidement force de proposition.&lt;/p&gt;
 
-&lt;p&gt;De la même façon, le travail collaboratif joue un rôle clef. En pratique, lorsqu’une solution développée pour HelloMerci tourne parfaitement, la collaboration entre les équipes (via GitHub) nous permet de répliquer ce qui marche et d'accélerer les process pour KissKiss.&lt;/p&gt;
+&lt;p&gt;Ce qui est aussi très intéressant c'est le travail collaboratif entre nos deux équipes de développeurs. Quand une solution développée pour HelloMerci tourne parfaitement, la collaboration entre les équipes permet de répliquer ce qui marche et d'accélerer les process.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;En quoi c'est un plus pour un jeune entrepreneur de savoir coder ?&lt;/h4&gt;
 
-&lt;p&gt;Être entrepreneur, monter une startup et savoir coder : c'est indissociable. C’est comme avoir bossé en cuisine et monter son restaurant. Que tu mettes les mains dans le cambouis, en codant toi-même ton proto, ou que tu prennes de la hauteur, en recrutant un CTO, l’important : c’est de savoir de quoi tu parles.&lt;/p&gt;
+&lt;p&gt;Etre entrepreneur et monter une startup et savoir coder c'est comme monter son restaurant et avoir bossé en cuisine. Que tu mettes les mains dans le cambouis en codant toi-même ton proto ou que tu prennes de la hauteur en recrutant un CTO ce qui est important c'est de savoir de quoi tu parles.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;Le travail collaboratif ca t'évoque quoi ?&lt;/h4&gt;
 
-&lt;p&gt;Une belle avancée ! Fondamentalement elle s’est inspirée des méthodes de la programmation, dont on a appris plein de choses intéressantes : Le lean, l'agilité, le principe d'itération qui est très utilisé en lean management, ça vient de là. En ce qui me concerne j'ai découvert tout ça il y a quelques années. Ça a énormément aidé au niveau des process internes.&lt;/p&gt;
+&lt;p&gt;Il y a plein de choses intéressantes qu'on a appris des métiers de la programmation. Le lean, l'agilité etc ... ca vient de ces milieux la. En ce qui me concerne j'ai découvert tout ca il y a quelques années et ca a énormément aidé au niveau des process interne. C'est une belle avancée qui est fondamentalement inspirée des méthodes de programmation, typiquement le principe d'itération qui est très utilisé en lean management.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;Quels profils vous aimez bien chez KissKissBankBank ?&lt;/h4&gt;
 
-&lt;p&gt;Une énergie débordante, de la créativité et de la bonne humeur. Dans une startup de 13 salariés, qui envisage de grossir, bientôt, la base c’est l'équipe. Elle est essentielle. C’est l'ADN originel de la société. Si cette elle est dans le bon esprit, et croit dans son projet, la croissance est plus efficace.&lt;/p&gt;
+&lt;p&gt;Une énergie débordante, de la créativité et de la bonne humeur. Dans une startup qui a 13 salariés et qui envisage de grossir, la base de l'équipe c'est essentiel par rapport à l'ADN originelle de la société. Si cette base est dans le bon esprit et croit dans le projet la croissance sera plus efficace car elle aura cet ADN essentiel en elle.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;Quels langages/technos utilisez-vous ?&lt;/h4&gt;
 
-&lt;p&gt;Ruby, Ruby on Rails, Clojure et Angular.&lt;/p&gt;
+&lt;p&gt;Nous travaillons actuellement sur Ruby on Rails et nous observons des technos comme Clojure et Angular.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;Ton avis sur le programme Première Classe ?&lt;/h4&gt;
 
-&lt;p&gt;Apprendre à coder aujourd'hui c'est un besoin comparable à celui d'apprendre Word et Excel il y a 20 ans. On devient vite vieux si on ne s'adapte pas aux nouvelles technologies. Personnellement, je n'ai pas envie de me sentir vieux dans 5 ans parce que je ne parle pas ces langages. Ils sont de plus en plus inévitables.&lt;/p&gt;
+&lt;p&gt;Je pense qu'apprendre à coder aujourd'hui c'est un besoin comparable à celui d'apprendre word et excel il y a 20 ans. On devient vieux vite si on ne s'adapte pas aux nouvelles technologies. Personnellement je n'ai pas envie de me sentir vieux dans 5 ans parce que je ne parle pas ces langages qui sont de plus en plus inévitables. Mais je ne m'y suis toujours pas mis. Je suis donc encore un peu ringard...&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h4&gt;C'est quoi ton ressenti par rapport aux langages de programmation ?&lt;/h4&gt;
-
-&lt;p&gt;Je n'ai jamais vraiment mis les mains dans le code, en revanche Bob, l'un de nos développeurs, nous fait régulièrement des formations en internes. Une fois par semaine. Je ne suis pas hyper assidu je dois le reconnaître, mais il y a quand même un cours qui me passionne : celui sur l'histoire du code.&lt;/p&gt;
-
-&lt;p&gt;C’est fascinant de voir comment en partant du néant, les langages de programmation ont évolués, de génération en génération, se sont simplifiés, en se rapprochant du vrai langage.&lt;/p&gt;
-
-&lt;p&gt;En résumé, une génération de développeurs prépare le langage qu'il transmettra à la génération suivante pour lui faciliter le quotidien. C'est cette chaine de transmission et d'amélioration qui me fascine.&lt;/p&gt;
 </content>
  </entry>
  
