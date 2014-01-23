@@ -4,8 +4,6 @@
 	
 	<%= render partial: "email"%>
 	
-	
-	
 	<div class="narrow">
 		<div class="row-fluid" id='pgrmes-title'>
 			<div class="span12">
@@ -74,7 +72,7 @@
 						<span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
 					</h4>
 					<p>Candidatures ouvertes pour Avril !</p>
-					<%= image_tag "premiere@2x.png", width: "35%"%>
+					<%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
 					<% end %>
 				</div>
 			</div>
@@ -135,7 +133,7 @@
 
 <div class="row-fluid">
 
-	<div class="span4 pgrme">
+	<div class="span4 offset2 pgrme">
 		<%= link_to(courses_path) do %>
 		<h3 class="bitter-blue">Le wagon bar</h3>
 		<p class="schedule" style="margin-top:-10px;">Allez voir la carte !</p>
@@ -153,13 +151,6 @@
 		<% end %>
 	</div>
 
-	<div class="span4 pgrme">
-		<%= link_to({controller: "home", action: "page", page: "express"}) do %>
-		<h3 class="bitter-blue">L'express</h3>
-		<p class="schedule" style="margin-top:-10px;">Départ - selon inscriptions</p>
-		<p class="left-align justify">Deux semaines de formation et développement assisté pour créer le prototype de votre site. Définissez votre produit et développez-le avec l'aide de professionnels.</p>
-		<% end %>
-	</div>
 </div>
 
 
