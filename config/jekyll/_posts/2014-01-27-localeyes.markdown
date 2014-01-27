@@ -75,8 +75,8 @@ Sans être un expert du lean, je crois beaucoup au principe “Fake it until you
 
 <br>
 
-#### Comment les newtechs vont modifier le retail ?
+#### Comment le code va révolutionner le retail ?
 
-Le retail est sans doute déjà l'une des industries qui a le plus évolué ces 15 dernières années. Les lignes ont bougé dans tous les domaines, de l'acquisition de trafic géolocalisé, à la fidélisation et le ticketing en passant par l'achat lui même. Ca c'est pour les habitudes d'achat. Je suis sûr que les nouvelles techs vont aussi révolutionner les habitudes de travail des entreprises. En tout cas c'est le pari de LocalEyes qui souhaite faire bénéficier les marques et les enseignes de la présence de 24 millions de smartphones pour les informer à travers le pays.
+Le retail est sans doute déjà l'une des industries qui a le plus évolué ces 15 dernières années. Les lignes ont bougé dans tous les domaines, de l'acquisition de trafic géolocalisé, à la fidélisation et le ticketing en passant par l'achat lui même. Ca c'est pour les habitudes d'achat. Je suis sûr que le "code" va aussi révolutionner les habitudes de travail des entreprises. En tout cas c'est le pari de LocalEyes qui souhaite faire bénéficier les marques et les enseignes de la présence de 24 millions de smartphones pour les informer à travers le pays.
 
 <br>
