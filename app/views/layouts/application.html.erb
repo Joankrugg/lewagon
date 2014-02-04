@@ -34,6 +34,8 @@
 		
 		<% if home.to_s == "home" %> <!--Home page with 100% width carousel-->
 			<%= yield %>
+		<% elsif home.to_s == "koudetat" %>
+		  <%= yield %>
 		<% elsif controller == "blog" %> <!--Blog with different layout-->
   		  <%= render 'layouts/blog' %>
 		<% else %>
