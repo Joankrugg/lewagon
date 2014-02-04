@@ -2,60 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-//------------------ carrousel ---------------------
-.carrousel{
-	padding-top:0px;
-	padding-bottom:0px;
-	padding-left:0px;
-	height:420px;
-	overflow:hidden;
-}
-
-#carrousel{
-	height:420px;
-}
-
-.carousel-control{
-	font-family:"Helvetica Neue", Helvetica;
-}
-
-#carrousel .caption-right {
-	color: white;
-	position: absolute;
-	top: 130px;
-	width: 100%;
-}
-
-#carrousel .caption-left{
-	color:white;
-	position:absolute;
-	top:120px;
-	width:500px;
-	left:80px;
-}
-
-#carrousel h1{
-	font-size:60px;
-	line-height:60px;
-	text-shadow: 0px 0px 1px grey;
-}
-
-.punch-line{
+//------------------ banner ---------------------
+.punch-line {
 	font-size: 20px;
 	line-height: 25px;
 }
 
-.carousel-inner{
-	height: 400px;
+#banner {
+	padding: 100px;
+	background: url('carousel1.jpg') no-repeat;
+	background-size: 100%;
+	color: white;
 }
 
-.carousel-img{
-	max-width:500%;
-	min-width: 100%;
-	min-height: 435px;
-	width: 1160px;
+#banner h1 {
+	font-size:60px;
+	line-height:60px;
+	text-shadow: 0px 0px 1px grey;
 }
 
 //------------------ home ---------------------

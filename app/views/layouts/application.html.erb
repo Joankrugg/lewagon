@@ -17,7 +17,6 @@
 	<body>
 	
 	
-	
 		<script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
 		  	if (d.getElementById(id)) return;
@@ -29,17 +28,17 @@
 
 		<%= render 'layouts/header' %>
 
-		<% home =  params[:page] || "" %>
+		<% page =  params[:page] || "" %>
 		<% controller =  params[:controller] || "" %>
 		
-		<% if home.to_s == "home" %> <!--Home page with 100% width carousel-->
-			<%= yield %>
-		<% elsif home.to_s == "koudetat" %>
-		  <%= yield %>
+		<% if page.to_s == "home" || page.to_s == "koudetat" %> <!--Home page with 100% width carousel-->
+			<div class="main-container">
+				<%= yield %>
+			</div>
 		<% elsif controller == "blog" %> <!--Blog with different layout-->
   		  <%= render 'layouts/blog' %>
 		<% else %>
-			<div class="container">
+			<div class="main-container narrow">
 				<%= yield %>
 			</div>
 		<% end %>

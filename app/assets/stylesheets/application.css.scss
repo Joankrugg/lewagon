@@ -49,13 +49,14 @@ h1,h2{
 	line-height: 1.2;
 }
 
-.container{
-	width:75%;
+.main-container{
+	margin: 0;
+	width: 100%;
 }
 
 .narrow{
-	padding-left: 100px;
-	padding-right: 100px;  
+	width: 75%;
+	margin: 0 auto;  
 }
 
 .large{
@@ -222,12 +223,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endC
 footer{
 	color:#ccc;
 	background-color:#20272d;
-    margin-top:40px;
 	margin-bottom:20px;
 	padding-top:20px;
 	padding-bottom:20px;
-    position: relative;
-    text-align: left;
+  position: relative;
+  text-align: left;
 	font-size:12px;
 }
 
