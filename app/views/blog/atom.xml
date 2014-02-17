@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-02-14T14:18:43+01:00</updated>
+ <updated>2014-02-17T16:26:17+01:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -12,7 +12,7 @@
 
  
  <entry>
-   <title>Las selectionistas</title>
+   <title>Les selectionnistas</title>
    <link href="YOUR_URL/las-selectionistas.html"/>
    <updated>2014-02-14T10:46:01+01:00</updated>
    <id>BLOG_URL/las-selectionistas</id>
