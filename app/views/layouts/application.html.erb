@@ -8,6 +8,8 @@
 	  <meta property="og:description" content= "<%= @course.title rescue 'Apprenez à coder!' %>" />
 	  <meta property="og:image" content="https://dl.dropboxusercontent.com/u/11391045/lewagon.png">
 	  <meta property="og:site_name" content="Le Wagon"/>
+	  
+	  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
 	  <%= javascript_include_tag "application" %>
@@ -15,7 +17,7 @@
 	  <%= render 'layouts/analytics' %>
 	</head>
 	<body>
-	
+		
 	
 		<script>(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];

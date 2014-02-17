@@ -15,7 +15,8 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter:700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
 //FontAwesome
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 
 //------------------- standard tag -------------------------
@@ -169,6 +170,7 @@ h1,h2{
 }
 
 .nav > li > a{
+	font-size: 13px;
 	@include transition (all 0.1s $ease-in-quad);
 }
 
