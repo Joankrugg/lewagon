@@ -59,40 +59,13 @@
 
 
 
-//------------------- custom btn -------------------------
+//------------------- Subscribe-btn -------------------------
 .subscribe-btn{
 	line-height:20px;
 	margin-top: -11px;
-	border-radius: 0;
 }
 
 .subscribe-mail{
 	height:20px;
 }
 
-.btn-ticket{
-	border-radius: 0;
-	background: rgb(0,100,145);
-}
-.btn-ticket:hover{
-	color:white;
-	background: rgb(0,100,145);
-	opacity: 0.8;
-}
-
-#main-nl .btn{
-	background: rgb(0,100,145);
-}
-#main-nl .btn:hover{
-	color: white;
-	opacity: 0.8;
-	background: rgb(0,100,145);
-}
-#subscribe .btn{
-	background: rgb(0,100,145);
-}
-#subscribe .btn:hover{
-	color:white;
-	background: rgb(0,100,145);
-	opacity: 0.8;
-}

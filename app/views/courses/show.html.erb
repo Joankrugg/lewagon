@@ -85,8 +85,8 @@
 			<p>Inscrivez-vous à la Newsletter du cours !</p>
 			<%= form_tag  url_for(:action => 'subscribe', :id => @course.id), :method => "post", :remote => true  do %>
 			<div class="input">
-				<%= text_field 'email' , 'email', :placeholder => 'email'%>
-				<%= submit_tag "S'INSCRIRE" , :class => "btn subscribe-btn"%>
+				<%= text_field 'email' , 'email', :placeholder => 'votre e-mail'%>
+				<%= submit_tag "S'INSCRIRE" , :class => "btn btn-blue subscribe-btn"%>
 			</div>
 			<br/>
 			<p class="error-message"></p>

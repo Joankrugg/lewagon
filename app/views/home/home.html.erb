@@ -55,7 +55,7 @@
 			<hr>
 			<div class="row-fluid">
 				<div class="span12 center">
-					<%= link_to "+ DE COURS", courses_path, class: "btn btn-ticket"%>
+					<%= link_to "+ DE COURS", courses_path, class: "btn btn-blue"%>
 				</div>
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 						<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
 						<span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
 					</h4>
-					<p>Plus que 4 places pour Avril !</p>
+					<p>Plus que 3 places pour Avril !</p>
 					<%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
 					<% end %>
 				</div>
@@ -99,8 +99,8 @@
 				<div id='main-nl'>
 					<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
 					<div class="input">
-						<%= text_field 'email' , 'email', :placeholder => 'email'%>
-						<%= submit_tag "NOUS SUIVRE" , :class => "btn subscribe-btn"%>
+						<%= text_field 'email' , 'email', :placeholder => 'votre e-mail'%>
+						<%= submit_tag "SOUSCRIRE" , :class => "btn btn-blue subscribe-btn"%>
 					</div>
 					<br/>
 					<p class="error-message"></p>

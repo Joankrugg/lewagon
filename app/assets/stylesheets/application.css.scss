@@ -112,13 +112,6 @@ h1,h2{
   padding-top: -10px;
 }
 
-.img-scale{
-	@include transition (all 0.1s linear);
-}
-
-.img-scale:hover{
-	@include transform(translateX(8px));
-}
 
 //------------------- Text custom class ---------------
 .center{text-align:center;}
@@ -144,11 +137,29 @@ h1,h2{
 }
 
 .btn-red{
+	color: white;
 	background: rgba(221, 75, 57, 1);
+	@include transition (all 0.1s linear);
 }
 .btn-red:hover{
-	background: #fc6c5e;
-	color:white;
+	background: white;
+	color: rgba(221, 75, 57, 1);
+	border: 1px solid rgba(221, 75, 57, 1);
+	@include transition (all 0.1s linear);
+}
+
+
+.btn-blue{
+	color: white;
+	border-radius: 5px;
+	border: 1px solid rgb(0,100,145);
+	background: rgb(0,100,145);
+	@include transition (all 0.1s linear);
+}
+.btn-blue:hover{
+	background: white;
+	color: rgb(0,100,145);
+	@include transition (all 0.1s linear);
 }
 
 //------------------- Navbar -------------------------
@@ -188,18 +199,25 @@ h1,h2{
 	height:35px;
 	margin-top:12px;
 }
+
+
 #nav-btn{
-	color: white;
-	text-shadow: 0 0 0 white;
-	margin-top: 11px;
+	margin-top: 9px;
 	margin-bottom: auto;
 	margin-left: 20px;
+	color: white;
+	border: 1px solid rgba(221, 75, 57, 1);
+	background: rgba(221, 75, 57, 1);
+	@include transition (all 0.1s linear);
+}
+#nav-btn:hover{
+	background: white;
+	color: rgba(221, 75, 57, 1);
+	border: 1px solid rgba(221, 75, 57, 1);
+	@include transition (all 0.1s linear);
 }
 
-#nav-btn:hover {
-	background: #fc6c5e;
-	color: white;
-}
+
 
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {

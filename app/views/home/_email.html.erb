@@ -25,7 +25,7 @@
 					<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
 					<div class="input">
 						<%= text_field 'email' , 'email', :placeholder => 'votre email'%>
-						<%= submit_tag "SUIVEZ-NOUS" , :class => "btn subscribe-btn"%>
+						<%= submit_tag "SUIVEZ-NOUS" , :class => "btn btn-blue subscribe-btn"%>
 					</div>
 					<p class="error-message"></p>
 					<% end %>
@@ -51,7 +51,7 @@
 				<p>HTML/CSS, Javascript, UX, dataviz, APIs, Design... Aller voir la carte !</p>
 			</div>
 			<div class="span4">
-				<%= link_to "ALLEZ VOIR !", courses_path, class: "btn btn-ticket", style: "width:95px;" %>
+				<%= link_to "ALLEZ VOIR !", courses_path, class: "btn btn-blue", style: "width:95px;" %>
 			</div>
 		</div>
 		
