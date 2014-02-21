@@ -19,6 +19,7 @@ Lewagon::Application.routes.draw do
   get "/home" => "home#page", page: "home"
   get "/partenaires" => "home#page", page: "partenaires"
   get "/profs" => "home#page", page: "profs"
+  get "/alumni" => "home#page", page: "alumni"
   get "/express" => "home#page", page: "express"
   get "/premiere" => "home#page", page: "premiere_classe"
   get "/wagon_bar" => "home#page", page: "wagon_bar"
