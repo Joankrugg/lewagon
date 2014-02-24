@@ -12,40 +12,41 @@
 	  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	
 	  <%= stylesheet_link_tag    "application", :media => "all" %>
-	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
 	  <%= render 'layouts/analytics' %>
 	</head>
-	<body>
-		
+	<% if params[:page] %>
+	  <body id="<%=params[:page]%>">
+	<% else %>
+	  </body>
+	<% end %>
+  	<%= render 'layouts/header' %>
+
+  	<% page =  params[:page] || "" %>
+  	<% controller =  params[:controller] || "" %>
 	
-		<script>(function(d, s, id) {
-			var js, fjs = d.getElementsByTagName(s)[0];
-		  	if (d.getElementById(id)) return;
-		  	js = d.createElement(s); js.id = id;
-		  	js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=170809313078160";
-		  	fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-
-		<%= render 'layouts/header' %>
-
-		<% page =  params[:page] || "" %>
-		<% controller =  params[:controller] || "" %>
-		
-		<% if page.to_s == "home" || page.to_s == "koudetat" %> <!--Home page with 100% width carousel-->
-			<div class="main-container">
-				<%= yield %>
-			</div>
-		<% elsif controller == "blog" %> <!--Blog with different layout-->
+  	<% if page.to_s == "home" || page.to_s == "koudetat" %> <!--Home page with 100% width carousel-->
+  		<div class="main-container">
+  			<%= yield %>
+  		</div>
+  	<% elsif controller == "blog" %> <!--Blog with different layout-->
   		  <%= render 'layouts/blog' %>
-		<% else %>
-			<div class="main-container narrow">
-				<%= yield %>
-			</div>
-		<% end %>
-	
-		<%= render 'layouts/footer' %>
+  	<% else %>
+  		<div class="main-container narrow">
+  			<%= yield %>
+  		</div>
+  	<% end %>
 
+  	<%= render 'layouts/footer' %>
+
+    <%= javascript_include_tag "application" %>
+    <script>(function(d, s, id) {
+  		var js, fjs = d.getElementsByTagName(s)[0];
+  	  	if (d.getElementById(id)) return;
+  	  	js = d.createElement(s); js.id = id;
+  	  	js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1&appId=170809313078160";
+  	  	fjs.parentNode.insertBefore(js, fjs);
+  	}(document, 'script', 'facebook-jssdk'));
+  	</script>
 	</body>
 </html>

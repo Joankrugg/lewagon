@@ -8,24 +8,55 @@
 	line-height: 25px;
 }
 
-#banner{
-	padding: 100px;
+#home{
 	background: url('carousel1.jpg') no-repeat;
-	background-size: 100%;
-	color: white;
-	h1, p, a{
+	background-size: 100% ;
+	background-attachment: fixed;
+	background-position: 0 60px;
+}
+
+
+#banner-wrapper{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	
+	#ratio-helper {
+		padding-top: 37.5%;
+	}
+	
+	#banner{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		
+		padding: 75px 100px;
 		color: white;
+		h1, p, a{
+			color: white;
+		}
+
+		.fb-like{
+			vertical-align: 6px;
+		}
+		.main-nl{
+			margin-top: 30px;
+		}
 	}
 }
 
 #banner h1 {
-	font-size:60px;
-	line-height:60px;
+	color: rgb(250,250,250);
+	font-size: 60px;
+	line-height: 60px;
 	text-shadow: 0px 0px 1px grey;
 }
 
 #banner{
 	cursor: pointer;
+	text-align: center;
 }
 
 #player-btn{
@@ -36,6 +67,29 @@
 #player-btn:hover{
 	color: white;
 	opacity: 0.6;
+}
+
+#subscribe-input{
+	background: rgba(0,0,0,0.6);
+	color: white;
+	border: 2px solid grey;
+}
+
+
+@media (max-width: 1040px){
+	#banner #player-btn, h3{
+		display: none;
+	}
+	
+	#banner h1{
+		font-size:40px;
+		line-height:40px;
+	}
+	
+	#banner-wrapper #banner{
+		padding: 30px 100px;
+	}
+	
 }
 
 
@@ -136,7 +190,7 @@ hr{
 }
 
 //------------------ profs --------------------
-#profs{
+#profs-page{
 	padding:50px 50px;
 }
 
