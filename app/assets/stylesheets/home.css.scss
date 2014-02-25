@@ -44,6 +44,18 @@
 		.main-nl{
 			margin-top: 30px;
 		}
+		::-webkit-input-placeholder { /* WebKit browsers */
+		    color:    rgba(200,200,200,0.4);
+		}
+		:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+		    color:    rgba(200,200,200,0.4);
+		}
+		::-moz-placeholder { /* Mozilla Firefox 19+ */
+		    color:    rgba(200,200,200,0.4);
+		}
+		:-ms-input-placeholder { /* Internet Explorer 10+ */
+		    color:    rgba(200,200,200,0.4);
+		}
 	}
 }
 
