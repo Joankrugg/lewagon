@@ -1,11 +1,11 @@
 <% if @response.has_key?("error") %>
 	$('.error-message').show();
-	var codes = {"502":"email invalide!", "214": "vous vous êtes déjà inscrit à cette newsletter" };
+	var codes = {"502":"email invalide!", "214": "Vous êtes déjà inscrit à cette newsletter" };
 	var code = <%= @response['code'] %>;
 	var message = codes[code];
-	$('.error-message').html(message).delay(800).fadeOut(600);;
+	$('.error-message').html(message).delay(800);
 <% else %>
 	$('.error-message').hide();
 	$('form').hide();
-	$('.main-nl').html("<h4 style='bold'>Merci ! Nous vous tenons informé de l'activité du wagon.</h4>")
+	$('.main-nl').html("<h4 style='bold'>Merci ! Nous vous tiendrons informé de l'activité du wagon.</h4>")
 <% end %>

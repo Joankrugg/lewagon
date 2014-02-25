@@ -5,6 +5,7 @@
 @import "museo-slab";
 //BOOTSTRAP
 @import "bootstrap";
+@import "bootstrap-responsive";
 //CONTROLLER CSS
 @import "home";
 @import "courses";
@@ -24,23 +25,31 @@ html{
 	height: 100%;
 }
 
-body{	
+body{
 	background-color:transparent;
 	color:#666;
-	font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	padding-top:60px;
+	font-family: 'ProximaNovaA-Regular','Source Sans Pro', 'Merriweather' , 'Gudea', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	line-height:1.4;
 	font-size: 15px;
+}
+
+body {
+  padding-top: 60px;
+}
+@media (max-width: 980px) {
+  body {
+    padding-top: 0;
+  }
 }
 
 
 a {
 	outline: none;
-	color:#dd4b39; 
+	color:#dd4b39;
 }
 
 a:hover{
-	color:#dd4b39; 
+	color:#dd4b39;
 	text-decoration:none
 }
 
@@ -48,26 +57,6 @@ h1,h2{
 	font-family: 'ProximaNova-Bold','Arial';
 	font-weight: 500;
 	line-height: 1.2;
-}
-
-.main-container{
-	margin: 0;
-	width: 100%;
-}
-
-.narrow{
-	width: 75%;
-	margin: 0 auto;  
-}
-
-#home .narrow{
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
-.large{
-	margin-left: -100px;
-	margin-right: -100px;  
 }
 
 .bg-white{
@@ -112,8 +101,17 @@ h1,h2{
 
 .img-circle{
 	width:100px;
-	border-radius:50px;	
+	border-radius:50px;
 	overflow:hidden;
+}
+
+@media(max-width: 767px) {
+  .img-circle {
+    margin: auto;
+    display: block;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
 }
 
 .logo_ut7_tiny{
@@ -138,7 +136,7 @@ h1,h2{
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
-	text-shadow: 0 0px 0px rgba(255, 255, 255, 1);	
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 1);
 	text-decoration: none;
 	color:white;
 	padding:10px;
@@ -172,13 +170,6 @@ h1,h2{
 }
 
 //------------------- Navbar -------------------------
-.navbar-fixed-top{
-	background-color:white;
-	border:0;
-	height:60px;
-	line-height:40px;
-	border-bottom: 1px solid #f2f2f2;
-}
 
 .navbar .brand{
 	color:#333;
@@ -189,8 +180,9 @@ h1,h2{
 	line-height:40px;
 }
 
-.nav > li > a{
+.navbar .nav > li > a {
 	font-size: 13px;
+  text-shadow: none;
 	@include transition (all 0.1s $ease-in-quad);
 }
 
@@ -205,8 +197,16 @@ h1,h2{
 }
 
 #logo{
-	height:35px;
+	height:30px;
 	margin-top:12px;
+  margin-left: 8px;
+}
+
+@media(max-width: 979px) {
+  #logo {
+    height: 18px;
+    margin-left: 20px;
+  }
 }
 
 
@@ -250,15 +250,21 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endC
 //-------------------- Footer --------------------------------
 
 footer{
+  padding: 20px 20px 40px 20px;
 	color:#ccc;
-	background-color:#20272d;
-	margin-bottom:20px;
-	padding-top:20px;
-	padding-bottom:20px;
-  position: relative;
+	position: relative;
   text-align: left;
 	font-size:12px;
+  background-color:#20272d;
 }
+
+@media(max-width: 767px) {
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
 
 footer a{
 	color:#ccc;
@@ -274,7 +280,7 @@ footer ul{
 	list-style-type: none;
 	padding-right: 15px;
 	margin:0;
-  
+
 }
 
 footer li{

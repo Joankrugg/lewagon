@@ -16,6 +16,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
   gem 'bourbon'
   gem 'quiet_assets'
+  gem 'bootstrap-sass', '~> 2.3'
 end
 
 gem "jquery-rails", "2.3.0"
