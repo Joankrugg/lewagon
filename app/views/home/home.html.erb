@@ -1,6 +1,5 @@
 <!--%= render partial: "email"%-->
 
-
 <div class="bg-white">
 	<div class="row-fluid" id='pgrmes-title'>
 		<div class="span10 offset1">
@@ -61,13 +60,12 @@
 		<div class="span5">
 			<div class="row-fluid">
 				<div class="span12 center">
-					<h4 class="proxima-bold black">PREMIERE CLASSE
-						<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
-						<span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
-					</h4>
-					<p>Plus que 3 places pour Avril !</p>
-					<%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
-					<% end %>
+					<h4 class="proxima-bold black">PREMIERE CLASSE</h4>
+					<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+					  <span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
+				    <p>Plus que 3 places pour Avril !</p>
+				    <%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
+				  <% end %>
 				</div>
 			</div>
 		</div>

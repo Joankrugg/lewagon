@@ -3,43 +3,46 @@
 <%= f.input :password_confirmation , :as => :hidden %>
 
 
-<br/>
+<% if @user.errors.any? %>
+  <div class="row-fluid">
+  	<div class="span12">
+  				<h3 class='red'>Il nous manque des informations..</h3>
+  				<br/>
+
+  	</div>
+  </div>
+<% end %>
 
 <div class="row-fluid">
-	<div class="span12">
-			<% if @user.errors.any? %>
-				<h3 class='red'>Il nous manque des informations..</h3> 
-				<br/>
-			<% end %>
-	</div>
+  <div class="span12">
+    <h3 class="darkgrey proxima-bold center">CANDIDATURE PREMIERE CLASSE</h3>
+    <hr />
+  </div>
 </div>
-
-<h3 class="darkgrey proxima-bold center">CANDIDATURE PREMIERE CLASSE</h3>
-<hr>
 <div class="row-fluid">
-	<div class="span5" style="padding-left:20px">
+	<div class="span5">
 		<h4>Vos infos</h4>
-		<%= f.input :firstname, label: false, 
-								input_html: { class: 'input', autocomplete:'on', type: 'text'}, 
+		<%= f.input :firstname, label: false,
+								input_html: { class: 'input', autocomplete:'on', type: 'text'},
 								placeholder: 'prénom'
 		%>
-		<%= f.input :lastname,  label: false, 
-								input_html: { class: 'input', autocomplete:'on',type: 'text'}, 
+		<%= f.input :lastname,  label: false,
+								input_html: { class: 'input', autocomplete:'on',type: 'text'},
 								placeholder: 'nom de famille'
 		%>
 		<%= f.input :email, label: false,
-							input_html: { class: 'input', autocomplete:'on', type: 'text'}, 
+							input_html: { class: 'input', autocomplete:'on', type: 'text'},
 							placeholder: 'email'
 		%>
-		<%= f.input :age, 	input_html: { class: 'input',autocomplete:'on'}, 
-							prompt: 'votre âge', collection: 7..99, priority: [''], 
-							:placeholder => "Votre âge", 
-							label: false 
+		<%= f.input :age, 	input_html: { class: 'input',autocomplete:'on'},
+							prompt: 'votre âge', collection: 7..99, priority: [''],
+							:placeholder => "Votre âge",
+							label: false
 		%>
-		<%= f.input :profile, input_html: { class: 'input',autocomplete:'on'}, 
-							  collection: ["étudiant" , "entrepreneur", "salarié", "en recherche d'emploi", "autre"], 
-							  :prompt => "Vous êtes", 
-							  label: false  
+		<%= f.input :profile, input_html: { class: 'input',autocomplete:'on'},
+							  collection: ["étudiant" , "entrepreneur", "salarié", "en recherche d'emploi", "autre"],
+							  :prompt => "Vous êtes",
+							  label: false
 		%>
 		<%= f.input :linkedin, input_html: { class: 'input',autocomplete:'on'} , placeholder: 'http://www.linkedin.com/in/username', :label => "Profil Linkedin" %>
 		<br>
@@ -65,22 +68,22 @@
 
 $(document).ready(function() {
 
-	$('.about').click(function(event){	
-		window.location = '/';	
+	$('.about').click(function(event){
+		window.location = '/';
 		event.preventDefault();
 	});
 
-	$('.profs').click(function(event){		
+	$('.profs').click(function(event){
 		window.location = '/';
 		event.preventDefault();
 	});
 
 	$('.partenaires').click(function(event){
-		window.location = '/';		
+		window.location = '/';
 		event.preventDefault();
 	});
 
-	$('.qr').click(function(event){		
+	$('.qr').click(function(event){
 		window.location = '/';
 		event.preventDefault();
 	});

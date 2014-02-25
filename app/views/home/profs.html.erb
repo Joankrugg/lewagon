@@ -1,19 +1,23 @@
-<div id="profs-page">
-	
-	<div class="row-fluid">
-		<div class="span4 pull-right mail-us">
-			<h3 class="grey">Rejoignez-nous !</h3>
-			<p>Vous souhaitez rejoindre l'équipe du wagon, pour proposer un nouveau cours ou  devenir mentor, <a href='mailto:contact@lewagon.org' class="red">CONTACTEZ-NOUS</a></p>
-		</div>
-	</div>
-	
-	<br/><br/>
+<% content_for :title, "Le Wagon - Profs" %>
 
-	<div class="row-fluid">
-		<div class="span2 center">
+<div class="row-fluid">
+  <div class="span4">
+    <h1>Les Profs</h1>
+  </div>
+	<div class="span4 offset4 mail-us">
+		<h3 class="grey">Rejoignez-nous !</h3>
+		<p>Vous souhaitez rejoindre l'équipe du wagon, pour proposer un nouveau cours ou  devenir mentor, <a href='mailto:contact@lewagon.org' class="red">CONTACTEZ-NOUS</a></p>
+	</div>
+</div>
+
+<div class="vertical-spacer"></div>
+
+<div class="row-fluid">
+  <div class="span6">
+		<div class="span4 center">
 			<%= image_tag 'mathieu.png' , :class => 'img-circle' %>
 		</div>
-		<div class="span4">
+		<div class="span8">
 			<p class="bitter-blue">Mathieu Ripert</p>
 			<p class="justify">
 				Touche-à-tout, passionné de data, développeur et entrepreneur. Il est consultant statisticien et responsable digital chez <%= link_to "Ekimetrics", "http://ekimetrics.com", target: "_blank"%> depuis 2011, puis rejoint <%= link_to "Compass", "https://www.startupcompass.co/", target: "_blank"%> à SF. Récemment il crée <%= link_to "Tx.to", "http://txto.fr",target: "_blank" %>, une plateforme d'analyse et d'impression de sms !
@@ -25,11 +29,13 @@
 				<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
 			</a>
 		</div>
+  </div>
 
-		<div class="span2 center">
+  <div class="span6">
+		<div class="span4 center">
 			<%= image_tag 'papillard.jpg' , :class => 'img-circle' %>
 		</div>
-		<div class="span4">
+		<div class="span8">
 			<p class="bitter-blue">Boris Paillard</p>
 			<p class="justify">
 				Il a fui sa salle de marché pour se lancer dans le code, corps et âme. Féru de belle pédagogie, il code en Ruby On Rails depuis maintenant 2 ans, et comprend parfaitement les besoins des débutants. Il a codé le site du wagon.
@@ -41,44 +47,43 @@
 				<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
 			</a>
 		</div>
+  </div>
+</div>
+
+<br>
+
+<div class="row-fluid">
+
+	<div class="span2 center">
+		<%= image_tag 'mack.png' , :class => 'img-circle' %>
 	</div>
-	
-	<br>
-
-	<div class="row-fluid">
-
-		<div class="span2 center">
-			<%= image_tag 'mack.png' , :class => 'img-circle' %>
-		</div>
-		<div class="span4">
-			<p class="bitter-blue">Mack McConnell</p>
-			<p class="justify">
-				Un américain à Paris! Formé au Devbootcamp à San Francisco, Mack a été développeur ruby chez <%= link_to "Tigerlilyapps", "http://www.tigerlilyapps.com/", target: "_blank"%> pour ensuite se consacrer à son site de whiskey <%= link_to "Taster's Club", "http://www.tastersclub.com/", target: "_blank"%>. Plus que motivé pour partager ses connaissances avec nous, petits frenchies.
-			</p>
-			<a href='http://www.linkedin.com/pub/mack-mcconnell/16/61/b26' target='_BLANK'>
-				<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
-			</a>
-			<a href='https://www.facebook.com/mackmackboback' target='_BLANK'>
-				<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
-			</a>
-		</div>	
-
-		<div class="span2 center">
-			<%= image_tag 'olivier.png' , :class => 'img-circle' %>
-		</div>
-		<div class="span4">
-			<p class="bitter-blue">Olivier Lance</p>
-			<p class="justify">
-				Motard globetrotter, développeur depuis ses 13 ans, crack en Ruby on Rails. Passionné de photo, Olivier a créé <%= link_to "Sylights", "http://www.sylights.com",target: "_blank"%> en 2010, une appli qui permet aux photographes de créer et partager des schémas d'éclairage, rien de moins !
-			</p>
-			<a href='http://www.linkedin.com/in/olivierlance' target='_BLANK'>
-				<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
-			</a>
-			<a href='https://www.facebook.com/olivier.lance' target='_BLANK'>
-				<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
-			</a>
-		</div>
-
+	<div class="span4">
+		<p class="bitter-blue">Mack McConnell</p>
+		<p class="justify">
+			Un américain à Paris! Formé au Devbootcamp à San Francisco, Mack a été développeur ruby chez <%= link_to "Tigerlilyapps", "http://www.tigerlilyapps.com/", target: "_blank"%> pour ensuite se consacrer à son site de whiskey <%= link_to "Taster's Club", "http://www.tastersclub.com/", target: "_blank"%>. Plus que motivé pour partager ses connaissances avec nous, petits frenchies.
+		</p>
+		<a href='http://www.linkedin.com/pub/mack-mcconnell/16/61/b26' target='_BLANK'>
+			<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
+		</a>
+		<a href='https://www.facebook.com/mackmackboback' target='_BLANK'>
+			<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
+		</a>
 	</div>
-	
+
+	<div class="span2 center">
+		<%= image_tag 'olivier.png' , :class => 'img-circle' %>
+	</div>
+	<div class="span4">
+		<p class="bitter-blue">Olivier Lance</p>
+		<p class="justify">
+			Motard globetrotter, développeur depuis ses 13 ans, crack en Ruby on Rails. Passionné de photo, Olivier a créé <%= link_to "Sylights", "http://www.sylights.com",target: "_blank"%> en 2010, une appli qui permet aux photographes de créer et partager des schémas d'éclairage, rien de moins !
+		</p>
+		<a href='http://www.linkedin.com/in/olivierlance' target='_BLANK'>
+			<%= image_tag 'linkedin.png' , :class => 'img-linkedin'%>
+		</a>
+		<a href='https://www.facebook.com/olivier.lance' target='_BLANK'>
+			<%= image_tag 'facebook.png' , :class => 'img-twitter'%>
+		</a>
+	</div>
+
 </div>

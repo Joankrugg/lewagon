@@ -19,7 +19,7 @@
 	<% if params[:page] %>
 	  <body id="<%=params[:page]%>">
 	<% else %>
-	  </body>
+	  <body>
 	<% end %>
   	<%= render 'layouts/header' %>
 
@@ -28,16 +28,16 @@
 
   	<% if page.to_s == "home" %> <!--Home page with 100% width carousel-->
       <%= render 'banner' %>
-  		<div class="container bg-white">
-  			<%= yield %>
-  		</div>
-    <% elsif controller == "blog" %> <!--Blog with different layout-->
-  		  <%= render 'layouts/blog' %>
-  	<% else %>
-  		<div class="container bg-white">
-  			<%= yield %>
-  		</div>
-  	<% end %>
+    <% end %>
+
+
+    <div class="container main-container bg-white">
+      <% if controller == "blog" %> <!--Blog with different layout-->
+		    <%= render 'layouts/blog' %>
+      <% else %>
+        <%= yield %>
+      <% end %>
+    </div>
 
   	<%= render 'layouts/footer' %>
 

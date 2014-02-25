@@ -1,9 +1,13 @@
+<% content_for :title, "Le Wagon - Blog" %>
+
 <div id="blog">
 	<div class="row-fluid">
 	  <div class="span8" id="post-container">
-	    <%= yield %>
+      <div id="inner-post-container">
+	      <%= yield %>
+      </div>
 	  </div>
-	  <div class="span4" id="blog-sidebar">
+	  <div class="span4">
 	    <div class='main-nl'>
 				<%= form_tag  url_for(controller: 'home',:action => 'subscribe'), :method => "post", :remote => true  do %>
 					<div class="input">

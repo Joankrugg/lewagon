@@ -1,3 +1,5 @@
+<% content_for :title, "Le Wagon Première Classe - Formation bootcamp 2 mois" %>
+
 <div id="premiere" class="open-sans justify">
 	<div class="row-fluid">
 		<div class="span10 offset1">
@@ -11,25 +13,25 @@
 				<span class="red">Départ Avril 2014</span> - 2 mois pour être autonome en développement web
 			</h4>
 			<p>
-				Une formation-tremplin de 2 mois <span class="bold">à temps plein</span> pour rejoindre une startup, se lancer sur un projet personnel, 
+				Une formation-tremplin de 2 mois <span class="bold">à temps plein</span> pour rejoindre une startup, se lancer sur un projet personnel,
 				ou trouver un poste de développeur junior avec le bagage technique suffisant.
 			</p>
 			<br/>
 			<div class="fb-like" data-href="http://www.lewagon.org<%= request.path %>" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
 			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://lewagon.org/premiere" data-via="Lewagonparis" data-lang="fr" data-hashtags="premiere">Tweeter</a>
 			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-			
+
 			<br/><br/>
 			<ul>
 			<li>Si vous souhaitez nous rencontrer pour discuter du programme, <span class="red bold"><%=link_to "POSTULEZ", {controller: "registrations", action: "new"}%></span>.</li>
 			<br/>
 			<li>Si vous voulez en savoir plus, lisez la suite !</li>
 			</ul>
-			
+
 			<hr/>
-			
+
 			<br/>
-			
+
 			<h2 class="blue">POUR QUI ?</h2>
 			<p>
 				Que faut-il pour embarquer en première classe ? Un
@@ -87,7 +89,7 @@
 				<div class="span6" style="padding-right:20px">
 					<h3>Le cadre</h3>
 					<p>
-						Le Wagon s'associe à Silicon Sentier pour lancer son programme 
+						Le Wagon s'associe à Silicon Sentier pour lancer son programme
 						"Première classe" et s'installe à
 						<%=
 						link_to "NUMA",
@@ -96,7 +98,7 @@
 						%>, nouveau coeur du numérique à Paris.
 						Le GLII rassemble des start-up, des centres de
 						recherche, des fonds d’investissement, des incubateurs, des agences de
-						design... L'objectif n'est pas uniquement de former techniquement les participants, mais 
+						design... L'objectif n'est pas uniquement de former techniquement les participants, mais
 						<span class="bold">de leur ouvrir un réseau, de les propulser dans un écosystème</span>.
 					</p>
 					<p>
@@ -107,7 +109,7 @@
 				</div>
 
 				<div class="span6" style="padding-left:20px">
-					<h3>L'équipe</h3> 
+					<h3>L'équipe</h3>
 					<p>
 						<%= link_to "Les professeurs du Wagon", :profs %> sont tous des entrepreneurs
 						web (<a href="http://tastersclub.com">Taster's club</a>, <a href="http://sylights.com">Sylights</a>,
@@ -165,7 +167,7 @@
 
 				<p>
 					Nous pensons que "l'élève est un animal social" et apprend
-					deux fois plus vite au contact des autres. Écrire du code, c'est comme écrire du français. 
+					deux fois plus vite au contact des autres. Écrire du code, c'est comme écrire du français.
 					Chacun d'entre nous a son propre style et son propre vocabulaire. Au même titre,
 					chaque développeur a sa façon d'appréhender un problème, d'y apporter une
 					réponse, et d'écrire le code correspondant. Pour tirer parti de cette
@@ -178,7 +180,7 @@
 				<p>
 					Le programme "Première classe" veut mettre l'accent sur les bonnes pratiques de développement. Ces méthodologies et ces techniques permettent d'écrire du code propre, lisible, maintenable. Elles simplifient la vie du développeur sur le long terme, et sont aussi très intéressantes intellectuellement et d'un point de vue pédagogique :
 					<strong>
-						stratégies de versionnement, développement piloté par les tests, 
+						stratégies de versionnement, développement piloté par les tests,
 						remaniement du code existant, déploiement continu,...
 					</strong>
 				</p>
@@ -194,7 +196,7 @@
 							On peut maîtriser à la perfection les concepts et les techniques de
 							programmation, cela n'a pas tellement d'intérêt si l'on ne sait pas
 							livrer à temps un produit utile et utilisable. Le programme "Première classe"
-							veut apprendre aux participants à re-définir un produit, une proposition de valeur, 
+							veut apprendre aux participants à re-définir un produit, une proposition de valeur,
 							pour à la fois respecter ses délais et développer <span class="bold">des produits qui ont du sens</span> et répondent à un réel besoin.
 						</p>
 					</div>
@@ -203,7 +205,7 @@
 						<h4 class="bold">Livrer un produit qui marche</h4>
 						<p>
 							Il est primordial qu'un développeur professionnel, même junior, ait
-							confiance dans le fait que ce qu'il code fonctionne correctement. Les participants 
+							confiance dans le fait que ce qu'il code fonctionne correctement. Les participants
 							apprendront à vérifier le fonctionnement de leurs programmes et à automatiser ces vérifications à travers des
 							tests.
 						</p>
@@ -218,8 +220,8 @@
 						<p>
 							Un développeur qui comprend la structure d'un "bout de code" n'a pas de mal
 						  à se documenter sur les éléments qu'il ne connaît pas.
-							Nous pousserons donc les participants à raisonner sur du code. 
-							Les problèmes auxquels sont confrontés les développeurs sont souvent complexes 
+							Nous pousserons donc les participants à raisonner sur du code.
+							Les problèmes auxquels sont confrontés les développeurs sont souvent complexes
 							dans la vraie 	vie. Il est essentiel d'avoir cette capacité d'abstraction et d'être capable de réfléchir à une solution par oral ou sur une feuille de papier avant d'écrire la moindre ligne de code.
 						</p>
 					</div>
@@ -243,11 +245,11 @@
 					résolution d'exercices en binômes.
 				</p>
 				<p>
-					En début d'après-midi, les participants codent en public, pour mettre en 
+					En début d'après-midi, les participants codent en public, pour mettre en
 					application les notions abordées, reformuler leurs acquis, et échanger
 					avec le reste du groupe. Le reste de l'après-midi est consacré à
 					la résolution d'exercices ou à des projets en équipe plus ambitieux. Les
-					professeurs sont là pour expliquer des points techniques à mesure que les élèves y sont 
+					professeurs sont là pour expliquer des points techniques à mesure que les élèves y sont
 					confrontés dans les exercices, pour les aider à formaliser des solutions et pour faire
 					des démonstrations "en live" quand le groupe a besoin d'éclaircissements sur une nouvelle notion, une nouvelle librairie, un nouvel outil..
 				</p>
@@ -263,9 +265,9 @@
 				<p>
 					Suite à votre inscription au programme, nous vous contacterons rapidement
 					pour un entretien (par Skype ou <em>de visu</em>). Cet entretien sera
-					l'occasion de discuter ensemble de vos objectifs en montant dans le Wagon, et de s'assurer 
-					que le programme "Première classe" correspond bien à votre personnalité et à 
-					votre projet professionnel. Nous discuterons un peu de votre niveau et de votre expérience, 
+					l'occasion de discuter ensemble de vos objectifs en montant dans le Wagon, et de s'assurer
+					que le programme "Première classe" correspond bien à votre personnalité et à
+					votre projet professionnel. Nous discuterons un peu de votre niveau et de votre expérience,
 					mais surtout de votre motivation.
 				</p>
 
