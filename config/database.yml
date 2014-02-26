@@ -3,6 +3,10 @@ development:
    encoding: unicode
    database: techcamp_development
    pool: 5
+   host: localhost
+   port: 5432
+   username: postgres
+   password: postgres
 
 test:
   adapter: postgresql
