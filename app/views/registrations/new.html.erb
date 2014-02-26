@@ -5,7 +5,7 @@
 
 <% if @user.errors.any? %>
   <div class="row-fluid">
-  	<div class="span12">
+  	<div class="span10 offset1">
   				<h3 class='red'>Il nous manque des informations..</h3>
   				<br/>
 
@@ -14,13 +14,20 @@
 <% end %>
 
 <div class="row-fluid">
-  <div class="span12">
+  <div class="span10 offset1">
     <h3 class="darkgrey proxima-bold center">CANDIDATURE PREMIERE CLASSE</h3>
     <hr />
   </div>
 </div>
 <div class="row-fluid">
-	<div class="span5">
+	<div class="span6 offset1">
+		<h4>Quelques questions pour mieux vous connaître</h4>
+		<%= f.input :q1, :input_html => {:style=> 'width:90%;height:100px'}, placeholder: 'Pourquoi postulez-vous au wagon ?', :label => false %>
+		<%= f.input :q2, input_html: {:style=> 'width:90%;height:100px'},  placeholder: "Qu'avez-vous déjà fait pour apprendre à coder ? Quelles ressources avez-vous utilisées?", :label => false %>
+		<%= f.input :q3, input_html: {:style=> 'width:90%;height:100px'},  placeholder: "Dans quels domaines du développement web pensez-vous être compétent ? Où rencontrez-vous des difficultés ?", :label => false %>
+		<%= f.input :q4, input_html: {:style=> 'width:90%;height:100px'},   placeholder: "Qu'aimeriez-vous avoir appris d'ici la fin du programme ?", :label => false %>
+	</div>
+	<div class="span4">
 		<h4>Vos infos</h4>
 		<%= f.input :firstname, label: false,
 								input_html: { class: 'input', autocomplete:'on', type: 'text'},
@@ -47,14 +54,6 @@
 		<%= f.input :linkedin, input_html: { class: 'input',autocomplete:'on'} , placeholder: 'http://www.linkedin.com/in/username', :label => "Profil Linkedin" %>
 		<br>
 		<p><%= f.submit "ENVOYER" , class: 'btn btn-red' %></p>
-	</div>
-
-	<div class="span7">
-		<h4>Quelques questions pour mieux vous connaître</h4>
-		<%= f.input :q1, :input_html => {:style=> 'width:90%;height:100px'}, placeholder: 'Pourquoi postulez-vous au wagon ?', :label => false %>
-		<%= f.input :q2, input_html: {:style=> 'width:90%;height:100px'},  placeholder: "Qu'avez-vous déjà fait pour apprendre à coder ? Quelles ressources avez-vous utilisées?", :label => false %>
-		<%= f.input :q3, input_html: {:style=> 'width:90%;height:100px'},  placeholder: "Dans quels domaines du développement web pensez-vous être compétent ? Où rencontrez-vous des difficultés ?", :label => false %>
-		<%= f.input :q4, input_html: {:style=> 'width:90%;height:100px'},   placeholder: "Qu'aimeriez-vous avoir appris d'ici la fin du programme ?", :label => false %>
 	</div>
 </div>
 
