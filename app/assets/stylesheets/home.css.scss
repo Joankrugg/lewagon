@@ -15,8 +15,24 @@
   }
 }
 
+@media(min-width: 1200px) {
+  #banner-wrapper {
+    background-attachment: fixed;
+    background-size: contain !important;
+    background-position: 0 60px;
+  }
+}
+
+@media(min-width: 1600px) {
+  #banner-wrapper {
+    background-attachment: fixed;
+    background-size: cover !important;
+  }
+}
+
+
 #banner-wrapper{
-	padding: 100px 0 40px 0;
+	padding: 60px 0 40px 0;
 
   background-image: url('carousel1.jpg');
   background-repeat: no-repeat;

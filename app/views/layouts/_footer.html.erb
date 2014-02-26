@@ -2,52 +2,54 @@
 <div class="container-fluid">
 
 	<div class="row-fluid">
-		<div class="span2 offset1">
-			<ul>
-			<h5>Le Wagon</h5>
-				<li><%= link_to "Profs", {controller: "home", action: 'page', page: 'profs'}%></li>
-				<li><%= link_to "Partenaires", {controller: "home", action: 'page', page: 'partenaires'}%></li>
-				<li><%= link_to "Presse", {controller: "home", action: 'page', page: 'presse'}%></li>
+    <div class="span10 offset1">
+  		<div class="span3">
+  			<ul>
+  			<h5>Le Wagon</h5>
+  				<li><%= link_to "Profs", {controller: "home", action: 'page', page: 'profs'}%></li>
+  				<li><%= link_to "Partenaires", {controller: "home", action: 'page', page: 'partenaires'}%></li>
+  				<li><%= link_to "Presse", {controller: "home", action: 'page', page: 'presse'}%></li>
 
-			</ul>
-		</div>
+  			</ul>
+  		</div>
 
-		<div class="span2">
-			<ul>
-			<h5>Programmes</h5>
-				<li><%= link_to "Wagon bar", courses_path %></li>
-				<li><%= link_to "Express", {controller: "home", action: 'page', page: 'express'}%></li>
-				<li><%= link_to "Première classe", {controller: "home", action: 'page', page: 'premiere_classe'}%></li>
-			</ul>
+  		<div class="span3">
+  			<ul>
+  			<h5>Programmes</h5>
+  				<li><%= link_to "Wagon bar", courses_path %></li>
+  				<li><%= link_to "Express", {controller: "home", action: 'page', page: 'express'}%></li>
+  				<li><%= link_to "Première classe", {controller: "home", action: 'page', page: 'premiere_classe'}%></li>
+  			</ul>
 
-		</div>
+  		</div>
 
-		<div class="span2">
-			<ul>
+  		<div class="span3">
+  			<ul>
 
-			<h5>Suivez nous</h5>
-				<li><%= link_to 'Facebook' , 'https://www.facebook.com/lewagonformation' %></li>
-				<li><%= link_to 'Twitter' , 'https://twitter.com/lewagonparis' %></li>
-				<li><a href="http://blog.lewagon.org/" target="_blank">Blog</a></li>
-			</ul>
+  			<h5>Suivez nous</h5>
+  				<li><%= link_to 'Facebook' , 'https://www.facebook.com/lewagonformation' %></li>
+  				<li><%= link_to 'Twitter' , 'https://twitter.com/lewagonparis' %></li>
+  				<li><a href="http://blog.lewagon.org/" target="_blank">Blog</a></li>
+  			</ul>
 
-		</div>
+  		</div>
 
-		<div class="span2">
-			<h5>Contact</h5>
-      <ul>
-				<li><%= link_to "contact@lewagon.org", "mailto:contact@lewagon.org" %></li>
-				<li>
-          <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-        </li>
-				<li>
-          <a href="https://twitter.com/Lewagonparis" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow</a>
-        </li>
-				<li>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-        </li>
-      </ul>
-		</div>
+  		<div class="span3">
+  			<h5>Contact</h5>
+        <ul>
+  				<li><%= link_to "contact@lewagon.org", "mailto:contact@lewagon.org" %></li>
+  				<li>
+            <div class="fb-like" data-href="https://www.facebook.com/lewagonformation" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+          </li>
+  				<li>
+            <a href="https://twitter.com/Lewagonparis" class="twitter-follow-button" data-show-count="true" data-lang="en" data-show-screen-name="false">Follow</a>
+          </li>
+  				<li>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </li>
+        </ul>
+  		</div>
+      </div>
 		</div>
   </div>
 </footer>
