@@ -1,239 +1,221 @@
-<div class="span10 offset1">	
-  
-	<div class="row-fluid" id='pgrmes-title'>
-		<div class="span10 offset1">
-			<h1 class="with-line">
-				<span>
-					<%=image_tag "star.svg", class: "inline-img"%>
-					EN CE MOMENT
-					<%=image_tag "star.svg", class: "inline-img"%>
-				</span>
-			</h1>
-		</div>
-	</div>
+<div class="row-fluid">
+  <div class="span8 offset2">	
+	  <h1 class="with-line">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				EN CE MOMENT
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		<div class="vertical-spacer"></div>
+		
+		<div class="row-fluid">
+		  <div class="span6">
+		    <div class="row-fluid">
+        	<div class="span12 center">
+  					<%= link_to courses_path do %>
+  					<%= image_tag "logo-wagonbar@2x.png", width: "60%", class: "img-scale"%>
+  					<% end %>
+        	</div>
+        </div>
+        <hr/>
+        <% if @next_course[0] %>
+    			<%= link_to @next_course[0] do%>
+    			<div class="row-fluid" style="margin-bottom:10px;">
+    				<div class="span2 offset2 center">
+    					<%= image_tag @next_course[0].image.to_s, width: "100%"%>
+    				</div>
+    				<div class="span8">
+    					<h5 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h5>
+    					<p class="black" style="margin-top:-12px;"><%= @next_course[0].title.to_s.capitalize %></p>
+    				</div>
+    			</div>
+    			<% end %>
+  			<% end %>
+  			<% if @next_course[1] %>
+    			<%= link_to @next_course[1] do%>
+    			<div class="row-fluid" style="margin-bottom:15px;">
+    				<div class="span2 offset2 center">
+    					<%= image_tag @next_course[1].image.to_s, width: "100%"%>
+    				</div>
+    				<div class="span8">
+    					<h5 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h5>
+    					<p class="black" style="margin-top:-12px;"><%= @next_course[1].title.to_s.capitalize %></p>
+    				</div>
+    			</div>
+    			<% end %>
+  			<% end %>
+        <hr/>
+        <div class="row-fluid">
+        	<div class="span12 center">
+        		<%= link_to "+ DE COURS", courses_path, class: "btn btn-blue"%>
+        	</div>
+        </div>
+      </div>
+		    
+		  <div class="span6 center">
+			  <h4 class="proxima-bold black">PREMIERE CLASSE</h4>
+			  <%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+			    <span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
+		      <p>Candidatures ouvertes pour Juillet!</p>
+		      <%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
+		    <% end %>
+		  </div>
+	  </div>
 
-	<div class="row-fluid">
-		<div class="span5 offset1">
-			<div class="row-fluid">
-				<div class="span12 center">
-					<%= link_to courses_path do %>
-					<%= image_tag "logo-wagonbar@2x.png", width: "60%", class: "img-scale"%>
-					<% end %>
-				</div>
-			</div>
-			<hr>
-			<% if @next_course[0] %>
-			<%= link_to @next_course[0] do%>
-			<div class="row-fluid" style="margin-bottom:10px;">
-				<div class="span2 offset2 center">
-					<%= image_tag @next_course[0].image.to_s, width: "100%"%>
-				</div>
-				<div class="span8">
-					<h5 class="proxima-bold black"><%= l @next_course[0].date, format: :short, locale: :fr%></h5>
-					<p class="black" style="margin-top:-12px;"><%= @next_course[0].title.to_s.capitalize %></p>
-				</div>
-			</div>
-			<% end %>
-			<% end %>
-			<% if @next_course[1] %>
-			<%= link_to @next_course[1] do%>
-			<div class="row-fluid" style="margin-bottom:15px;">
-				<div class="span2 offset2 center">
-					<%= image_tag @next_course[1].image.to_s, width: "100%"%>
-				</div>
-				<div class="span8">
-					<h5 class="proxima-bold black"><%= l @next_course[1].date, format: :short, locale: :fr%></h5>
-					<p class="black" style="margin-top:-12px;"><%= @next_course[1].title.to_s.capitalize %></p>
-				</div>
-			</div>
-			<% end %>
-			<% end %>
-			<hr>
-			<div class="row-fluid">
-				<div class="span12 center">
-					<%= link_to "+ DE COURS", courses_path, class: "btn btn-blue"%>
-				</div>
-			</div>
-		</div>
+	  <h1 class="with-line">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				LE WAGON
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		
+		<div class="vertical-spacer"></div>
+		
+		<p class="grey justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. <span class="blue">La formation a parfois un wagon de retard</span>... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p>
+		<p class="grey justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes <span class="blue">talents</span> de devenir des <span class="blue">acteurs</span> de l'innovation.</p>
+		
+		<div class="vertical-spacer"></div>
+		
+		<div class="row-fluid">
+  		<div class="span12 center">
+  			<div class='main-nl'>
+  				<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
+  				<div class="input">
+  					<%= email_field 'email' , 'email', :placeholder => 'votre e-mail'%>
+  					<%= submit_tag "STAY IN TOUCH" , :class => "btn btn-blue subscribe-btn"%>
+  				</div>
+  				<br/>
+  				<p class="error-message"></p>
+  				<% end %>
+  			</div>
+  		</div>
+    </div>
 
-		<div class="span5">
-			<div class="row-fluid">
-				<div class="span12 center">
-					<h4 class="proxima-bold black">PREMIERE CLASSE</h4>
-					<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
-					  <span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
-				    <p>Plus que 3 places pour Avril !</p>
-				    <%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
-				  <% end %>
-				</div>
-			</div>
-		</div>
-	</div>
+	  <h1 class="with-line">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				NOS PROGRAMMES
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		<div class="vertical-spacer"></div>
+		
+		<div class="row-fluid">
+  		<div class="span6 pgrme">
+  			<%= link_to(courses_path) do %>
+  			<h3 class="bitter-blue">Le wagon bar</h3>
+  			<p class="schedule" style="margin-top:-10px;">Allez voir la carte !</p>
+  			<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre travail ou votre projet personnel. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous!</p>
+  			<% end %>
+  		</div>
 
-	<div class="row-fluid" id='pgrmes-title'>
-		<div class="span10 offset1">
-			<h1 class="with-line">
-				<span>
-					<%=image_tag "star.svg", class: "inline-img"%>
-					LE WAGON
-					<%=image_tag "star.svg", class: "inline-img"%>
-				</span>
-			</h1>
-		</div>
-	</div>
+  		<div class="span6 pgrme">
+  			<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+  			<h3 class="bitter-blue">
+  				Première classe
+  			</h3>
+  			<p class="schedule red" style="margin-top:-10px;">Départ - Avril 2014</p>
+  			<p class="left-align justify">Une formation-tremplin de 2 mois <span class="red bold">à temps plein</span> au développement web, pour rejoindre une startup, se lancer sur un projet personnel, ou trouver un poste de développeur junior avec le bagage technique suffisant.</p>
+  			<% end %>
+  		</div>
+	  </div>
 
-	<div class="row-fluid">
-		<div class="span10 offset1">
-			<p class="grey justify">Portées par les évolutions technologiques, les entreprises du numérique innovent, inventant tous les jours de nouveaux produits. <span class="blue">La formation a parfois un wagon de retard</span>... Les jeunes diplômés, ayant pourtant une vraie soif d'apprendre, n'ont pas toujours le bagage technique suffisant pour intéresser des recruteurs ou se lancer sur des projets personnels.</p>
-			<p class="grey justify">A travers des formations complémentaires en programmation web, allant du cours d'initiation au programme immersif de 2 mois, le wagon veut permettre à ces jeunes <span class="blue">talents</span> de devenir des <span class="blue">acteurs</span> de l'innovation.</p>
-			<br/>
-		</div>
-  </div>
-	
-	<div class="row-fluid">
-		<div class="span10 offset1 center">
-			<div class='main-nl'>
-				<%= form_tag  url_for(:action => 'subscribe'), :method => "post", :remote => true  do %>
-				<div class="input">
-					<%= text_field 'email' , 'email', :placeholder => 'votre e-mail'%>
-					<%= submit_tag "STAY IN TOUCH" , :class => "btn btn-blue subscribe-btn"%>
-				</div>
-				<br/>
-				<p class="error-message"></p>
-				<% end %>
-			</div>
-		</div>
-	</div>
+  	<div class="row-fluid">
+  		<div class="span6 feedbacks">
 
-	<div class="row-fluid" id='pgrmes-title'>
-		<div class="span10 offset1">
-			<h1 class="with-line">
-				<span>
-					<%=image_tag "star.svg", class: "inline-img"%>
-					NOS PROGRAMMES
-					<%=image_tag "star.svg", class: "inline-img"%>
-				</span>
-			</h1>
-		</div>
-	</div>
+  			<h4 class="center grey">OUR PEOPLE</h4><br/>
+  			<div class="row-fluid">
+  				<div class="span2">
+  					<%= image_tag 'charles.png' , :class => 'img-circle' %>
+  				</div>
+  				<div class="span10">
+  					<p>
+  						<i>"Je n'avais encore jamais trouvé quelqu'un capable de m'expliquer à la fois la logique générale et les éléments techniques du développement, tout en parlant la même langue que moi. C'est chose faite ! "</i>
+  					</p>
+  					<p class="pull-right">
+  						<span class="red">–</span> Charles Guilhamon, <span class="darkgrey">CEO @darjeelin</span>
+  					</p>
+  				</div>
+  			</div>
 
-	<div class="row-fluid">
-		<div class="span5 offset1 pgrme">
-			<%= link_to(courses_path) do %>
-			<h3 class="bitter-blue">Le wagon bar</h3>
-			<p class="schedule" style="margin-top:-10px;">Allez voir la carte !</p>
-			<p class="left-align justify">Intégrez les clefs qu'il vous manque dans votre travail ou votre projet personnel. Des cours à la carte : initiation <em>back-end</em>, <em>front-end</em>, maîtrise des APIs… Trouvez le cours qui vous correspond et inscrivez-vous!</p>
-			<% end %>
-		</div>
+  			<div class="row-fluid">
+  				<div class="span2">
+  					<%= image_tag 'gauthier.png' , :class => 'img-circle' %>
+  				</div>
+  				<div class="span10">
+  					<p>
+  						<i>"J'avais une vraie envie d'apprendre le code. Après plusieurs échecs en utilisant différents sites, les heures passées au wagon m'ont permis de défricher, de me poser les bonnes questions et comprendre mes collègues développeurs."</i>
+  					</p>
+  					<p class="pull-right">
+  						<span class="red">–</span> Gauthier Nadaud, <span class="darkgrey">CEO @smiirl</span>
+  					</p>
+  				</div>
+  			</div>
 
-		<div class="span5 pgrme">
-			<%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
-			<h3 class="bitter-blue">
-				Première classe
-			</h3>
-			<p class="schedule red" style="margin-top:-10px;">Départ - Avril 2014</p>
-			<p class="left-align justify">Une formation-tremplin de 2 mois <span class="red bold">à temps plein</span> au développement web, pour rejoindre une startup, se lancer sur un projet personnel, ou trouver un poste de développeur junior avec le bagage technique suffisant.</p>
-			<% end %>
-		</div>
-	</div>
+  			<div class="row-fluid">
+  				<div class="span2">
+  					<%= image_tag 'octave.png' , :class => 'img-circle' %>
+  				</div>
+  				<div class="span10">
+  					<p>
+  						<i>"L'équipe du Wagon c'est la meilleure école pour découvrir le développeur qui est enfoui en chacun de nous."</i>
+  					</p>
+  					<p class="pull-right">
+  						<span class="red">–</span> Octave Bory-Bert, <span class="darkgrey">CEO @melusyn</span>
+  					</p>
+  				</div>
+  			</div>
 
-	<div class="row-fluid">
-		<div class="span5 offset1 feedbacks">
+  		</div><!--span6 feedbacks-->
 
-			<h4 class="center grey">OUR PEOPLE</h4><br/>
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'charles.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"Je n'avais encore jamais trouvé quelqu'un capable de m'expliquer à la fois la logique générale et les éléments techniques du développement, tout en parlant la même langue que moi. C'est chose faite ! "</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Charles Guilhamon, <span class="darkgrey">CEO @darjeelin</span>
-					</p>
-				</div>
-			</div>
+  		<div class="span6 languages-block">
+  			<h4 class="center grey">OUR TECHNOLOGY</h4><br/>
+  			<div class="row-fluid">
+  				<div class="span6 center">
+  					<%=image_tag "html.png", class: "code-pic"%>
+  					<p class="languages center">HTML - CSS</p>
+  				</div>
+  				<div class="span6 center">
+  					<%=image_tag "js.png", class: "code-pic"%>
+  					<p class="languages center">Javascript</p>
+  				</div>
+  			</div>
+  			<br/>
+  			<div class="row-fluid">
+  				<div class="span6 center">
+  					<%=image_tag "ror.png", class: "code-pic"%>
+  					<p class="languages center">Ruby - Rails</p>
+  				</div>
+  				<div class="span6 center">
+  					<%=image_tag "git.png", class: "code-pic"%>
+  					<p class="languages center">Git - Heroku</p>
+  				</div>
+  			</div>
+  		</div><!--span5 offset1 languages-block-->
+  	</div>
 
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'gauthier.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"J'avais une vraie envie d'apprendre le code. Après plusieurs échecs en utilisant différents sites, les heures passées au wagon m'ont permis de défricher, de me poser les bonnes questions et comprendre mes collègues développeurs."</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Gauthier Nadaud, <span class="darkgrey">CEO @smiirl</span>
-					</p>
-				</div>
-			</div>
-
-			<div class="row-fluid">
-				<div class="span2">
-					<%= image_tag 'octave.png' , :class => 'img-circle' %>
-				</div>
-				<div class="span10">
-					<p>
-						<i>"L'équipe du Wagon c'est la meilleure école pour découvrir le développeur qui est enfoui en chacun de nous."</i>
-					</p>
-					<p class="pull-right">
-						<span class="red">–</span> Octave Bory-Bert, <span class="darkgrey">CEO @melusyn</span>
-					</p>
-				</div>
-			</div>
-
-		</div><!--span6 feedbacks-->
-
-		<div class="span5 languages-block">
-			<h4 class="center grey">OUR TECHNOLOGY</h4><br/>
-			<div class="row-fluid">
-				<div class="span6 center">
-					<%=image_tag "html.png", class: "code-pic"%>
-					<p class="languages center">HTML - CSS</p>
-				</div>
-				<div class="span6 center">
-					<%=image_tag "js.png", class: "code-pic"%>
-					<p class="languages center">Javascript</p>
-				</div>
-			</div>
-			<br/>
-			<div class="row-fluid">
-				<div class="span6 center">
-					<%=image_tag "ror.png", class: "code-pic"%>
-					<p class="languages center">Ruby - Rails</p>
-				</div>
-				<div class="span6 center">
-					<%=image_tag "git.png", class: "code-pic"%>
-					<p class="languages center">Git - Heroku</p>
-				</div>
-			</div>
-		</div><!--span5 offset1 languages-block-->
-	</div>
-
-	<div class="row-fluid" id='pgrmes-title'>
-		<div class="span10 offset1">
-			<h1 class="with-line">
-				<span>
-					<%=image_tag "star.svg", class: "inline-img"%>
-					EN PRATIQUE
-					<%=image_tag "star.svg", class: "inline-img"%>
-				</span>
-			</h1>
-		</div>
-	</div>
-
-	<div class="row-fluid">
-		<div class="span5 offset1">
-			<a href="http://lewagon.github.io/showroom/felix.html" target="_blank">
-				<%= image_tag "felix.jpg", class: 'projet'%>
-			</a>
-		</div>
-		<div class="span5">
-			<%= image_tag "cours.JPG"%>
-		</div>
-	</div>
-
+	  <h1 class="with-line">
+			<span>
+				<%=image_tag "star.svg", class: "inline-img"%>
+				EN PRATIQUE
+				<%=image_tag "star.svg", class: "inline-img"%>
+			</span>
+		</h1>
+		<div class="vertical-spacer"></div>
+		
+		<div class="row-fluid">
+  		<div class="span6">
+  			<a href="http://lewagon.github.io/showroom/felix.html" target="_blank">
+  				<%= image_tag "felix.jpg", class: 'projet'%>
+  			</a>
+  		</div>
+  		<div class="span6">
+  			<%= image_tag "cours.JPG"%>
+  		</div>
+	  </div>
+	</div><!--span8 offset2-->
 </div>
 
 
