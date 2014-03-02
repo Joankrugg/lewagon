@@ -2,6 +2,7 @@ markdown: rdiscount
 permalink: /:title.html
 destination: ../../app/views/blog
 auto: true
+encoding: utf-8
 exclude:
   - Rakefile
   - Gemfile

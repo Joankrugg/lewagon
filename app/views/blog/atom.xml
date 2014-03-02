@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-02-17T16:26:17+01:00</updated>
+ <updated>2014-03-02T19:14:30+01:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -12,9 +12,104 @@
 
  
  <entry>
+   <title>ITW de Xavier d'Eqosphere, Prix « Eco-innovations » de la ville de Paris</title>
+   <link href="YOUR_URL/eqosphere.html"/>
+   <updated>2014-03-03T09:46:01Z</updated>
+   <id>BLOG_URL/eqosphere</id>
+   <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
+    &lt;div class=&quot;span6&quot; style=&quot;padding-right:20px;&quot;&gt;
+        &lt;img src=&quot;https://dl.dropboxusercontent.com/u/29947758/xavier-corval.jpeg&quot;&gt;&lt;br/&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;span6&quot;&gt;
+      &lt;h4&gt;Xavier est-ce que tu peux nous parler de ton parcours? &lt;/h4&gt;
+      &lt;p&gt;D’abord Sciences Po. Spécialisé dans les liens entre technologies, communication et pouvoir. J’abandonne  ensuite un doctorat de sciences politiques pour travailler comme ingénieur commercial et directeur du développement dans une agence de conseil en stratégie web avant de m’investir dans des programmes de coopération et des alliances public-privé en tant qu’expert des TIC pour des villes latino-américaines et européennes. Mes missions consistaient alors à améliorer l’accès aux services publics et l’économie locale et à développer l’e-gouvernance. En juillet 2012 Je crée mon entreprise d’entreprenariat social après environ 18 mois d’études de terrain.&lt;/p&gt;    
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4&gt;Comment est née l’envie de lancer Eqosphere?&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://eqosphere.com/&quot; target=&quot;_blank&quot;&gt;Eqosphère&lt;/a&gt; est né de l’envie de simplifier et d’optimiser la revalorisation de produits :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1er input : Comment simplifier la concrétisation d’actes de générosité ?&lt;/li&gt;
+&lt;li&gt;2e input : Si le produit vient d’avoir une valeur événementielle, parfaitement légitime, comment donner au produit une seconde valeur hors de sa destination initiale ?&lt;/li&gt;
+&lt;li&gt;3e input : « Home », de Artus-Bertrand, comment optimiser l’allocation des ressources existantes sur notre planète ?&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;L’idée initiale remonte à une expérience que j’ai vécue quand j’étais étudiant : un de mes jobs consistait à servir les cocktails d’inauguration des expos du Pavillon de l’Arsenal à Paris et il restait souvent de la nourriture en fin de cocktail. Je prenais alors mon scooter pour la distribuer à des personnes sans abri dans Paris. Mais c’était loin d’être simple et à l’époque les associations n’étaient pas connectées et ne pouvaient pas recevoir tout cela.&lt;/p&gt;
+
+&lt;p&gt;En juillet 2009, après avoir proposé de mettre en œuvre l’embryon d’Eqosphere aux ministères des Affaires Sociales et de l’Agriculture,  je décide finalement de monter l’entreprise dont je rêve depuis toujours. Tout s’assemble dans ma tête : l’expérience de départ, l’éthique sur l’alimentaire et la solidarité, le développement durable, la communication et les TIC… et c’est ainsi qu’est né le projet Eqosphere, en octobre 2009.&lt;/p&gt;
+
+&lt;h4&gt;Pourquoi l’entreprenariat social ?&lt;/h4&gt;
+
+&lt;p&gt;Avant de lancer le projet, j’ai écrit une cinquantaine de pages sur l’entreprise que je voulais créer – base valorique, business model, description des fonctionnalités de l’outil web et des activités, stratégies, facteurs de succès, je dépose le tout à l’INPI puis je lis un livre de Jacques Attali &lt;strong&gt;Une brève histoire de l’avenir&lt;/strong&gt; (Fayard, 2006),  qui évoque le concept d’ &quot;entreprise relationnelle&quot;: des entreprises au modèle économique autonome et pérenne au service de finalités d’intérêt général – solidarité et développement durable pour EQOSPHERE -   et je me dis que c’est exactement ce que je suis entrain de projeter !  C’est ainsi que je me « découvre » entrepreneur social puis que je m’engage au Mouvement des Entrepreneurs Sociaux (MOUVES) en février 2011, après avoir été marqué par une conférence au Salon des Entrepreneurs où intervient le futur président du Mouves, André Dupon.&lt;/p&gt;
+
+&lt;p&gt;La première étape de mon projet consiste alors à comprendre les objectifs, contraintes et besoins  des futurs utilisateurs d’EQOSPHERE pour co-définir un fonctionnement en mesure de répondre à leurs attentes: dirigeants de la grande distribution, contrôleurs de gestion, responsables associatifs, pouvoirs publics, etc…&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Concrètement la revalorisation c’est quoi ? Exemple du voyage d’un produit ?&lt;/h4&gt;
+
+&lt;p&gt;La nouvelle économie de la revalorisation c’est l’économie circulaire et responsable : faire de la poubelle l’exception, plus d’acteurs en bout de ligne, toujours trouver des solutions de revalorisation des produits alimentaires et non alimentaires en surstock, décommercialisés ou incommercialisables avec des filières aussi diverses que les associations caritatives et humanitaires, les déstockeurs, les parcs animaliers, les recycleurs…&lt;/p&gt;
+
+&lt;p&gt;Le produit est repéré, caractérisé, transformé en offre de gisement, poussé vers les acquéreurs selon une pertinence appréciée avec divers critères. On simplifie et on optimise des flux, dont les paramètres varient au jour le jour.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Quelle est la place du développement web au sein de votre dispositif ?&lt;/h4&gt;
+
+&lt;p&gt;Web = simplification et optimisation dans la vie personnelle comme professionnelle. C’est donc un outil puissant et plein de promesses pour mettre en place et structurer une activité nouvelle – un réseau smart de la revalorisation - et traiter des problématiques complexes : organisationnelles, financières et éthiques à la fois.&lt;/p&gt;
+
+&lt;p&gt;Mais attention! une plateforme web collaborative ne donne de bons résultats qu’avec une masse critique d’utilisateurs (offre et demande) et une qualité fonctionnelle en adéquation avec les besoins et process des utilisateurs.&lt;/p&gt;
+
+&lt;p&gt;Chez EQOSPHERE, la plateforme web est un outil au centre du dispositif et en même temps l’une des 3 séquences de nos services, qui sont liées entre elles: en amont, nous accompagnons les acteurs « dans le dur » dans la réforme de leur process, ce qui leur permet d’utiliser au mieux la plateforme; et en aval, nous créons, maintenons et animons le réseau des acquéreurs.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Quelle technologie utilisez-vous?&lt;/h4&gt;
+
+&lt;p&gt;Cela dépend des appli. Microsoft actuellement pour ce qui concerne la plateforme, avec des perspectives de changement et de réorientation vers Drupal et plus de libre.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Quelle est la prochaine étape pour Eqo Sphère ?&lt;/h4&gt;
+
+&lt;p&gt;Faire plus et mieux là où nous sommes implantés – l’Ile de France – consolider nos partenariats avec les clients et utilisateurs existants, puis nous développer sur des territoires motivés : Marseille, Strasbourg, Rennes, le Nord. Je n’oublie pas les demandes européennes.&lt;/p&gt;
+
+&lt;p&gt;Pour cela, comme toute start-up qui décolle, il y a un moment de consolidation interne sur toutes les compétences nécessaires à la réussite d’un projet à haut potentiel.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;J’ai cru comprendre que tu étais à la recherche de développeurs, quels profils recherches-tu?&lt;/h4&gt;
+
+&lt;p&gt;Oui ! il y a 3 ans, quand je me suis lancé dans l’étude terrain et dans un benchmarck de prestataires informatiques, j’ignorais complètement qu’il y avait, qu’il y aurait des développeurs et des agences proches de l’écosystème de l’entrepreneuriat social, avec lesquels nous partagerions aussi des objectifs et des motivations dans le champ des convictions et du « sens » de nos activités. C’est ce que je souhaite aujourd’hui. Et c’est dans ce sens de synergies accrues que poussent des acteurs que j’apprécie vivement comme Stéphane Distinguin, et Jean Karinthi et l’équipe de Jean-Louis Missika.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Que penses-tu de l’initiative du Wagon ?&lt;/h4&gt;
+
+&lt;p&gt;Je suis parfaitement d’accord avec cette affirmation du Wagon : « Etre un bon développeur, cela veut dire beaucoup plus que &quot;savoir bien coder&quot;». De plus, tout ce qui permet d’allier créativité, partage et création d’emplois correspond à un modèle de développement personnel et collectif indispensable aujourd’hui.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Pour toi apprendre à coder aujourd’hui ça représente quoi ?&lt;/h4&gt;
+
+&lt;p&gt;Se projeter comme une force vive du déploiement d’un projet en alliant compréhension globale et compétences spécifiques. Intégrer dès le départ que le web et l’informatique ne sont ni des fins en soi, ni des forteresses, mais des outils performants pour autant qu’ils s’inscrivent dans une chaine de valeurs.&lt;/p&gt;
+
+&lt;p&gt;EQOSPHERE Prix « Eco-innovations » des Grands prix de l’innovation de la Ville de Paris en décembre 2013&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Les selectionnistas</title>
    <link href="YOUR_URL/las-selectionistas.html"/>
-   <updated>2014-02-14T10:46:01+01:00</updated>
+   <updated>2014-02-14T09:46:01Z</updated>
    <id>BLOG_URL/las-selectionistas</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -80,14 +175,14 @@ Sur mobile uniquement, des choses ont été tentées, d’autres sont en constru
 
 &lt;h4&gt;Pour toi apprendre à coder ça représente quoi aujourd’hui ?&lt;/h4&gt;
 
-&lt;p&gt;Adrien : Le code est un outil qui permet de passer d'une conception intellectuelle à une réalisation concrète, simplement et sans besoins prohibitifs de matériel, de matière première, etc. Savoir coder permet de ne pas être dépendant d'autrui pour cela. L'informatique étant omniprésente, on peut voir les compétences de code comme le lettrisme d'une certaine époque, quand ce savoir n'était pas si répandu…
-Ce constat s'affirme de plus en plus dans la conscience collective, et de belles opportunités apparaissent pour diffuser plus largement ces connaissances.&lt;/p&gt;
+&lt;p&gt;Adrien : Le code est un outil qui permet de passer d&#39;une conception intellectuelle à une réalisation concrète, simplement et sans besoins prohibitifs de matériel, de matière première, etc. Savoir coder permet de ne pas être dépendant d&#39;autrui pour cela. L&#39;informatique étant omniprésente, on peut voir les compétences de code comme le lettrisme d&#39;une certaine époque, quand ce savoir n&#39;était pas si répandu…
+Ce constat s&#39;affirme de plus en plus dans la conscience collective, et de belles opportunités apparaissent pour diffuser plus largement ces connaissances.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;Tu penses quoi de l'initiative Première classe du Wagon (9 semaines intensives de code) ?&lt;/h4&gt;
+&lt;h4&gt;Tu penses quoi de l&#39;initiative Première classe du Wagon (9 semaines intensives de code) ?&lt;/h4&gt;
 
-&lt;p&gt;Adrien : L'immersion est une expérience nécessaire à tout programmeur. Et avoir des formateurs disponibles peut faire toute la différence !&lt;/p&gt;
+&lt;p&gt;Adrien : L&#39;immersion est une expérience nécessaire à tout programmeur. Et avoir des formateurs disponibles peut faire toute la différence !&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 </content>
@@ -96,7 +191,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
  <entry>
    <title>LocalEyes, nos voisins du Camping</title>
    <link href="YOUR_URL/localeyes.html"/>
-   <updated>2014-01-27T10:46:01+01:00</updated>
+   <updated>2014-01-27T09:46:01Z</updated>
    <id>BLOG_URL/localeyes</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -174,7 +269,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;h4&gt;Comment le code va révolutionner le retail ?&lt;/h4&gt;
 
-&lt;p&gt;Le retail est sans doute déjà l'une des industries qui a le plus évolué ces 15 dernières années. Les lignes ont bougé dans tous les domaines, de l'acquisition de trafic géolocalisé, à la fidélisation et le ticketing en passant par l'achat lui même. Ca c'est pour les habitudes d'achat. Je suis sûr que le &quot;code&quot; va aussi révolutionner les habitudes de travail des entreprises. En tout cas c'est le pari de LocalEyes qui souhaite faire bénéficier les marques et les enseignes de la présence de 24 millions de smartphones pour les informer à travers le pays.&lt;/p&gt;
+&lt;p&gt;Le retail est sans doute déjà l&#39;une des industries qui a le plus évolué ces 15 dernières années. Les lignes ont bougé dans tous les domaines, de l&#39;acquisition de trafic géolocalisé, à la fidélisation et le ticketing en passant par l&#39;achat lui même. Ca c&#39;est pour les habitudes d&#39;achat. Je suis sûr que le &quot;code&quot; va aussi révolutionner les habitudes de travail des entreprises. En tout cas c&#39;est le pari de LocalEyes qui souhaite faire bénéficier les marques et les enseignes de la présence de 24 millions de smartphones pour les informer à travers le pays.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 </content>
@@ -183,7 +278,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
  <entry>
    <title>Le codefunding avec Adrien Aumont</title>
    <link href="YOUR_URL/kisskiss.html"/>
-   <updated>2014-01-13T20:46:01+01:00</updated>
+   <updated>2014-01-13T19:46:01Z</updated>
    <id>BLOG_URL/kisskiss</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -196,18 +291,18 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot;&gt;
-        &lt;h4&gt;Commencons avec un petit story telling a l'ancienne: ton parcours?&lt;/h4&gt;
-        &lt;p&gt;J'ai un parcours plutôt atypique. J'ai arrêté l'école à 14 ans car je ne m'y épanouissais pas. Je me suis orienté vers le cinéma où j'ai fait plein de petits jobs qui m'ont permis de découvrir ce secteur. J'ai été assistant metteur en scène, assistant photo, assistant caméra ... j'ai beaucoup assisté et beaucoup appris. J'ai ensuite monté ma première entreprise (une société de productions de courts-métrages) à 16 ans suite à mon émancipation.&lt;/p&gt;
+        &lt;h4&gt;Commencons avec un petit story telling a l&#39;ancienne: ton parcours?&lt;/h4&gt;
+        &lt;p&gt;J&#39;ai un parcours plutôt atypique. J&#39;ai arrêté l&#39;école à 14 ans car je ne m&#39;y épanouissais pas. Je me suis orienté vers le cinéma où j&#39;ai fait plein de petits jobs qui m&#39;ont permis de découvrir ce secteur. J&#39;ai été assistant metteur en scène, assistant photo, assistant caméra ... j&#39;ai beaucoup assisté et beaucoup appris. J&#39;ai ensuite monté ma première entreprise (une société de productions de courts-métrages) à 16 ans suite à mon émancipation.&lt;/p&gt;
 
         &lt;p&gt;Au fil des rencontres à 18 ans je me suis retrouvé assistant de Thierry Ardisson pendant un moment avant de monter ma deuxieme boîte: EpidemiK.&lt;/p&gt; 
         
-        &lt;p&gt;Avec mon associé de l'époque on s'intéressait aux phénomènes de propagation (avant les youtube et consorts). On s'est retrouvés a parler de ce &quot;marketing undercover&quot; comme on l'appelait à des grands patrons d'agence. On en a même parlé à tous les patrons d'agence ... mais on n'a rien vendu...
+        &lt;p&gt;Avec mon associé de l&#39;époque on s&#39;intéressait aux phénomènes de propagation (avant les youtube et consorts). On s&#39;est retrouvés a parler de ce &quot;marketing undercover&quot; comme on l&#39;appelait à des grands patrons d&#39;agence. On en a même parlé à tous les patrons d&#39;agence ... mais on n&#39;a rien vendu...
         &lt;/p&gt;
 
-        &lt;p&gt;J'ai ensuite travaillé dans la publicité et les bureaux de mon agence étaient à côté des bureaux d'Ombline (ma cousine et depuis mon associée). Elle travaillait dans la musique et on a commencé à se poser des questions sur le futur de l'industrie musicale, sur le fait qu'elle était en crise alors que les gens n'avaient jamais écouté autant de musique.&lt;/p&gt;
+        &lt;p&gt;J&#39;ai ensuite travaillé dans la publicité et les bureaux de mon agence étaient à côté des bureaux d&#39;Ombline (ma cousine et depuis mon associée). Elle travaillait dans la musique et on a commencé à se poser des questions sur le futur de l&#39;industrie musicale, sur le fait qu&#39;elle était en crise alors que les gens n&#39;avaient jamais écouté autant de musique.&lt;/p&gt;
         
-        &lt;p&gt;On en est arrivé a réfléchir a la possibilité d'adapter des reflexes de collaboration que l'on constatait sur les réseaux sociaux à des flux d'argent.
-        On a travaillé sur l'idée de notre plateforme pendant une année avec ma cousine et son mari Vincent avant de lancer KissKissBankBank. Nous nous sommes depuis associé en famille pour monter KissKissBankBank puis HelloMerci.
+        &lt;p&gt;On en est arrivé a réfléchir a la possibilité d&#39;adapter des reflexes de collaboration que l&#39;on constatait sur les réseaux sociaux à des flux d&#39;argent.
+        On a travaillé sur l&#39;idée de notre plateforme pendant une année avec ma cousine et son mari Vincent avant de lancer KissKissBankBank. Nous nous sommes depuis associé en famille pour monter KissKissBankBank puis HelloMerci.
         &lt;/p&gt;
 
     &lt;/div&gt;
@@ -216,33 +311,33 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;Comment ca se passe avec les développeurs de l'équipe ?&lt;/h4&gt;
+&lt;h4&gt;Comment ca se passe avec les développeurs de l&#39;équipe ?&lt;/h4&gt;
 
-&lt;p&gt;On a mis du temps avant de trouver la bonne équipe de développeurs. Presque 2 ans pour arriver à l'équipe que nous avons aujourd'hui dont nous sommes très contents. Nous avons 4 developpeurs sur une équipe de 13 personnes.&lt;/p&gt;
+&lt;p&gt;On a mis du temps avant de trouver la bonne équipe de développeurs. Presque 2 ans pour arriver à l&#39;équipe que nous avons aujourd&#39;hui dont nous sommes très contents. Nous avons 4 developpeurs sur une équipe de 13 personnes.&lt;/p&gt;
 
 &lt;p&gt;Une équipe de 2 développeurs bosse sur KissKiss et une sur HelloMerci.&lt;/p&gt;
 
-&lt;p&gt;Ce qui est central c'est d'avoir des développeurs qui ont une bonne communication avec l'équipe. C'est central parce que c'est eux qui mettent les mains dans le produit et qu'avec une vision produit/marketing en plus ils deviennent très rapidement force de proposition.&lt;/p&gt;
+&lt;p&gt;Ce qui est central c&#39;est d&#39;avoir des développeurs qui ont une bonne communication avec l&#39;équipe. C&#39;est central parce que c&#39;est eux qui mettent les mains dans le produit et qu&#39;avec une vision produit/marketing en plus ils deviennent très rapidement force de proposition.&lt;/p&gt;
 
-&lt;p&gt;Ce qui est aussi très intéressant c'est le travail collaboratif entre nos deux équipes de développeurs. Quand une solution développée pour HelloMerci tourne parfaitement, la collaboration entre les équipes permet de répliquer ce qui marche et d'accélerer les process.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h4&gt;En quoi c'est un plus pour un jeune entrepreneur de savoir coder ?&lt;/h4&gt;
-
-&lt;p&gt;Etre entrepreneur et monter une startup et savoir coder c'est comme monter son restaurant et avoir bossé en cuisine. Que tu mettes les mains dans le cambouis en codant toi-même ton proto ou que tu prennes de la hauteur en recrutant un CTO ce qui est important c'est de savoir de quoi tu parles.&lt;/p&gt;
+&lt;p&gt;Ce qui est aussi très intéressant c&#39;est le travail collaboratif entre nos deux équipes de développeurs. Quand une solution développée pour HelloMerci tourne parfaitement, la collaboration entre les équipes permet de répliquer ce qui marche et d&#39;accélerer les process.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;Le travail collaboratif ca t'évoque quoi ?&lt;/h4&gt;
+&lt;h4&gt;En quoi c&#39;est un plus pour un jeune entrepreneur de savoir coder ?&lt;/h4&gt;
 
-&lt;p&gt;Il y a plein de choses intéressantes qu'on a appris des métiers de la programmation. Le lean, l'agilité etc ... ca vient de ces milieux la. En ce qui me concerne j'ai découvert tout ca il y a quelques années et ca a énormément aidé au niveau des process interne. C'est une belle avancée qui est fondamentalement inspirée des méthodes de programmation, typiquement le principe d'itération qui est très utilisé en lean management.&lt;/p&gt;
+&lt;p&gt;Etre entrepreneur et monter une startup et savoir coder c&#39;est comme monter son restaurant et avoir bossé en cuisine. Que tu mettes les mains dans le cambouis en codant toi-même ton proto ou que tu prennes de la hauteur en recrutant un CTO ce qui est important c&#39;est de savoir de quoi tu parles.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h4&gt;Le travail collaboratif ca t&#39;évoque quoi ?&lt;/h4&gt;
+
+&lt;p&gt;Il y a plein de choses intéressantes qu&#39;on a appris des métiers de la programmation. Le lean, l&#39;agilité etc ... ca vient de ces milieux la. En ce qui me concerne j&#39;ai découvert tout ca il y a quelques années et ca a énormément aidé au niveau des process interne. C&#39;est une belle avancée qui est fondamentalement inspirée des méthodes de programmation, typiquement le principe d&#39;itération qui est très utilisé en lean management.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h4&gt;Quels profils vous aimez bien chez KissKissBankBank ?&lt;/h4&gt;
 
-&lt;p&gt;Une énergie débordante, de la créativité et de la bonne humeur. Dans une startup qui a 13 salariés et qui envisage de grossir, la base de l'équipe c'est essentiel par rapport à l'ADN originelle de la société. Si cette base est dans le bon esprit et croit dans le projet la croissance sera plus efficace car elle aura cet ADN essentiel en elle.&lt;/p&gt;
+&lt;p&gt;Une énergie débordante, de la créativité et de la bonne humeur. Dans une startup qui a 13 salariés et qui envisage de grossir, la base de l&#39;équipe c&#39;est essentiel par rapport à l&#39;ADN originelle de la société. Si cette base est dans le bon esprit et croit dans le projet la croissance sera plus efficace car elle aura cet ADN essentiel en elle.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -254,17 +349,17 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;h4&gt;Ton avis sur le programme Première Classe ?&lt;/h4&gt;
 
-&lt;p&gt;Je pense qu'apprendre à coder aujourd'hui c'est un besoin comparable à celui d'apprendre word et excel il y a 20 ans. On devient vieux vite si on ne s'adapte pas aux nouvelles technologies. Personnellement je n'ai pas envie de me sentir vieux dans 5 ans parce que je ne parle pas ces langages qui sont de plus en plus inévitables. Mais je ne m'y suis toujours pas mis. Je suis donc encore un peu ringard...&lt;/p&gt;
+&lt;p&gt;Je pense qu&#39;apprendre à coder aujourd&#39;hui c&#39;est un besoin comparable à celui d&#39;apprendre word et excel il y a 20 ans. On devient vieux vite si on ne s&#39;adapte pas aux nouvelles technologies. Personnellement je n&#39;ai pas envie de me sentir vieux dans 5 ans parce que je ne parle pas ces langages qui sont de plus en plus inévitables. Mais je ne m&#39;y suis toujours pas mis. Je suis donc encore un peu ringard...&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4&gt;C'est quoi ton ressenti par rapport aux langages de programmation ?&lt;/h4&gt;
+&lt;h4&gt;C&#39;est quoi ton ressenti par rapport aux langages de programmation ?&lt;/h4&gt;
 
-&lt;p&gt;Je n'ai jamais vraiment mis les mains dans le code, en revanche Bob, l'un de nos développeurs, nous fait régulièrement des formations en interne. Une fois par semaine. Je ne suis pas hyper assidu je dois le reconnaître, mais il y a quand même un cours qui m'intéresse vraiment : celui sur l'histoire du code.&lt;/p&gt;
+&lt;p&gt;Je n&#39;ai jamais vraiment mis les mains dans le code, en revanche Bob, l&#39;un de nos développeurs, nous fait régulièrement des formations en interne. Une fois par semaine. Je ne suis pas hyper assidu je dois le reconnaître, mais il y a quand même un cours qui m&#39;intéresse vraiment : celui sur l&#39;histoire du code.&lt;/p&gt;
 
 &lt;p&gt;C’est fascinant de voir comment en partant du néant, les langages de programmation ont évolués, de génération en génération, se sont simplifiés, en se rapprochant du vrai langage.&lt;/p&gt;
 
-&lt;p&gt;En résumé, une génération de développeurs prépare le langage qu'il transmettra à la génération suivante pour lui faciliter le quotidien. C'est cette chaine de transmission et d'amélioration qui me fascine.&lt;/p&gt;
+&lt;p&gt;En résumé, une génération de développeurs prépare le langage qu&#39;il transmettra à la génération suivante pour lui faciliter le quotidien. C&#39;est cette chaine de transmission et d&#39;amélioration qui me fascine.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 </content>
@@ -273,7 +368,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
  <entry>
    <title>Le Wagon, Capitaine Train : codeurs du rail</title>
    <link href="YOUR_URL/capitaine-train.html"/>
-   <updated>2014-01-13T20:46:01+01:00</updated>
+   <updated>2014-01-13T19:46:01Z</updated>
    <id>BLOG_URL/capitaine-train</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span4&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -281,7 +376,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
     &lt;/div&gt;
     &lt;div class=&quot;span8&quot;&gt;
         &lt;h4&gt;Qui es-tu?&lt;/h4&gt;
-        &lt;p&gt;Jean-Daniel Guyot, CEO et co-fondateur de &lt;a href=&quot;https://www.capitainetrain.com/&quot; target=&quot;_blank&quot;&gt;Capitaine Train&lt;/a&gt;. J'ai débuté ma carrière à la SNCF (hé oui, déjà !), où j'ai développé le premier logiciel Mac consacré aux horaires de train, puis après diverses expériences j'ai participé à la startup Wizzgo, pour finalement créer Capitaine Train en 2009 avec Valentin Surrel et Martin Ottenwaelter. &lt;/p&gt;
+        &lt;p&gt;Jean-Daniel Guyot, CEO et co-fondateur de &lt;a href=&quot;https://www.capitainetrain.com/&quot; target=&quot;_blank&quot;&gt;Capitaine Train&lt;/a&gt;. J&#39;ai débuté ma carrière à la SNCF (hé oui, déjà !), où j&#39;ai développé le premier logiciel Mac consacré aux horaires de train, puis après diverses expériences j&#39;ai participé à la startup Wizzgo, pour finalement créer Capitaine Train en 2009 avec Valentin Surrel et Martin Ottenwaelter. &lt;/p&gt;
 
         &lt;p&gt;Capitaine Train est une solution plus fiable, plus simple et plus économique et — disons le franchement — bien plus cool pour acheter ses billets de train en France, en Allemagne et en Europe.&lt;/p&gt;
         
@@ -291,33 +386,33 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4&gt;Quelles compétences recherchez-vous chez capitaine train? qu'attendez-vous d'un candidat?&lt;/h4&gt;
+&lt;h4&gt;Quelles compétences recherchez-vous chez capitaine train? qu&#39;attendez-vous d&#39;un candidat?&lt;/h4&gt;
 
-&lt;p&gt;Nous cherchons des personnes excellentes dans leur domaine, avec une large culture et capables de se manager elles-mêmes. Nous n'aimons pas faire du management pour du management, nous préférons travailler avec des personnes autonomes. Cela raccourcit les cycles de décision, nous permet d'avancer plus vite en équipe et rend les gens plus libres et plus heureux.&lt;/p&gt;
+&lt;p&gt;Nous cherchons des personnes excellentes dans leur domaine, avec une large culture et capables de se manager elles-mêmes. Nous n&#39;aimons pas faire du management pour du management, nous préférons travailler avec des personnes autonomes. Cela raccourcit les cycles de décision, nous permet d&#39;avancer plus vite en équipe et rend les gens plus libres et plus heureux.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;h4&gt;As-tu du mal à trouver des recrues avec une bonne culture dev?&lt;/h4&gt;
 
-&lt;p&gt;Nous avons du mal à trouver des gens à la fois pointus, curieux et capables d'avancer de manière autonome. Le profil idéal chez nous est quelqu'un qui fait de la veille, essaye de toujours apprendre des nouvelles choses, fait des projets ou des prototypes sur son temps libre et est incollable sur un domaine en particulier.&lt;/p&gt;
+&lt;p&gt;Nous avons du mal à trouver des gens à la fois pointus, curieux et capables d&#39;avancer de manière autonome. Le profil idéal chez nous est quelqu&#39;un qui fait de la veille, essaye de toujours apprendre des nouvelles choses, fait des projets ou des prototypes sur son temps libre et est incollable sur un domaine en particulier.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4&gt;As-tu déjà dû refuser des candidats qui avaient pourtant des profils intéressants mais n'avaient pas le bagage technique suffisant?&lt;/h4&gt;
+&lt;h4&gt;As-tu déjà dû refuser des candidats qui avaient pourtant des profils intéressants mais n&#39;avaient pas le bagage technique suffisant?&lt;/h4&gt;
 
-&lt;p&gt;Bien sûr, et l'inverse aussi. Les trois éléments (culture, expertise et autonomie) doivent être tous présents et il faut que cela soit évident.&lt;/p&gt;
+&lt;p&gt;Bien sûr, et l&#39;inverse aussi. Les trois éléments (culture, expertise et autonomie) doivent être tous présents et il faut que cela soit évident.&lt;/p&gt;
 
 &lt;p&gt;Il faut aussi que &quot;ça colle&quot; sur le plan personnel. Nous recrutons pour former une équipe, pas pour embaucher des individualités.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4&gt;Quel est le quotidien d'un développeur chez vous?&lt;/h4&gt;
+&lt;h4&gt;Quel est le quotidien d&#39;un développeur chez vous?&lt;/h4&gt;
 
 &lt;p&gt;Nous travaillons avec GitHub, quelques technos ciblées (Postgres, Ruby, Rails, RabbitMQ, un peu de Java/C++, Ember.js, Cocoa et le SDK Android). Tous les développeurs prennent leurs espaces de responsabilités sur lesquelles ils gardent toujours un œil.&lt;/p&gt;
 
-&lt;p&gt;Nos développeurs gèrent leurs projets de A à Z, des spécifications à la maintenance après mise en production. Ils doivent tester leur travail et s'assurer de ne jamais faire de downtime et de régression. Toutes les pull requests passent par une code review poussée et de l'intégration continue. En fonction des projets nous sommes capables de corriger une anomalie en production avec un délai de 5 à 40 minutes.&lt;/p&gt;
+&lt;p&gt;Nos développeurs gèrent leurs projets de A à Z, des spécifications à la maintenance après mise en production. Ils doivent tester leur travail et s&#39;assurer de ne jamais faire de downtime et de régression. Toutes les pull requests passent par une code review poussée et de l&#39;intégration continue. En fonction des projets nous sommes capables de corriger une anomalie en production avec un délai de 5 à 40 minutes.&lt;/p&gt;
 
-&lt;p&gt;Nous invitons tous les développeurs à être curieux, à ne jamais s'enfermer dans leur spécialité et à intervenir sur des projets dont ils ne sont pas responsables directement, en proposant des pull requests par exemple.&lt;/p&gt;
+&lt;p&gt;Nous invitons tous les développeurs à être curieux, à ne jamais s&#39;enfermer dans leur spécialité et à intervenir sur des projets dont ils ne sont pas responsables directement, en proposant des pull requests par exemple.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
@@ -327,17 +422,17 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4&gt;Pourquoi soutiens-tu l'initiative 1ère classe?&lt;/h4&gt;
+&lt;h4&gt;Pourquoi soutiens-tu l&#39;initiative 1ère classe?&lt;/h4&gt;
 
 &lt;p&gt;Nous soutenons toute les initiatives qui peuvent permettre aux startups de recruter des personnes compétentes et motivées.&lt;/p&gt;
 
-&lt;p&gt;Non je rigole, c'est juste le nom de l'initiative qui nous a séduit. Dès que ça parle de train on est là.&lt;/p&gt;
+&lt;p&gt;Non je rigole, c&#39;est juste le nom de l&#39;initiative qui nous a séduit. Dès que ça parle de train on est là.&lt;/p&gt;
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;h4&gt;Quel serait ton rôle dans le programme?&lt;/h4&gt;
 
-&lt;p&gt;J'ai fait pas mal de choix par défaut ou d'erreurs dans ma courte carrière et j'aime en faire profiter les suivants pour qu'ils ne les fassent pas. Autant aller le plus vite possible vers un travail épanouissant et enrichissant. Ça sera donc avec un grand plaisir si je peux apporter mon expérience et mon expertise du monde (parisien) des startups.&lt;/p&gt;
+&lt;p&gt;J&#39;ai fait pas mal de choix par défaut ou d&#39;erreurs dans ma courte carrière et j&#39;aime en faire profiter les suivants pour qu&#39;ils ne les fassent pas. Autant aller le plus vite possible vers un travail épanouissant et enrichissant. Ça sera donc avec un grand plaisir si je peux apporter mon expérience et mon expertise du monde (parisien) des startups.&lt;/p&gt;
 
 &lt;p&gt;Nous recrutons aussi beaucoup de profils techniques, donc si certains sont intéressés pour postuler à la fin de leur formation, pourquoi pas?&lt;/p&gt;
 </content>
@@ -357,8 +452,8 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
         &lt;p class=&quot;justify&quot;&gt;Jean-David Chamboredon, CEO d’ISAI et acteur emblématique du capital-risque auprès des startups en France, a accepté de répondre à nos questions.&lt;/p&gt;
         
         &lt;br/&gt;
-        &lt;h4 class=&quot;bold&quot;&gt;Pensez-vous qu'un jeune CEO doit de nos jours avoir des connaissances en développement web pour se lancer ? si oui pour quelles raisons ?&lt;/h4&gt;
-        &lt;p class=&quot;justify&quot;&gt;Si l'on fait l'hypothèse que la méthode de conception-développement pour une start-up est nécessairement issue des méthodes agiles, le dialogue entre marketing-produit et développeurs doit être efficace et pour cela, reposer sur du &quot;common knowledge&quot;. Etre ou avoir été développeur permet d'avoir ce référentiel commun qui peut éviter de fabriquer un produit type &quot;Frankenstein/Spaghettiware&quot;. Je ne dirais donc pas que savoir développer est une obligation pour un CEO de start-up mais c'est certainement un plus...
+        &lt;h4 class=&quot;bold&quot;&gt;Pensez-vous qu&#39;un jeune CEO doit de nos jours avoir des connaissances en développement web pour se lancer ? si oui pour quelles raisons ?&lt;/h4&gt;
+        &lt;p class=&quot;justify&quot;&gt;Si l&#39;on fait l&#39;hypothèse que la méthode de conception-développement pour une start-up est nécessairement issue des méthodes agiles, le dialogue entre marketing-produit et développeurs doit être efficace et pour cela, reposer sur du &quot;common knowledge&quot;. Etre ou avoir été développeur permet d&#39;avoir ce référentiel commun qui peut éviter de fabriquer un produit type &quot;Frankenstein/Spaghettiware&quot;. Je ne dirais donc pas que savoir développer est une obligation pour un CEO de start-up mais c&#39;est certainement un plus...
         &lt;/p&gt;
         &lt;br/&gt;
     &lt;/div&gt;
@@ -367,34 +462,34 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Y a t'il une pénurie de CTO qualifiés sur la scène start-up française ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;Y a t&#39;il une pénurie de CTO qualifiés sur la scène start-up française ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Il y a clairement pénurie de CTO ou de Senior Dev maîtrisant à la fois les technologies web, les méthodes de conception-développement agiles et la gestion d'une interaction efficace avec les utilisateurs ou les décideurs business. Le fait que l'équipe de management d'une start-up comprenne ce type de profil fait partie des critères &quot;must have&quot; dans notre stratégie d'investissement.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;h4 class=&quot;bold&quot;&gt;L'image que la société a du développeur a-t'elle évoluée selon vous ?&lt;/h4&gt;
-
-
-&lt;p class=&quot;justify&quot;&gt;L'image de l'informaticien qui &quot;pisse du code&quot; a évolué et c'est heureux. Dans le passé, un bon développeur cherchait avant tout à arrêter de coder pour se consacrer à des tâches de management. Aujourd'hui, quelqu'un qui aime coder, a de l'expérience et n'aspire pas à devenir &quot;chef&quot; peut s'épanouir dans des structures qui reconnaissent sa valeur ajoutée et qui savent qu'une plateforme technologique de qualité est une condition nécessaire à la réussite d'un projet d'entreprise. Le développeur web n'est plus un sous-traitant c'est à minima un co-traitant !&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Il y a clairement pénurie de CTO ou de Senior Dev maîtrisant à la fois les technologies web, les méthodes de conception-développement agiles et la gestion d&#39;une interaction efficace avec les utilisateurs ou les décideurs business. Le fait que l&#39;équipe de management d&#39;une start-up comprenne ce type de profil fait partie des critères &quot;must have&quot; dans notre stratégie d&#39;investissement.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Pensez-vous que la formation au développement web a un train de retard sur l'innovation (cursus longs, trop théoriques, souvent en retard sur les évolutions techno, formation continue à la traine...) ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;L&#39;image que la société a du développeur a-t&#39;elle évoluée selon vous ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Rien ne vaut l'expérience terrain, les vrais projets avec des vrais enjeux... Le mode idéal de formation devrait ressembler à de l'apprentissage avec des compagnons expérimentés et &quot;orfèvres en software&quot; transmettant leur savoir-faire à de jeunes aspirants... On peut être un excellent développeur sans être ingénieur (au sens que donnent les écoles d'ingénieurs à ce terme)... J'ai l'impression que les mentalités évoluent dans ce sens et c'est une excellente chose.&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;L&#39;image de l&#39;informaticien qui &quot;pisse du code&quot; a évolué et c&#39;est heureux. Dans le passé, un bon développeur cherchait avant tout à arrêter de coder pour se consacrer à des tâches de management. Aujourd&#39;hui, quelqu&#39;un qui aime coder, a de l&#39;expérience et n&#39;aspire pas à devenir &quot;chef&quot; peut s&#39;épanouir dans des structures qui reconnaissent sa valeur ajoutée et qui savent qu&#39;une plateforme technologique de qualité est une condition nécessaire à la réussite d&#39;un projet d&#39;entreprise. Le développeur web n&#39;est plus un sous-traitant c&#39;est à minima un co-traitant !&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Pour vous, &quot;coder&quot; c'est quoi ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;Pensez-vous que la formation au développement web a un train de retard sur l&#39;innovation (cursus longs, trop théoriques, souvent en retard sur les évolutions techno, formation continue à la traine...) ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;La dernière fois que j'ai codé (hors formules Excel ;-)), c'était en C++ et c'était en 1992. Je faisais cela le soir et le week end quand mon équipe était en retard pour les soulager... Je ne suis pas sûr que mon code était ultra-maintenable mais il faisait le job. D'un côté, mes équipes savaient qu'elles ne pouvaient pas me &quot;pipoter&quot; mais de l'autre, elles avaient beau jeu de me dire que je ne respectais pas scrupuleusement les normes de codage... &lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Rien ne vaut l&#39;expérience terrain, les vrais projets avec des vrais enjeux... Le mode idéal de formation devrait ressembler à de l&#39;apprentissage avec des compagnons expérimentés et &quot;orfèvres en software&quot; transmettant leur savoir-faire à de jeunes aspirants... On peut être un excellent développeur sans être ingénieur (au sens que donnent les écoles d&#39;ingénieurs à ce terme)... J&#39;ai l&#39;impression que les mentalités évoluent dans ce sens et c&#39;est une excellente chose.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h4 class=&quot;bold&quot;&gt;Pour vous, &quot;coder&quot; c&#39;est quoi ?&lt;/h4&gt;
+
+
+&lt;p class=&quot;justify&quot;&gt;La dernière fois que j&#39;ai codé (hors formules Excel ;-)), c&#39;était en C++ et c&#39;était en 1992. Je faisais cela le soir et le week end quand mon équipe était en retard pour les soulager... Je ne suis pas sûr que mon code était ultra-maintenable mais il faisait le job. D&#39;un côté, mes équipes savaient qu&#39;elles ne pouvaient pas me &quot;pipoter&quot; mais de l&#39;autre, elles avaient beau jeu de me dire que je ne respectais pas scrupuleusement les normes de codage... &lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -410,15 +505,15 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;A titre personnel avez vous un coté &quot;geek / programmeur&quot; ? si non, est ce que vous vous avez parfois envie de mettre les mains dans le code pour en comprendre les ressorts ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Pas sûr d'être ou avoir été un &quot;geek&quot; au sens de celui qui prend un vrai plaisir à interagir avec la &quot;machine&quot;. J'ai toujours trouvé plus intéressant d'interagir avec l'humain... Le &quot;geek&quot; idéal doit savoir et prendre du plaisir à faire les deux, non ?&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Pas sûr d&#39;être ou avoir été un &quot;geek&quot; au sens de celui qui prend un vrai plaisir à interagir avec la &quot;machine&quot;. J&#39;ai toujours trouvé plus intéressant d&#39;interagir avec l&#39;humain... Le &quot;geek&quot; idéal doit savoir et prendre du plaisir à faire les deux, non ?&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Qu'est ce qui vous séduit dans l'initiative &quot;Première classe&quot; ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;Qu&#39;est ce qui vous séduit dans l&#39;initiative &quot;Première classe&quot; ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;L'interaction entre besoin business, expérience utilisateur et développement technologique est une clé de la réussite des entreprises ou projets web. Faire que ces 3 populations parlent le même langage et ait ce fameux &quot;common knowledge&quot; est excellent. Maintenant il faut faire attention à ne pas confondre &quot;savoir de quoi il s'agit et se débrouiller&quot; avec &quot;être un développeur de haute volée&quot;. Un peu comme dans le sport, il faut, dans un pays, avoir une politique pour que le sport amateur se développe et une autre pour la haute compétition sachant que les deux se nourrissent et favorisent l'une l'autre...&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;L&#39;interaction entre besoin business, expérience utilisateur et développement technologique est une clé de la réussite des entreprises ou projets web. Faire que ces 3 populations parlent le même langage et ait ce fameux &quot;common knowledge&quot; est excellent. Maintenant il faut faire attention à ne pas confondre &quot;savoir de quoi il s&#39;agit et se débrouiller&quot; avec &quot;être un développeur de haute volée&quot;. Un peu comme dans le sport, il faut, dans un pays, avoir une politique pour que le sport amateur se développe et une autre pour la haute compétition sachant que les deux se nourrissent et favorisent l&#39;une l&#39;autre...&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -426,7 +521,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;Cela vous dirait de passer en janvier rencontrer nos 15 apprentis-codeurs pour partager votre expérience avec eux ? &lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Si rencontrer un &quot;webosaure&quot; les intéressent, c'est quand ils veulent ;-)&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Si rencontrer un &quot;webosaure&quot; les intéressent, c&#39;est quand ils veulent ;-)&lt;/p&gt;
 
 
 
@@ -444,7 +539,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
     &lt;/div&gt;
     &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
         &lt;h4 class=&quot;bold&quot;&gt;Qui es-tu ?&lt;/h4&gt;
-        &lt;p class=&quot;justify&quot;&gt;Je suis Pierre-Dimitri, en charge des activités françaises et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d'accélérer son déploiement et de renforcer les positions existantes.
+        &lt;p class=&quot;justify&quot;&gt;Je suis Pierre-Dimitri, en charge des activités françaises et nord européennes de Uber. Uber est née à San Francisco en 2009, et permet de commander un chauffeur privé via une application mobile dans près de 18 pays. Uber a conclu récemment une levée de fonds de 258m$ auprès de Google Ventures et TPG, qui permettra à la société d&#39;accélérer son déploiement et de renforcer les positions existantes.
         &lt;/p&gt;
         &lt;br/&gt;
     &lt;/div&gt;
@@ -456,16 +551,16 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;Quels profils recherchez-vous chez Uber ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Nous recherchons avant tout des candidats sensibles aux problématiques d'ergonomie, créatifs, et capables de placer l'expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards, sachant exploiter des données de manière intelligente grâce à un bon bagage en développement web et à une curiosité pour les technologies les plus novatrices.
+&lt;p class=&quot;justify&quot;&gt;Nous recherchons avant tout des candidats sensibles aux problématiques d&#39;ergonomie, créatifs, et capables de placer l&#39;expérience utilisateur au coeur de leurs réflexions. Mais également de bons ingénieurs, malins et débrouillards, sachant exploiter des données de manière intelligente grâce à un bon bagage en développement web et à une curiosité pour les technologies les plus novatrices.
 &lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n&#39;étaient pas assez calés en programmation ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Oui, nous avons souvent des candidats qui ont la formation souhaitée mais ne disposent pas du bagage technique nécessaire. Si un bon diplôme est un atout évident, nous valorisons beaucoup les profils qui ont eu l'occasion de se plonger dans le monde concret de l'innovation.
+&lt;p class=&quot;justify&quot;&gt;Oui, nous avons souvent des candidats qui ont la formation souhaitée mais ne disposent pas du bagage technique nécessaire. Si un bon diplôme est un atout évident, nous valorisons beaucoup les profils qui ont eu l&#39;occasion de se plonger dans le monde concret de l&#39;innovation.
 &lt;/p&gt;
 
 
@@ -474,7 +569,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;Pourquoi soutiens-tu le wagon ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Beaucoup de talents sortant d'université ou de grande école n'ont pas les compétences techniques nécessaires pour en faire des acteurs de l'innovation. L'approche du wagon est de ce point de vue intéressante, puisque les participants au programme &quot;Première classe&quot; seront immergés dans le monde du développement web et de l'innovation.
+&lt;p class=&quot;justify&quot;&gt;Beaucoup de talents sortant d&#39;université ou de grande école n&#39;ont pas les compétences techniques nécessaires pour en faire des acteurs de l&#39;innovation. L&#39;approche du wagon est de ce point de vue intéressante, puisque les participants au programme &quot;Première classe&quot; seront immergés dans le monde du développement web et de l&#39;innovation.
 &lt;/p&gt;
 
 
@@ -483,7 +578,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;Sur quels langages avez-vous des besoins ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Le langage de programmation n'est pas un critère de recrutement chez Uber. Ce que nous valorisons avant tout chez un candidat est sa faculté d'adaptation, sa motivation, et son goût pour les problèmes complexes. Le candidat idéal ? Une base en backend avec Ruby et Rails, des notions de front, et surtout l'énergie et l'envie de révolutionner le transport :) C'est dans cette logique que nous avons décidé de suivre la &quot;Première classe&quot;, et que nous espérons y trouver des talents.
+&lt;p class=&quot;justify&quot;&gt;Le langage de programmation n&#39;est pas un critère de recrutement chez Uber. Ce que nous valorisons avant tout chez un candidat est sa faculté d&#39;adaptation, sa motivation, et son goût pour les problèmes complexes. Le candidat idéal ? Une base en backend avec Ruby et Rails, des notions de front, et surtout l&#39;énergie et l&#39;envie de révolutionner le transport :) C&#39;est dans cette logique que nous avons décidé de suivre la &quot;Première classe&quot;, et que nous espérons y trouver des talents.
 &lt;/p&gt;
 
 
@@ -492,7 +587,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;Quel sera votre rôle à la fin du programme &quot;Première Classe&quot; ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Nos équipes de développement sont basées à San Francisco, et comptent déjà quelques frenchies. Je ferai en sorte que les meilleurs candidats du programme aient l'occasion de défendre leur candidature auprès de nos équipes californiennes.
+&lt;p class=&quot;justify&quot;&gt;Nos équipes de développement sont basées à San Francisco, et comptent déjà quelques frenchies. Je ferai en sorte que les meilleurs candidats du programme aient l&#39;occasion de défendre leur candidature auprès de nos équipes californiennes.
 &lt;/p&gt;
 
 
@@ -512,9 +607,9 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
         &lt;img src=&quot;/assets/mack.png&quot;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
-        &lt;p class=&quot;justify&quot;&gt;Ancien élève du &lt;a href=&quot;http://www.devbootcamp.com/&quot; target=&quot;_blank&quot;&gt;Devbootcamp&lt;/a&gt;, Mack vit en France depuis 1 an. Après avoir travaillé chez &lt;a href=&quot;http://www.tigerlilyapps.com/fr/&quot; target=&quot;_blank&quot;&gt;Tigerlily&lt;/a&gt;, il a décidé de se concentrer sur son service d'abonnement/partage autour du whiskey &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster's Club&lt;/a&gt; et de rejoindre l'équipe du wagon pour enseigner **le code qui sert**. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !&lt;/p&gt;
+        &lt;p class=&quot;justify&quot;&gt;Ancien élève du &lt;a href=&quot;http://www.devbootcamp.com/&quot; target=&quot;_blank&quot;&gt;Devbootcamp&lt;/a&gt;, Mack vit en France depuis 1 an. Après avoir travaillé chez &lt;a href=&quot;http://www.tigerlilyapps.com/fr/&quot; target=&quot;_blank&quot;&gt;Tigerlily&lt;/a&gt;, il a décidé de se concentrer sur son service d&#39;abonnement/partage autour du whiskey &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster&#39;s Club&lt;/a&gt; et de rejoindre l&#39;équipe du wagon pour enseigner **le code qui sert**. Il nous parle de son expérience à DBC et de son rôle au wagon, forgive the english !&lt;/p&gt;
         &lt;p class=&quot;justify&quot;&gt;&lt;span class=&quot;red&quot;&gt;Likes&lt;/span&gt;: The Beatles, Yerba Maté, Star Wars, #A3DAFF &amp; #FCE092, Yeezus&lt;p/&gt;
-        &lt;p class=&quot;justify&quot;&gt;&lt;span class=&quot;red&quot;&gt;Dislikes&lt;/span&gt;: soda, hunting, Dawson's Creek, liars&lt;/p&gt;
+        &lt;p class=&quot;justify&quot;&gt;&lt;span class=&quot;red&quot;&gt;Dislikes&lt;/span&gt;: soda, hunting, Dawson&#39;s Creek, liars&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -524,7 +619,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;What did you learn during DBC that helped you find a job?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;What was great about Dev Bootcamp is that they not only taught the fundamentals of Ruby/Rails (the essentials to getting a Rails gig), but the more intangible parts of what it means to be a good developer - taking and giving feedback on your work, how to be that guy people want to work with, how to bring a fresh perspective to a project. They taught me that being a good developer means a lot more than writing good code - there's such a human element to the whole thing that people sometimes ignore. I still have a lot of work to do on both sides of that equation, but I'm really thankful that they encouraged me to have that holistic perspective.
+&lt;p class=&quot;justify&quot;&gt;What was great about Dev Bootcamp is that they not only taught the fundamentals of Ruby/Rails (the essentials to getting a Rails gig), but the more intangible parts of what it means to be a good developer - taking and giving feedback on your work, how to be that guy people want to work with, how to bring a fresh perspective to a project. They taught me that being a good developer means a lot more than writing good code - there&#39;s such a human element to the whole thing that people sometimes ignore. I still have a lot of work to do on both sides of that equation, but I&#39;m really thankful that they encouraged me to have that holistic perspective.
 &lt;/p&gt;
 
 
@@ -533,7 +628,7 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 &lt;h4 class=&quot;bold&quot;&gt;What did you do after the DBC?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster's Club&lt;/a&gt;, a whiskey &quot;learning/drinking club&quot; that I've been running out of the US for the last year. Coming soon to France...&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;I moved to Paris the better part of a year ago. For most of that time, I was working for a startup as a rails developer but more recently started focusing full-time on &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;Taster&#39;s Club&lt;/a&gt;, a whiskey &quot;learning/drinking club&quot; that I&#39;ve been running out of the US for the last year. Coming soon to France...&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -546,23 +641,23 @@ Ce constat s'affirme de plus en plus dans la conscience collective, et de belles
 
 
 
-&lt;p&gt;When I started &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;TC&lt;/a&gt; I had a spreadsheet that I would use to manage customers. Everything administrative would happen in excel - recording how many bottles everyone received, cancellations, renewals, upgrade, shipping history, etc… It got pretty unwieldy as my membership grew - I knew it wasn't the best solution.&lt;/p&gt;
+&lt;p&gt;When I started &lt;a href=&quot;http://www.tastersclub.com/&quot; target=&quot;_blank&quot;&gt;TC&lt;/a&gt; I had a spreadsheet that I would use to manage customers. Everything administrative would happen in excel - recording how many bottles everyone received, cancellations, renewals, upgrade, shipping history, etc… It got pretty unwieldy as my membership grew - I knew it wasn&#39;t the best solution.&lt;/p&gt;
 
 
 
 
-&lt;p&gt;Now we have an web app to handle all the administration of our members' subscriptions, generate email communication to members, receipts, create and send out our PDF welcome certificate, etc… We use Stripe to process our subscription payments. Our blog is powered by Jekyll. It's all sitting on Heroku. It's much easier and takes way less time. It was obvious that something like this is the best solution but it wasn't until I learned to code that I could actually make it happen.&lt;/p&gt;
+&lt;p&gt;Now we have an web app to handle all the administration of our members&#39; subscriptions, generate email communication to members, receipts, create and send out our PDF welcome certificate, etc… We use Stripe to process our subscription payments. Our blog is powered by Jekyll. It&#39;s all sitting on Heroku. It&#39;s much easier and takes way less time. It was obvious that something like this is the best solution but it wasn&#39;t until I learned to code that I could actually make it happen.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;/p&gt;
 &lt;br/&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;What will be your role for le wagon's 1st class program? What do you want to teach students?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;What will be your role for le wagon&#39;s 1st class program? What do you want to teach students?&lt;/h4&gt;
 
 
 &lt;p class=&quot;justify&quot;&gt;I want to encourage the students to have a goal in mind when they are learning to code. 
 
-When I learned to code, the moments where I was learning just for the sake of learning weren't always super productive. On the other hand, when I could relate what I was learning to something I was trying to build, every lesson meant so much more. I was more curious, too - I couldn't stop asking questions. If a student can get fired up about making something in particular, they're going to learn to get there faster and with a purpose.&lt;/p&gt;
+When I learned to code, the moments where I was learning just for the sake of learning weren&#39;t always super productive. On the other hand, when I could relate what I was learning to something I was trying to build, every lesson meant so much more. I was more curious, too - I couldn&#39;t stop asking questions. If a student can get fired up about making something in particular, they&#39;re going to learn to get there faster and with a purpose.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -581,9 +676,9 @@ When I learned to code, the moments where I was learning just for the sake of le
         &lt;img src=&quot;/assets/pkm.jpg&quot;&gt;
     &lt;/div&gt;
     &lt;div class=&quot;span8&quot;style=&quot;padding-left:10px;&quot;&gt;
-        &lt;p class=&quot;justify&quot;&gt;Pierre Kosciusko-Morizet est CEO de &lt;a href=&quot;http://www.priceminister.com/&quot;&gt;PriceMinister&lt;/a&gt; et co-fondateur du fonds d'investissement &lt;a href=&quot;http://www.isai.fr/&quot;&gt;ISAI&lt;/a&gt;. Il s'est prêté au jeu d'une petite interview pour le Wagon...&lt;/p&gt;
+        &lt;p class=&quot;justify&quot;&gt;Pierre Kosciusko-Morizet est CEO de &lt;a href=&quot;http://www.priceminister.com/&quot;&gt;PriceMinister&lt;/a&gt; et co-fondateur du fonds d&#39;investissement &lt;a href=&quot;http://www.isai.fr/&quot;&gt;ISAI&lt;/a&gt;. Il s&#39;est prêté au jeu d&#39;une petite interview pour le Wagon...&lt;/p&gt;
         &lt;br/&gt;
-        &lt;h4 class=&quot;bold&quot;&gt;Qu'attendez vous d'une nouvelle recrue?&lt;/h4&gt;
+        &lt;h4 class=&quot;bold&quot;&gt;Qu&#39;attendez vous d&#39;une nouvelle recrue?&lt;/h4&gt;
         &lt;p class=&quot;justify&quot;&gt;Le plus important dans le web c’est l’envie d’apprendre : tout bouge trop vite, donc les connaissances ne sont valables que peu de temps, il faut aimer le changement...&lt;/p&gt;
         &lt;br/&gt;
         &lt;h4 class=&quot;bold&quot;&gt;Plus spécifiquement sur des postes techniques?&lt;/h4&gt;
@@ -632,8 +727,8 @@ When I learned to code, the moments where I was learning just for the sake of le
 &lt;h4 class=&quot;bitter&quot;&gt;Qui es-tu ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Je suis co-fondateur de &lt;a href=&quot;http://wisembly.com/fr/&quot;&gt;Wisembly&lt;/a&gt;. Wisembly est une solution collaborative pour les réunions d'entreprise. Notre logicel en SaaS permet de préparer, d'animer et d'assurer le suivi de réunions (séminaires, conférences, conf-call, formation...).
-Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et 17 employés.&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Je suis co-fondateur de &lt;a href=&quot;http://wisembly.com/fr/&quot;&gt;Wisembly&lt;/a&gt;. Wisembly est une solution collaborative pour les réunions d&#39;entreprise. Notre logicel en SaaS permet de préparer, d&#39;animer et d&#39;assurer le suivi de réunions (séminaires, conférences, conf-call, formation...).
+Wisembly a été fondée en 2010. Nous avons aujourd&#39;hui près de 300 clients et 17 employés.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;span class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/assets/wisembly.png&quot; alt=&quot;wisembly&quot; /&gt;&lt;/span&gt;
@@ -644,16 +739,16 @@ Wisembly a été fondée en 2010. Nous avons aujourd'hui près de 300 clients et
 
 &lt;p class=&quot;justify&quot;&gt;Nous recherchons à la fois des profils commerciaux et des profils plus techniques. 
 Dans notre équipe technique, nous voulons des gens motivés, très compétents dans leur domaine, capables de travailler en équipe et maîtrisant toutes les bonnes pratiques de développement.
-Côté produit, nous cherchons des profils capables de comprendre les tenants et les aboutissants techniques du produit, mais aussi de discuter avec les développeurs, toujours avec une bonne vision utilisateurs bien sûr. Etant donné la taille de l'équipe aujourd'hui, nous privilégions un product designer ayant des compétences en programmation, et capable d'intégrer ses idées, plutôt que d'avoir à engager à la fois un graphiste et un intégrateur.  
+Côté produit, nous cherchons des profils capables de comprendre les tenants et les aboutissants techniques du produit, mais aussi de discuter avec les développeurs, toujours avec une bonne vision utilisateurs bien sûr. Etant donné la taille de l&#39;équipe aujourd&#39;hui, nous privilégions un product designer ayant des compétences en programmation, et capable d&#39;intégrer ses idées, plutôt que d&#39;avoir à engager à la fois un graphiste et un intégrateur.  
 &lt;/p&gt;
 
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n'étaient pas assez calés en programmation ?&lt;/h4&gt;
+&lt;h4 class=&quot;bold&quot;&gt;Avez-vous déjà dû refuser des candidats qui n&#39;étaient pas assez calés en programmation ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Oui, ça nous est déjà arrivé pour des postes produit. Il s'agissait de bons profils pourtant, sortant parfois de grandes écoles. Nous rencontrons souvent des candidats avec un bon background produit mais qui ne sont pas capables de comprendre le code ou d'intégrer des features et prototyper rapidement. Il est fondamental dans notre démarche de développement produit au côté de nos clients de pouvoir leur apporter des idées nouvelles et concrètes régulièrement. Pour pouvoir implémenter de nouvelles fonctionnalités rapidement, il faut clairement un bagage en programmation.&lt;/p&gt;
+&lt;p class=&quot;justify&quot;&gt;Oui, ça nous est déjà arrivé pour des postes produit. Il s&#39;agissait de bons profils pourtant, sortant parfois de grandes écoles. Nous rencontrons souvent des candidats avec un bon background produit mais qui ne sont pas capables de comprendre le code ou d&#39;intégrer des features et prototyper rapidement. Il est fondamental dans notre démarche de développement produit au côté de nos clients de pouvoir leur apporter des idées nouvelles et concrètes régulièrement. Pour pouvoir implémenter de nouvelles fonctionnalités rapidement, il faut clairement un bagage en programmation.&lt;/p&gt;
 
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
@@ -661,7 +756,7 @@ Côté produit, nous cherchons des profils capables de comprendre les tenants et
 &lt;h4 class=&quot;bold&quot;&gt;Pourquoi soutiens-tu le wagon ?&lt;/h4&gt;
 
 
-&lt;p class=&quot;justify&quot;&gt;Le programme &quot;1ère classe&quot; permet d'ouvrir les portes des startup à des profils très intéressants, auxquels il manque simplement un bagage technique. Je pense notamment à un graphiste ou un product manager qui voudrait rejoindre une startup. Pour ce type de profil, les bases techniques et les bonnes pratiques enseignées par le Wagon me semblent essentielles.
+&lt;p class=&quot;justify&quot;&gt;Le programme &quot;1ère classe&quot; permet d&#39;ouvrir les portes des startup à des profils très intéressants, auxquels il manque simplement un bagage technique. Je pense notamment à un graphiste ou un product manager qui voudrait rejoindre une startup. Pour ce type de profil, les bases techniques et les bonnes pratiques enseignées par le Wagon me semblent essentielles.
 &lt;/p&gt;
 
 
@@ -687,7 +782,7 @@ Last May, Le wagon introduced CEOs from &lt;a href=&quot;http://www.lecamping.or
 &lt;li&gt;What tools and resources do I know to achieve this?&lt;/li&gt;
 &lt;li&gt;Do I know enough HTML/CSS/Javascript to assist my CTO? Make mockups and maintain a blog?&lt;/li&gt;
 &lt;li&gt;Do I know enough Javascript/jQuery to handle simple animation by myself?&lt;/li&gt;
-&lt;li&gt;Would I understand my CTO's day-to-day enough to relate?&lt;/li&gt;
+&lt;li&gt;Would I understand my CTO&#39;s day-to-day enough to relate?&lt;/li&gt;
 &lt;li&gt;How would I organise and control the development cycles in my startup?&lt;/li&gt;
 &lt;li&gt;How would I track the necessary analytics for my app? Which information do I need and which tools will most effectively achieve my goals?&lt;/li&gt;
 &lt;li&gt;Can I quickly access social data using social APIs?&lt;/li&gt;
