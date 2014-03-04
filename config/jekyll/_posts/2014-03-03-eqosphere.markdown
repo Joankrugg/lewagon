@@ -58,13 +58,6 @@ Mais attention! une plateforme web collaborative ne donne de bons résultats qu�
 
 Chez EQOSPHERE, la plateforme web est un outil au centre du dispositif et en même temps l’une des 3 séquences de nos services, qui sont liées entre elles: en amont, nous accompagnons les acteurs « dans le dur » dans la réforme de leur process, ce qui leur permet d’utiliser au mieux la plateforme; et en aval, nous créons, maintenons et animons le réseau des acquéreurs.
 
-
-<br>
-
-#### Quelle technologie utilisez-vous? 
-
-Cela dépend des appli. Microsoft actuellement pour ce qui concerne la plateforme, avec des perspectives de changement et de réorientation vers Drupal et plus de libre. 
-
 <br>
 
 #### Quelle est la prochaine étape pour Eqo Sphère ? 
