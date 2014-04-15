@@ -5,7 +5,7 @@ date:   2014-04-15
 ---
 
 ##### Ecrit par Miruna (<a href="https://twitter.com/anamiruna" target="_blank"><span class="red bold">@anamiruna</span></a>)
-Quatre élèves de la première promotion reviennent sur leur parcours au sein du Wagon, et l'avancement de leur projets depuis la fin de la saison 1. Félix, Céline, Niels et Estelle nous ont fait le plasir d'évoquer ce que le Wagon leur a apporté de concret et comment cette expérience a enrichit leur vie au quotidien. 
+Quatre élèves de la première promotion reviennent sur leur parcours au sein du Wagon, et l'avancement de leur projets depuis la fin de la saison 1. Félix, Céline, Niels et Estelle nous ont fait le plaisir d'évoquer ce que le Wagon leur a apporté de concret et comment cette expérience a enrichit leur vie au quotidien. 
 
 ![image](https://dl.dropboxusercontent.com/u/64779860/whiskaroo_photos/le%20wagon%202.jpg)
 
