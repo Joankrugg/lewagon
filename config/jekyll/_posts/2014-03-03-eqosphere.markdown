@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ITW de Xavier d'Eqosphere, Prix « Eco-innovations » de la ville de Paris"
-date:   2014-03-03 09:46:01
+date:   2014-03-03
 ---
 
 

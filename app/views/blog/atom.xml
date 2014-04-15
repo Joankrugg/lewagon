@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-03-04T15:36:26+01:00</updated>
+ <updated>2014-04-15T16:38:45+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -12,9 +12,72 @@
 
  
  <entry>
+   <title>Les alumnis de la première saison reviennent sur leurs expériences au Wagon</title>
+   <link href="YOUR_URL/feedbacks-alumni.html"/>
+   <updated>2014-04-15T00:00:00+02:00</updated>
+   <id>BLOG_URL/feedbacks-alumni</id>
+   <content type="html">&lt;h5&gt;Ecrit par Miruna (&lt;a href=&quot;https://twitter.com/anamiruna&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;red bold&quot;&gt;@anamiruna&lt;/span&gt;&lt;/a&gt;)&lt;/h5&gt;
+
+&lt;p&gt;Quatre élèves de la première promotion reviennent sur leur parcours au sein du Wagon, et l&#39;avancement de leur projets depuis la fin de la saison 1. Félix, Céline, Niels et Estelle nous ont fait le plasir d&#39;évoquer ce que le Wagon leur a apporté de concret et comment cette expérience a enrichit leur vie au quotidien.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/64779860/whiskaroo_photos/le%20wagon%202.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Quel était ton projet entrepreneurial avant le Wagon?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Félix&lt;/span&gt;: Mon projet était dans le domaine du marché de l&#39;art, un secteur qui n&#39;a pas tellement suivi la transition vers le numérique et pour moi il s&#39;agissait d&#39;accompagner tous ces acteurs là. Au Wagon j&#39;avais bien l&#39;intention de capitaliser sur l&#39;enseignement prodigué pour réaliser un prototype du projet formalisé au cours des mois précédents et bénéficier de la rapidité du développement.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Céline&lt;/span&gt;: Avant le Wagon j&#39;ai eu l&#39;occasion de côtoyer plusieurs fois des développeurs et je n&#39;arrivait pas très bien à travailler avec eux de manière efficiente. Je voulait être compétente dans ma relation professionnelle avec les développeurs en général.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Niels&lt;/span&gt;: En ce qui me concerne, j&#39;ai intégré le Wagon parce que j&#39;avais déjà crée une société il y a quelque temps &lt;a href=&quot;http://www.seekube.com/accueil&quot;&gt;seekube.com&lt;/a&gt; et j&#39;étais très frustré de ne pas pouvoir toucher au produit moi même, le faire évoluer, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Estelle&lt;/span&gt;: J&#39;ai monté mon site e-commerce en octobre dernier: &lt;a href=&quot;http://www.lecolis.com/&quot;&gt;lecolis.com&lt;/a&gt; vente des produits de terroir à des français expatriés, et je voulais avoir la main entièrement sur mon site, je n&#39;avais que de l&#39;expérience front-end mais je voulais une maîtrise technique plus poussée. Je trouve que c&#39;est très important d&#39;avoir une relation saine avec les équipes techniques, surtout quand on bosse dans le marketing digital, pouvoir comprendre les enjeux techniques.&lt;/p&gt;
+
+&lt;h3&gt;Qu&#39;est-ce que le Wagon t&#39;a apporté en terme de maitrise technique?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Félix&lt;/span&gt;:  Avant mes études d&#39;art j&#39;avais fait des études d&#39;ingénieur, donc je n&#39;étais pas non plus novice. Ceci dit, je voulais me remettre au niveau, et apprendre des technologies plus récentes. Ceci a été d&#39;ailleurs un argument pour que je m&#39;inscrive au Wagon. Le Wagon m&#39;a apporté la réalisation de mon prototype en un temps record. L&#39;enseignement du Wagon est précis, qualitatif, rapide, ce qui permet de décupler la capacité d&#39;apprentissage et de maîtrise.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Céline&lt;/span&gt;: Le Wagon a vraiment tenu ses promesses et bien au delà en fait. La valeur ajoutée du Wagon n&#39;est pas d&#39;apprendre un language de code en particulier, comme Rails par exemple, mais de penser le code: comment le structurer, où chercher des infos, comment structurer la base de données et ce n&#39;est pas dans des tutos que l&#39;on va puiser ces précieuses informations, ou alors on met un an. Là, le fait que l&#39;on soit une quinzaine, tous avec des profils entrepreneuriaux, on s&#39;entreaidaient et on se challengaientt là-dessus, les profs nous challengeaient aussi pour structurer notre code propremet et nous en incitaient en permanence.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Niels&lt;/span&gt;: Le Wagon m&#39;a permis d&#39;atteintre tous les objectifs que j&#39;avais avant d&#39;y entrer, c&#39;est-à-dire être capable de coder un prototype, sortir un site en béta : &lt;a href=&quot;http://www.jubeo.co/&quot;&gt;www.jubeo.co&lt;/a&gt; sans avoir besoin d&#39;intervention extérieure.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Estelle&lt;/span&gt;: Des compétences back-end et front-end, une bonne maitrise technique, de l&#39;autonomie, j&#39;ai pu prendre en main mon site comme je le voulais, un réseaux pro, des intervennants hautement compétents.&lt;/p&gt;
+
+&lt;h3&gt;Comment as-tu trouvé le Wagon en termes d&#39;ambiance?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Félix&lt;/span&gt;: J&#39;ai été assez bluffé. Je m&#39;attendais à ce qu&#39;il y ait de l&#39;ambiance, bien sur, mais pas une telle émulation. Il y avait une très fort cohésion de groupe et une dynamique impressionnante. Nous avions tous des projets entrepreneuriaux, aucun de nous ne se trouvait là par hasard, nous abordions cette formation avec des perspectives similaires. En plus de ce que nous a apporté la formation en elle même, il y a eu un vrai partage de connaissances. Il faut reconnaitre que Boris et Romain ont fait un travail très intéressant en termes de casting. J&#39;ai pu tout au long de la saison 1 bénéficier de la richesse de ce groupe.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Céline&lt;/span&gt;: Ca dépendait des semaines! (rires) Excellente, évidement, je garde de très bons souvenirs, sinon je ne serais pas là aujourd&#39;hui en coworking. Une vrai complicité c&#39;est mise en place au fur et à mesure, et à la fin on avaient réelement quelque chose qui nous reliait, notre volonté d&#39;entreprendre par exemple. Dans un autre contexte, je n&#39;aurais pas parié sur cette osmose, mais il s&#39;avère qu&#39;elle a vraiment eu lieu.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Niels&lt;/span&gt;: J&#39;ai adoré l&#39;ambiance, parce que je n&#39;ai trouvé que des gens extrèmement motivés ce qui a crée une dynamique très sympa semaine après semaine, nous avions tous des parcours professionnels très différents ce qui fait qu&#39;il y a eu des vrais échanges de compétences entre nous. Egalement, les intervenants extérieurs étaient top, ils nous ont apporté une vraie connaissance.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Estelle&lt;/span&gt;: J&#39;ai trouvé l&#39;opportunité de parler de façon très concrète de ce que font les acteurs du web au quotidien, comme lors des Apéro-Talks par exemple, très intéressante, un vrai plus.&lt;/p&gt;
+
+&lt;h3&gt;Où en es tu aujourd&#39;hui avec ton projet?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Félix&lt;/span&gt;: Je continue à travailler sur le développement du prototype. La formation au Wagon se concentrait sur certaines technologies mais ne se réduisait pas à ces mêmes technos. On a appris beaucoup de choses, le Wagon  nous a formé et apporté une méthodologie très solide qui peut être replicable sur d&#39;autres languages de code. Il s&#39;avère également que j&#39;ai rencontré au sein du Wagon d&#39;autres personnes intéressées par mon projet et désormais nous travaillons ensemble.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Céline&lt;/span&gt;: J&#39;ai eu envie de me remettre à coder parce que 2 mois ça passe très vite. Je travaille comme freelance web, je fais des applications mobiles, j&#39;ai un projet d&#39;app mobile sous forme de quizz: &lt;a href=&quot;http://www.c-m-s.co/#celine-martinet-sanchez-main&quot;&gt;www.c-m-s.co&lt;/a&gt; pour apprendre et se tester sur divers sujets en ligne. Je tâtonne un peu mais c&#39;est pour rester dans le code parce que j&#39;adore ce milieu. Code et startup il n&#39;y a rien de mieux selon moi.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Niels&lt;/span&gt;: En moins d&#39;un mois je viens de coder une version bêta qui est largement suffisante et j&#39;espère lancer mon site dans moins d&#39;une semaine, histoire d&#39;ajouter du contenu dessus.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Estelle&lt;/span&gt;: Je m&#39;oriente plus vers l&#39;épicerie fine pour mon e-commerce. J&#39;ai un partenariat avec un Meilleur Ouvrier de France artisan fromager pour pouvoir envoyer des produits frais dans les pays limitrophes à la France.&lt;/p&gt;
+
+&lt;h3&gt;Est-ce que tu recommande Le Wagon?&lt;/h3&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Félix:&lt;/span&gt; Bien sûr! La spécificité du Wagon par rapport aux autres Dev Boot Camp est le fait de regrouper des personnes avec de profils entrepreneuriaux, et non pas des gens qui sont à la recherche d&#39;une reconversion. Ceci est une grande valeur ajoutée et je sais de quoi je parle. Toute personne qui a suivi la formation du Wagon sera à l&#39;aise dans la programmation, aura une bonne connaissance de ce que représentent les enjeux techniques aujourd&#39;hui, ce qui facilitera grandement sa relation avec ses équipes techniques.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Céline&lt;/span&gt;: Bien sûr! J&#39;en ai déjà beaucoup parlé autour de moi et je continue à le recommander à toute personne susceptible d&#39;être intéressée que je croise!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Niels&lt;/span&gt;: C&#39;est pas compliqué, je le recommande à tous mes potes. J&#39;hésite pas une seule seconde: la preuve il y a trois inscrits pour la saison 2 à qui j&#39;avais recommandé Le Wagon.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;red bold&quot;&gt;Estelle&lt;/span&gt;: Moi je le recommande à tous ceux qui veulent travailler dans le web: ça permet d&#39;être autonome et démarrer rapidement quand on a une idée. C&#39;est un très bonne formation qui donne tous les outils pour maîtriser les aspects techniques.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>ITW de Xavier d'Eqosphere, Prix « Eco-innovations » de la ville de Paris</title>
    <link href="YOUR_URL/eqosphere.html"/>
-   <updated>2014-03-03T09:46:01Z</updated>
+   <updated>2014-03-03T00:00:00+01:00</updated>
    <id>BLOG_URL/eqosphere</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span6&quot; style=&quot;padding-right:20px;&quot;&gt;
