@@ -3,9 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#blog a, h2{
+#blog h2{
 	color: rgb(51,51,51);
 }
+
+#blog a{
+	color: #006491;
+}
+
 #blog a:hover{
 	text-decoration: underline;
 }
