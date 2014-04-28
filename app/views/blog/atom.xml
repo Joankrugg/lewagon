@@ -4,12 +4,105 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-04-15T18:31:43+02:00</updated>
+ <updated>2014-04-23T15:01:17+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
  </author>
 
+ 
+ <entry>
+   <title>Comment utiliser git et GitHub dans une école du code</title>
+   <link href="YOUR_URL/comment-utiliser-git-et-github-dans-une-ecole-du-code.html"/>
+   <updated>2014-04-23T00:00:00+02:00</updated>
+   <id>BLOG_URL/comment-utiliser-git-et-github-dans-une-ecole-du-code</id>
+   <content type="html">&lt;p&gt;&lt;strong&gt;Écrit par Sébastien (&lt;a href=&quot;https://twitter.com/ssaunier&quot;&gt;@ssaunier&lt;/a&gt;)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/premiere&quot;&gt;Première Classe&lt;/a&gt; est la formation-tremplin de 2 mois à temps plein créé par Le Wagon. Elle donne les clés à ses élèves-entrepreneurs pour devenir autonome en développement web en un temps record. Cette formation intensive se compose d&#39;une majorité de travaux dirigés, durant lesquels les élèves travaillent sur des exercices de programmation.&lt;/p&gt;
+
+&lt;p&gt;Pour cette deuxième édition du bootcamp, Le Wagon innove en améliorant son flux de travail en prenant en compte les besoins suivants :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Les professeurs peuvent apporter des modifications de dernière minute aux énoncés.&lt;/li&gt;
+&lt;li&gt;Les élèves doivent ensuite télécharger une version à jour des exercices.&lt;/li&gt;
+&lt;li&gt;Les élèves peuvent accéder au corrigé de chaque exercice.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Normalisation d&#39;un exercice&lt;/h2&gt;
+
+&lt;p&gt;Les professeurs se sont tout d&#39;abord accordés sur un format d&#39;exercice, afin de pouvoir le &lt;strong&gt;corriger&lt;/strong&gt; de manière systématique. Voici un dossier type pour un exercice se nommant &lt;code&gt;exercise_foo&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;exercise_foo
+|-- README.md
+|-- Rakefile
+|-- lib
+|   `-- exercise_foo.rb
+`-- spec
+    |-- spec_helper.rb
+    `-- exercise_foo_spec.rb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Le fichier &lt;code&gt;README.md&lt;/code&gt; contient l&#39;énoncé de l&#39;exercice, écrit en syntaxe
+&lt;a href=&quot;https://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Le dossier &lt;code&gt;lib&lt;/code&gt; accueillera la solution de l&#39;élève (exercice &quot;à trous&quot;). Le dossier &lt;code&gt;spec&lt;/code&gt; contient les tests qui servent de corrigés automatiques.&lt;/p&gt;
+
+&lt;h2&gt;Corriger un exercice par le TDD&lt;/h2&gt;
+
+&lt;p&gt;La pratique du TDD (&lt;em&gt;Test Driven Development&lt;/em&gt;, ou développement piloté par les tests) permet aux élèves d&#39;avoir une correction automatique et instantanée de leur solution tout en les familiarisant avec cette pratique.&lt;/p&gt;
+
+&lt;p&gt;En résumé, les professeurs écrivent les tests (corrigés / spécifications), les élèves écrivent le code (solution de l&#39;exercice).&lt;/p&gt;
+
+&lt;h2&gt;Collaboration élèves / professeurs&lt;/h2&gt;
+
+&lt;p&gt;Le premier jour de la formation &lt;a href=&quot;/premiere&quot;&gt;Premiere Classe&lt;/a&gt; a été consacré à deux objectifs :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Configurer les ordinateurs de chaque élève pour avoir un environnement de travail sain (&lt;a href=&quot;https://github.com/lewagon/setup&quot;&gt;détails&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Apprendre les &lt;a href=&quot;http://sebastien.saunier.me/git-intro/#/&quot;&gt;rudiments de Git et Github&lt;/a&gt; (prenez votre billet pour le prochain &lt;a href=&quot;http://www.lewagon.org/learn/debuter-avec-git-github&quot;&gt;Wagon-bar&lt;/a&gt; !)&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Git est un outil de gestion de versions qui permet de travailler sereinement sur son code. En effet, on peut réaliser des photographies de son code à un instant &lt;em&gt;t&lt;/em&gt; (&lt;code&gt;git commit&lt;/code&gt;), et y revenir à tout moment. Pensez à votre utilisation de Word ou Excel, vous tapez sans doute &lt;code&gt;CTRL+S&lt;/code&gt; toutes les cinq secondes.&lt;/p&gt;
+
+&lt;p&gt;D&#39;autre part, git permet de &lt;strong&gt;partager&lt;/strong&gt; son code, notamment sur &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, qu&#39;on peut considérer comme un réseau social de programmeurs. Ce qui nous intéresse ici, c&#39;est que les élèves publient leur code de manière à ce qu&#39;ils puissent lire les solutions de chacun, et bien sûr pour que les professeurs puissent jeter un oeil.&lt;/p&gt;
+
+&lt;p&gt;Les élèves ont donc tous &lt;strong&gt;forké&lt;/strong&gt; en début de bootcamp le &lt;strong&gt;repo&lt;/strong&gt; des exercices, et peuvent à tout moment récupérer les mises à jour des professeurs (&lt;code&gt;git pull&lt;/code&gt;). Ils peuvent également envoyer leur solution sur GitHub (&lt;code&gt;git push&lt;/code&gt;). Le schéma ci-dessous indique les différents flux de données.&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+  &lt;img src=&quot;/jekyll/git-students.png&quot; style=&quot;max-width: 400px&quot; /&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Les lecteurs les plus avertis sur git auront remarqués que les élèves ont deux &lt;code&gt;remote&lt;/code&gt;s configurées pour leur repo local :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;origin&lt;/code&gt;, qui correspond à leur propre repo sur Github, sur lesquels ils peuvent &lt;code&gt;push&lt;/code&gt; pour soumettre leurs solutions.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;upstream&lt;/code&gt;, qui correspond au repo des professeurs, sur lequel ils peuvent &lt;code&gt;pull&lt;/code&gt; pour récupérer les dernières mises à jour des énoncés.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Tableau de bord de la classe&lt;/h2&gt;
+
+&lt;p&gt;Toute cette normalisation (du format des exercices) et cette automatisation (corrigés automatiques par des tests) a permis de mettre en place un système d&#39;aggrégation de la classe sur notre plateforme pédagogique. Ainsi, les professeurs peuvent visualiser le niveau général d&#39;avancement de la classe, et repérer les élèves en difficulté pour les racrocher au wagon le plus tôt possible.&lt;/p&gt;
+
+&lt;p&gt;Ce tableau de bord n&#39;existerait pas sans les &lt;a href=&quot;https://developer.github.com/v3/repos/hooks/&quot;&gt;Webhooks&lt;/a&gt; de GitHub. À chaque fois qu&#39;un élève &lt;code&gt;push&lt;/code&gt; sa solution sur &lt;code&gt;origin&lt;/code&gt;, GitHub envoie une requête &lt;code&gt;HTTP&lt;/code&gt; de type &lt;code&gt;POST&lt;/code&gt; à la plateforme pédagogique, avec les informations concernant les derniers &lt;code&gt;commit&lt;/code&gt; de l&#39;élève. Cela permet à la plateforme de récupérer le code de l&#39;élève et de lancer les tests avec la commande &lt;code&gt;rake&lt;/code&gt;. Le resultat de cette correction automatique est stockée en base de données et sert lors de l&#39;affichage du dashboard élève.&lt;/p&gt;
+
+&lt;p&gt;En reprenant le schéma précédent, on peut ajouter au dessus la plateforme pédagogique :&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+  &lt;img src=&quot;/jekyll/git-kitt.png&quot; style=&quot;max-width: 400px&quot; /&gt;
+&lt;/div&gt;
+
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Nous avons pu exploiter la notion de &lt;a href=&quot;http://git-scm.com/book/fr/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants&quot;&gt;dépôt distant&lt;/a&gt; (&lt;code&gt;remote&lt;/code&gt;) pour permettre un flux de travail élèves / professeurs fluide et efficace. Les lecteurs observateurs auront remarqué que les schémas ne font pas mention du Wagon. En effet, il n&#39;y a pas de spécificité, ce flux de travail peut être répliqué &lt;strong&gt;dans n&#39;importe quelle salle de classe de programmation&lt;/strong&gt; !&lt;/p&gt;
+
+&lt;p&gt;Merci à GitHub pour cette plateforme extraordinaire et ses Webhooks. Professeurs, allez faire un tour du côté de &lt;a href=&quot;https://education.github.com/&quot;&gt;GitHub Education&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vous êtes porteur de projet mais débutant en code ? Alors foncez vous inscrire pour un programme riche et intense de 9 semaines, &lt;a href=&quot;/premiere&quot;&gt;Première Classe&lt;/a&gt; ! Prochains départs en Juillet et en Octobre.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Les alumnis de la première saison reviennent sur leur expérience au Wagon</title>

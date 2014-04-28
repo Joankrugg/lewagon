@@ -1,6 +1,104 @@
 
   <div class='row-fluid'>
     <div class='span12'>
+      <h2><a href="blog/comment-utiliser-git-et-github-dans-une-ecole-du-code.html">Comment utiliser git et GitHub dans une école du code</a></h2>
+      <p class="meta muted">23 Apr 2014</p>
+      <div class="fb-like" data-href="http://www.lewagon.org/blog/comment-utiliser-git-et-github-dans-une-ecole-du-code.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.lewagon.org/blog/comment-utiliser-git-et-github-dans-une-ecole-du-code.html" data-via="Lewagonparis" data-lang="fr" data-hashtags="bootcampparis">Tweeter</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <br>
+      <br>
+      <p><strong>Écrit par Sébastien (<a href="https://twitter.com/ssaunier">@ssaunier</a>)</strong></p>
+
+<p><a href="/premiere">Première Classe</a> est la formation-tremplin de 2 mois à temps plein créé par Le Wagon. Elle donne les clés à ses élèves-entrepreneurs pour devenir autonome en développement web en un temps record. Cette formation intensive se compose d'une majorité de travaux dirigés, durant lesquels les élèves travaillent sur des exercices de programmation.</p>
+
+<p>Pour cette deuxième édition du bootcamp, Le Wagon innove en améliorant son flux de travail en prenant en compte les besoins suivants :</p>
+
+<ol>
+<li>Les professeurs peuvent apporter des modifications de dernière minute aux énoncés.</li>
+<li>Les élèves doivent ensuite télécharger une version à jour des exercices.</li>
+<li>Les élèves peuvent accéder au corrigé de chaque exercice.</li>
+</ol>
+
+
+<h2>Normalisation d'un exercice</h2>
+
+<p>Les professeurs se sont tout d'abord accordés sur un format d'exercice, afin de pouvoir le <strong>corriger</strong> de manière systématique. Voici un dossier type pour un exercice se nommant <code>exercise_foo</code>.</p>
+
+<pre><code>exercise_foo
+|-- README.md
+|-- Rakefile
+|-- lib
+|   `-- exercise_foo.rb
+`-- spec
+    |-- spec_helper.rb
+    `-- exercise_foo_spec.rb
+</code></pre>
+
+<p>Le fichier <code>README.md</code> contient l'énoncé de l'exercice, écrit en syntaxe
+<a href="https://daringfireball.net/projects/markdown/">Markdown</a>. Le dossier <code>lib</code> accueillera la solution de l'élève (exercice "à trous"). Le dossier <code>spec</code> contient les tests qui servent de corrigés automatiques.</p>
+
+<h2>Corriger un exercice par le TDD</h2>
+
+<p>La pratique du TDD (<em>Test Driven Development</em>, ou développement piloté par les tests) permet aux élèves d'avoir une correction automatique et instantanée de leur solution tout en les familiarisant avec cette pratique.</p>
+
+<p>En résumé, les professeurs écrivent les tests (corrigés / spécifications), les élèves écrivent le code (solution de l'exercice).</p>
+
+<h2>Collaboration élèves / professeurs</h2>
+
+<p>Le premier jour de la formation <a href="/premiere">Premiere Classe</a> a été consacré à deux objectifs :</p>
+
+<ol>
+<li>Configurer les ordinateurs de chaque élève pour avoir un environnement de travail sain (<a href="https://github.com/lewagon/setup">détails</a>)</li>
+<li>Apprendre les <a href="http://sebastien.saunier.me/git-intro/#/">rudiments de Git et Github</a> (prenez votre billet pour le prochain <a href="http://www.lewagon.org/learn/debuter-avec-git-github">Wagon-bar</a> !)</li>
+</ol>
+
+
+<p>Git est un outil de gestion de versions qui permet de travailler sereinement sur son code. En effet, on peut réaliser des photographies de son code à un instant <em>t</em> (<code>git commit</code>), et y revenir à tout moment. Pensez à votre utilisation de Word ou Excel, vous tapez sans doute <code>CTRL+S</code> toutes les cinq secondes.</p>
+
+<p>D'autre part, git permet de <strong>partager</strong> son code, notamment sur <a href="https://github.com/">GitHub</a>, qu'on peut considérer comme un réseau social de programmeurs. Ce qui nous intéresse ici, c'est que les élèves publient leur code de manière à ce qu'ils puissent lire les solutions de chacun, et bien sûr pour que les professeurs puissent jeter un oeil.</p>
+
+<p>Les élèves ont donc tous <strong>forké</strong> en début de bootcamp le <strong>repo</strong> des exercices, et peuvent à tout moment récupérer les mises à jour des professeurs (<code>git pull</code>). Ils peuvent également envoyer leur solution sur GitHub (<code>git push</code>). Le schéma ci-dessous indique les différents flux de données.</p>
+
+<div class="center">
+  <img src="/jekyll/git-students.png" style="max-width: 400px" />
+</div>
+
+
+<p>Les lecteurs les plus avertis sur git auront remarqués que les élèves ont deux <code>remote</code>s configurées pour leur repo local :</p>
+
+<ol>
+<li><code>origin</code>, qui correspond à leur propre repo sur Github, sur lesquels ils peuvent <code>push</code> pour soumettre leurs solutions.</li>
+<li><code>upstream</code>, qui correspond au repo des professeurs, sur lequel ils peuvent <code>pull</code> pour récupérer les dernières mises à jour des énoncés.</li>
+</ol>
+
+
+<h2>Tableau de bord de la classe</h2>
+
+<p>Toute cette normalisation (du format des exercices) et cette automatisation (corrigés automatiques par des tests) a permis de mettre en place un système d'aggrégation de la classe sur notre plateforme pédagogique. Ainsi, les professeurs peuvent visualiser le niveau général d'avancement de la classe, et repérer les élèves en difficulté pour les racrocher au wagon le plus tôt possible.</p>
+
+<p>Ce tableau de bord n'existerait pas sans les <a href="https://developer.github.com/v3/repos/hooks/">Webhooks</a> de GitHub. À chaque fois qu'un élève <code>push</code> sa solution sur <code>origin</code>, GitHub envoie une requête <code>HTTP</code> de type <code>POST</code> à la plateforme pédagogique, avec les informations concernant les derniers <code>commit</code> de l'élève. Cela permet à la plateforme de récupérer le code de l'élève et de lancer les tests avec la commande <code>rake</code>. Le resultat de cette correction automatique est stockée en base de données et sert lors de l'affichage du dashboard élève.</p>
+
+<p>En reprenant le schéma précédent, on peut ajouter au dessus la plateforme pédagogique :</p>
+
+<div class="center">
+  <img src="/jekyll/git-kitt.png" style="max-width: 400px" />
+</div>
+
+
+<h2>Conclusion</h2>
+
+<p>Nous avons pu exploiter la notion de <a href="http://git-scm.com/book/fr/Les-bases-de-Git-Travailler-avec-des-d%C3%A9p%C3%B4ts-distants">dépôt distant</a> (<code>remote</code>) pour permettre un flux de travail élèves / professeurs fluide et efficace. Les lecteurs observateurs auront remarqué que les schémas ne font pas mention du Wagon. En effet, il n'y a pas de spécificité, ce flux de travail peut être répliqué <strong>dans n'importe quelle salle de classe de programmation</strong> !</p>
+
+<p>Merci à GitHub pour cette plateforme extraordinaire et ses Webhooks. Professeurs, allez faire un tour du côté de <a href="https://education.github.com/">GitHub Education</a>.</p>
+
+<p>Vous êtes porteur de projet mais débutant en code ? Alors foncez vous inscrire pour un programme riche et intense de 9 semaines, <a href="/premiere">Première Classe</a> ! Prochains départs en Juillet et en Octobre.</p>
+
+    </div>
+  </div>
+
+  <div class='row-fluid'>
+    <div class='span12'>
       <h2><a href="blog/feedbacks-alumni.html">Les alumnis de la première saison reviennent sur leur expérience au Wagon</a></h2>
       <p class="meta muted">15 Apr 2014</p>
       <div class="fb-like" data-href="http://www.lewagon.org/blog/feedbacks-alumni.html" data-width="450" data-layout="button_count" data-show-faces="true" data-send="true"></div>

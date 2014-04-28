@@ -8,7 +8,7 @@ date:   2014-04-23
 
 [Première Classe](/premiere) est la formation-tremplin de 2 mois à temps plein créé par Le Wagon. Elle donne les clés à ses élèves-entrepreneurs pour devenir autonome en développement web en un temps record. Cette formation intensive se compose d'une majorité de travaux dirigés, durant lesquels les élèves travaillent sur des exercices de programmation.
 
-Pour cette deuxième édition du bootcamp, Le Wagon a innové et amélioré son flux de travail en prenant en compte les besoins suivants :
+Pour cette deuxième édition du bootcamp, Le Wagon innove en améliorant son flux de travail en prenant en compte les besoins suivants :
 
 1. Les professeurs peuvent apporter des modifications de dernière minute aux énoncés.
 1. Les élèves doivent ensuite télécharger une version à jour des exercices.
@@ -30,27 +30,12 @@ exercise_foo
 ```
 
 Le fichier `README.md` contient l'énoncé de l'exercice, écrit en syntaxe
-[Markdown](https://daringfireball.net/projects/markdown/). Viennent ensuite un dossier `lib` et un dossier `spec`, le premier contenant le code *boilerplate* de l'exercice (noms de méthodes à implémenter, invité de commande, ...). Le dossier `spec` contient les tests qui servent de corrigés automatiques.
+[Markdown](https://daringfireball.net/projects/markdown/). Le dossier `lib` accueillera la solution de l'élève (exercice "à trous"). Le dossier `spec` contient les tests qui servent de corrigés automatiques.
 
 
 ## Corriger un exercice par le TDD
 
-La pratique du TDD (*Test Driven Development*, ou développement piloté par les tests) est utile dans le cas de nos exercises. En effet, en utilisant  le *framework* [minitest](https://github.com/seattlerb/minitest), les élèves peuvent travailler, puis vérifier leur solution en lançant :
-
-```
-$ rake
-Run options: --seed 32216
-
-# Running:
-
-.............
-
-Fabulous run in 0.005923s, 2194.8337 runs/s, 2194.8337 assertions/s.
-
-13 runs, 13 assertions, 0 failures, 0 errors, 0 skips
-```
-
-Ci-dessus la sortie de la commande `rake` pour un exercice comportant 13 tests et pour lequel l'élève a une solution complète.
+La pratique du TDD (*Test Driven Development*, ou développement piloté par les tests) permet aux élèves d'avoir une correction automatique et instantanée de leur solution tout en les familiarisant avec cette pratique.
 
 En résumé, les professeurs écrivent les tests (corrigés / spécifications), les élèves écrivent le code (solution de l'exercice).
 
