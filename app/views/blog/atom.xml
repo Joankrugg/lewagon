@@ -4,12 +4,78 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-04-15T18:31:43+02:00</updated>
+ <updated>2014-04-30T12:24:21+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
  </author>
 
+ 
+ <entry>
+   <title>Goodies For (Non)Noobies</title>
+   <link href="YOUR_URL/goodies-for-non-noobies.html"/>
+   <updated>2014-04-15T00:00:00+02:00</updated>
+   <id>BLOG_URL/goodies-for-non-noobies</id>
+   <content type="html">
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/64779860/Le%20Wagon/Sweeties%20candy%2033338284%203696%202332.jpg%20%203696%C3%972332%20.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oyé oyé, aujourd&#39;hui nous avons le plaisir d&#39;annoncer les goodies que le Wagon et ses partenaires offrent à leurs alumnis.&lt;/p&gt;
+
+&lt;p&gt;Ne pas s&#39;y méprendre. Pas de mugs ni de clés USB... Simplement des supers plans gratuits auprès de différentes start-ups françaises et internationales sur des produits adaptés aux besoins du développeur-entrepreneur éclairé.&lt;/p&gt;
+
+&lt;p&gt;Nous remercions nos partenaires (ci-dessous) qui ont eu la gentillesse de collaborer avec nous pour rendre cette offre possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keep posted&lt;/strong&gt;, de nouvelles suprises sont dans le pipe du Wagon - notamment coté collaboration, on n&#39;en dit pas plus :)&lt;/p&gt;
+
+&lt;p&gt;And now ladies and gentlemen, la liste des partenaires.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Mention&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;https://fr.mention.com/&quot;&gt;Mention est un super outil de veille média et réseaux sociaux&lt;/a&gt;. Mention vous donne la possibilité de garder un oeil sur des millions de sources en 42 langues, sans rien manquer de ce qu&#39;il se dit sur vous sur les réseaux sociaux, les sites d&#39;actualités, les forums, les blogs et n&#39;importe quelle page web. &lt;a href=&quot;http://techcrunch.com/2013/12/18/mention-becomes-a-full-fledged-media-monitoring-tool-with-buffer-integration/&quot;&gt;Depuis son partenariat avec Buffer fin 2013&lt;/a&gt;, Mention a gagné en puissance et est devenu un incontournable de la veille web.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;99Designs&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://99designs.fr/&quot;&gt;99Designs est une market place&lt;/a&gt; qui met en relation des entrepreneurs et startups avec plus de 190 000 designers localisés dans 192 pays. Avec des bureaux à Melbourne, San Francisco, Berlin et Paris, 99designs rassemble plus de 75 employés passionnés qui sont là pour vous aider à trouver la création graphique de vos rêves, ainsi que le designer parfait.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Stripe&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;https://stripe.com/fr&quot;&gt;Stripe offre une API&lt;/a&gt; très simple à utiliser pour intégrer une feature de paiement en ligne à son service en 15 minutes chrono. Chaque dév qui lance son projet entrepreunarial aura un jour où l&#39;autre besoin d&#39;un outil comme Stripe.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Twillio&lt;/h4&gt;
+
+
+&lt;p&gt;Un autre outil conçu pour les développeurs, &lt;a href=&quot;http://www.twilio.com/&quot;&gt;Twilio est spécialisé dans les télécommunications&lt;/a&gt;. Parmi ses features, la création d&#39;apps pour les sms ou d&#39;une plateforme capable de recevoir et redistribuer des coups de fils, pour ne citer qu&#39;elles. Le tout hébérgé dans le cloud, bien évidement. En d&#39;autres termes, Twilio est un outil puissant pour optimiser son customer support.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;HockeyApp&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://hockeyapp.net/&quot;&gt;Hockeyapp est une des façons les plus simples et efficaces&lt;/a&gt; de détecter les bugs dans votre prototype, site, etc, de récolter du feedback de vos users ou encore d&#39;analyser et tester votre produit. Egalement sur iOS et sur Android, HockeyApp est utilisé par des développeurs du monde entier pour leurs apps web et mobiles.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Pusher&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://pusher.com/&quot;&gt;Pusher est un outil couteaux-suisse&lt;/a&gt; axé sur la scalabilité de votre produit. En gros, Pusher permet de rapidement ajouter des fonctionalités à des apps web et mobile. Que vous ayez besoin de construire et ajouter un chat, des notifs ou des datas en temps réel, Pusher est là pour vous aider.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Podio&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;https://company.podio.com&quot;&gt;Podio est le nouvel outil de communication sociale&lt;/a&gt; qui permet d&#39;organiser, collaborer, faciliter et manager le travail en équipe, et tout cela depuis un seul endroit. Podio est enrichi de plusieures fonctionnalités comme le CRM, le partage des dossiers et taches, l&#39;intégration de l&#39;email pour n&#39;en citer que quelques unes. Podio est un excellent produit pour manager votre projet et votre équipe.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Transifex&lt;/h4&gt;
+
+
+&lt;p&gt;Vous pensez viser une audience internationale pour votre produit? Ne vous en faites pas pour la traduction, &lt;a href=&quot;https://www.transifex.com&quot;&gt;Transifex est là pour vous aider&lt;/a&gt;. Avec quelques APIs à installer, Transifex traduit en continu les &lt;em&gt;strings&lt;/em&gt; de code que vous ajoutez au fur et à mesure.&lt;/p&gt;
+
+&lt;h4 class=&quot;red bold&quot;&gt;Olark&lt;/h4&gt;
+
+
+&lt;p&gt;&lt;a href=&quot;http://www.olark.com/&quot;&gt;Olark est un outil super puissant de chat désigné pour le customer support&lt;/a&gt; qui s&#39;intègre facilement à vos sites, et vous permet de vous concentrer sur la vente. Fondé en 2009 et initialement financé par Y Combinateur, Olark est l&#39;outil idéal pour accéder en un click aux demandes et besoins vos clients.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Les alumnis de la première saison reviennent sur leur expérience au Wagon</title>
@@ -22,7 +88,7 @@
 
 &lt;p&gt;Quatre élèves de la première promotion reviennent sur leur parcours au sein du Wagon, et l&#39;avancement de leurs projets depuis la fin de la saison 1. Félix, Céline, Niels et Estelle nous ont fait le plaisir d&#39;évoquer ce que le Wagon leur a apporté de concret et comment cette expérience a enrichi leur vie au quotidien.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/64779860/whiskaroo_photos/le%20wagon%202.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/64779860/Le%20Wagon/alumins%20Le%20Wagon.jpg&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;Quel était ton projet entrepreneurial avant le Wagon ?&lt;/h3&gt;
 
@@ -168,7 +234,7 @@
  <entry>
    <title>Les selectionnistas</title>
    <link href="YOUR_URL/las-selectionistas.html"/>
-   <updated>2014-02-14T09:46:01Z</updated>
+   <updated>2014-02-14T10:46:01+01:00</updated>
    <id>BLOG_URL/las-selectionistas</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -250,7 +316,7 @@ Ce constat s&#39;affirme de plus en plus dans la conscience collective, et de be
  <entry>
    <title>LocalEyes, nos voisins du Camping</title>
    <link href="YOUR_URL/localeyes.html"/>
-   <updated>2014-01-27T09:46:01Z</updated>
+   <updated>2014-01-27T10:46:01+01:00</updated>
    <id>BLOG_URL/localeyes</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -337,7 +403,7 @@ Ce constat s&#39;affirme de plus en plus dans la conscience collective, et de be
  <entry>
    <title>Le codefunding avec Adrien Aumont</title>
    <link href="YOUR_URL/kisskiss.html"/>
-   <updated>2014-01-13T19:46:01Z</updated>
+   <updated>2014-01-13T20:46:01+01:00</updated>
    <id>BLOG_URL/kisskiss</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span12&quot; style=&quot;padding-right:20px;&quot;&gt;
@@ -427,7 +493,7 @@ Ce constat s&#39;affirme de plus en plus dans la conscience collective, et de be
  <entry>
    <title>Le Wagon, Capitaine Train : codeurs du rail</title>
    <link href="YOUR_URL/capitaine-train.html"/>
-   <updated>2014-01-13T19:46:01Z</updated>
+   <updated>2014-01-13T20:46:01+01:00</updated>
    <id>BLOG_URL/capitaine-train</id>
    <content type="html">&lt;div class=&quot;row-fluid&quot;&gt;
     &lt;div class=&quot;span4&quot; style=&quot;padding-right:20px;&quot;&gt;
