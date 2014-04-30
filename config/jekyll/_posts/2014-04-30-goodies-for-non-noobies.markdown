@@ -10,6 +10,8 @@ date:   2014-04-15
   }
 </style>
 
+##### Ecrit par Miruna (<a href="https://twitter.com/anamiruna" target="_blank"><span class="red bold">@anamiruna</span></a>)
+
 ![image](https://dl.dropboxusercontent.com/u/64779860/Le%20Wagon/Sweeties%20candy%2033338284%203696%202332.jpg%20%203696%C3%972332%20.png)
 
 Oyé oyé, aujourd'hui nous avons le plaisir d'annoncer les goodies que le Wagon et ses partenaires offrent à leurs alumnis. 

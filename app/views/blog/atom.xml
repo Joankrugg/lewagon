@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2014-04-30T12:24:21+02:00</updated>
+ <updated>2014-04-30T12:38:41+02:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -17,6 +17,8 @@
    <updated>2014-04-15T00:00:00+02:00</updated>
    <id>BLOG_URL/goodies-for-non-noobies</id>
    <content type="html">
+
+&lt;h5&gt;Ecrit par Miruna (&lt;a href=&quot;https://twitter.com/anamiruna&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;red bold&quot;&gt;@anamiruna&lt;/span&gt;&lt;/a&gt;)&lt;/h5&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/64779860/Le%20Wagon/Sweeties%20candy%2033338284%203696%202332.jpg%20%203696%C3%972332%20.png&quot; alt=&quot;image&quot; /&gt;&lt;/p&gt;
 
