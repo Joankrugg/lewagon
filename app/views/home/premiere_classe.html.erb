@@ -23,7 +23,10 @@
 
 			<br/><br/>
 			<ul>
-			<li>Si vous souhaitez nous rencontrer pour discuter du programme, <span class="red bold"><%=link_to "POSTULEZ", {controller: "registrations", action: "new"}%></span>.</li>
+			<li>
+        Si vous souhaitez nous rencontrer pour discuter du programme,
+        <span class="red bold"><%=postulate "POSTULEZ" %></span>.
+      </li>
 			<br/>
 			<li>Si vous voulez en savoir plus, lisez la suite !</li>
 			</ul>
@@ -320,8 +323,8 @@
 							<li>Déploiement continu</li>
 						</ul>
 
-						<h3 style="display:inline-block">Si la première classe est faite pour vous</h3>
-						<%=link_to "POSTULEZ", {controller: "registrations", action: "new"}, class: "btn btn-red", style:"margin-left:20px;vertical-align: 1px;"%>
+						<h3 style="display:inline-block">Si la première classe est faite pour vous,</h3>
+						<%= postulate "POSTULEZ", class: "btn btn-red", style:"margin-left:20px;vertical-align: 1px;"%>
 					</div>
 				</div>
 				<br/>
