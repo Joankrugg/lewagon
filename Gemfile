@@ -31,3 +31,5 @@ gem "friendly_id" , "~> 4.0.9"
 gem "sanitize"
 gem 'bloggy'
 
+# Serve fonts to other domains (Wufoo)
+gem 'rack-cors', :require => 'rack/cors'
