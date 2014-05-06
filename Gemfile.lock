@@ -87,6 +87,8 @@ GEM
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
+    heroku-deflater (0.5.3)
+      rack (>= 1.4.5)
     hike (1.2.3)
     httparty (0.11.0)
       multi_json (~> 1.0)
@@ -223,6 +225,7 @@ DEPENDENCIES
   devise
   friendly_id (~> 4.0.9)
   gibbon
+  heroku-deflater
   jquery-rails (= 2.3.0)
   meta_search (>= 1.1.0.pre)
   pg

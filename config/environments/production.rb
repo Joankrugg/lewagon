@@ -21,6 +21,8 @@ Lewagon::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+  config.static_cache_control = "public, max-age=31536000"
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
@@ -67,7 +69,7 @@ Lewagon::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   config.action_mailer.default_url_options = { :host => 'lewagon.org' }
-  
+
   ActionMailer::Base.smtp_settings = {
     :address => "mail.gandi.net",
     :user_name => "contact@lewagon.org",

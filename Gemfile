@@ -35,3 +35,4 @@ gem 'bloggy'
 gem 'rack-cors', :require => 'rack/cors'
 
 gem 'rails_12factor', group: :production
+gem 'heroku-deflater', group: :production
