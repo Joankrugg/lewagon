@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 ruby "2.1.0"
 
 gem 'rails', '3.2.17'
-gem 'thin'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -21,7 +20,7 @@ group :assets do
 end
 
 gem "jquery-rails", "2.3.0"
-gem 'thin'
+gem 'unicorn'
 gem 'devise'
 gem 'simple_form'
 gem 'activeadmin'
