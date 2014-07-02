@@ -10,7 +10,7 @@
 		<div class="vertical-spacer"></div>
 
 		<div class="row-fluid">
-		  <div class="span6 center">
+		  <div class="span4 center">
 
         <h4 class="proxima-bold black">CODE & SURF CAMP</h4>
 
@@ -68,14 +68,23 @@
       </div>
 
 
-		  <div class="span6 center">
+		  <div class="span4 center">
 			  <h4 class="proxima-bold black">PREMIERE CLASSE</h4>
-			  <%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
+        <%= link_to({controller: "home", action: "page", page: "premiere_classe"}) do %>
 			    <span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
-		      <p>Candidatures ouvertes pour Octobre !</p>
-		      <%= image_tag "premiere@2x.png", width: "35%", id: "logo-premiere"%>
+		      <p>9 semaines pour devenir développeur. Candidatures ouvertes pour Octobre !</p>
+		      <%= image_tag "premiere@2x.png", width: "55%", id: "logo-premiere"%>
 		    <% end %>
 		  </div>
+
+      <div class="span4 center">
+        <h4 class="proxima-bold black">WEB DESIGN EXPRESS</h4>
+        <%= link_to "http://www.web-design-express.org" do %>
+          <span class="label label-success" style="vertical-align:3px;">+ d'infos</span>
+          <p>12 jours pour apprendre à créer et designer son site web</p>
+          <%= image_tag "http://static.squarespace.com/static/53552c44e4b0b045e688df22/t/535cef1ae4b0fcd15760cc7e/1398599451602/Fondamentaux%20du%20web-design?format=300w", width: "55%", id: "logo-premiere"%>
+        <% end %>
+      </div>
 	  </div>
 
 	  <div class="vertical-spacer"></div>
